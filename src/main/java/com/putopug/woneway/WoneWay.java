@@ -1,5 +1,6 @@
 package com.putopug.woneway;
 
+import com.putopug.woneway.init.WoneWayBlocks;
 import net.minecraft.block.Block;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
@@ -20,6 +21,7 @@ import java.util.stream.Collectors;
 public class WoneWay
 {
     private static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "woneway";
 
     public WoneWay() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
@@ -27,6 +29,7 @@ public class WoneWay
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         MinecraftForge.EVENT_BUS.register(this);
+        WoneWayBlocks.init();
     }
 
     private void setup(final FMLCommonSetupEvent event)

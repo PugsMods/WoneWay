@@ -1,0 +1,105 @@
+package com.putopug.woneway.init;
+
+import com.putopug.woneway.WoneWay;
+import com.putopug.woneway.objects.blocks.SeeThroughBlock;
+import net.minecraft.block.Block;
+import net.minecraft.item.Item;
+import net.minecraftforge.fml.RegistryObject;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+
+//
+//@author PutoPug
+//
+public class WoneWayBlocks {
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
+
+    public static void init(){
+        ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+    }
+
+    //BLOCKS
+    public static final RegistryObject<Block> SEETHROUGH_ACACIA_LEAVES = BLOCKS.register("seethrough_acacia_leaves", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_ACACIA_LOG = BLOCKS.register("seethrough_acacia_log", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_ACACIA_PLANKS = BLOCKS.register("seethrough_acacia_planks", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_ACACIA_BARK = BLOCKS.register("seethrough_acacia_bark", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_ANCIENT_DEBRIS = BLOCKS.register("seethrough_ancient_debris", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_ANDESITE = BLOCKS.register("seethrough_andesite", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BASALT = BLOCKS.register("seethrough_basalt", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BEDROCK = BLOCKS.register("seethrough_bedrock", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BEE_NEST = BLOCKS.register("seethrough_bee_nest", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BEEHIVE = BLOCKS.register("seethrough_beehive", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BIRCH_LEAVES = BLOCKS.register("seethrough_birch_leaves", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BIRCH_LOG = BLOCKS.register("seethrough_birch_log", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BIRCH_PLANKS = BLOCKS.register("seethrough_birch_planks", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BIRCH_WOOD = BLOCKS.register("seethrough_birch_wood", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLACK_CONCRETE = BLOCKS.register("seethrough_black_concrete", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLACK_CONCRETE_POWDER = BLOCKS.register("seethrough_black_concrete_powder", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLACK_SHULKER_BOX = BLOCKS.register("seethrough_black_shulker_box", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLACK_GLASS = BLOCKS.register("seethrough_black_glass", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLACK_TERRACOTTA = BLOCKS.register("seethrough_black_terracotta", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLACK_WOOL = BLOCKS.register("seethrough_black_wool", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLACKSTONE = BLOCKS.register("seethrough_blackstone", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLAST_FURNACE = BLOCKS.register("seethrough_blast_furnace", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BLUE_CONCRETE = BLOCKS.register("seethrough_blue_concrete", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_BARREL = BLOCKS.register("seethrough_barrel", SeeThroughBlock::new);
+
+
+
+
+    //ITEMS
+    public static final RegistryObject<Item> SEETHROUGH_BASALT_ITEM = ITEMS.register("seethrough_basalt", () -> new BlockItemBase(SEETHROUGH_BASALT.get()));
+}
