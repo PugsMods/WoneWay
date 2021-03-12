@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="GNU General Public License Version 3.0"
+issueTrackerURL="http://my.issue.tracker/"
+[[mods]]
+modId="woneway"
+version="1.0.0"
+displayName="WoneWay"
+updateJSONURL="http://myurl.me/"
+displayURL="http://example.com/"
+logoFile="examplemod.png"
+credits="PugzAreCute"
+authors="PugzAreCute_"
+description='''
+A Mod.........
+'''
+[[dependencies.examplemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.woneway]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.4,1.17)"
+    ordering="NONE"
+    side="BOTH"
