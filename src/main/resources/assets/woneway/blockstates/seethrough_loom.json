@@ -1,0 +1,28 @@
+
+    {
+  "variants": {
+    "facing=north": {
+      "model": "woneway:block/seethrough_loom"
+    },
+    "facing=east": {
+      "model": "woneway:block/seethrough_loom",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woneway:block/seethrough_loom",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woneway:block/seethrough_loom",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "woneway:block/seethrough_loom",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "woneway:block/seethrough_loom",
+      "x": 90
+    }
+  }
+}

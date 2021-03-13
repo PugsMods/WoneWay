@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/infested_mossy_stone_bricks",
+    "up": "block/infested_mossy_stone_bricks",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/infested_mossy_stone_bricks",
+    "south": "block/infested_mossy_stone_bricks",
+    "west": "block/infested_mossy_stone_bricks",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/fire_coral_block",
+    "up": "block/fire_coral_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/fire_coral_block",
+    "south": "block/fire_coral_block",
+    "west": "block/fire_coral_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

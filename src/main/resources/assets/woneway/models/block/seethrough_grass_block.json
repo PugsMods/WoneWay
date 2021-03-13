@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/grass_block",
+    "up": "block/grass_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/grass_block",
+    "south": "block/grass_block",
+    "west": "block/grass_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

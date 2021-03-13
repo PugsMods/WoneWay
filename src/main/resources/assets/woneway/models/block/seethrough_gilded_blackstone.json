@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/gilded_blackstone",
+    "up": "block/gilded_blackstone",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/gilded_blackstone",
+    "south": "block/gilded_blackstone",
+    "west": "block/gilded_blackstone",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

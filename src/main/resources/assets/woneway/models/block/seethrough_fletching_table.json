@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/fletching_table",
+    "up": "block/fletching_table",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/fletching_table",
+    "south": "block/fletching_table",
+    "west": "block/fletching_table",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

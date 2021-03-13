@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/infested_stone",
+    "up": "block/infested_stone",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/infested_stone",
+    "south": "block/infested_stone",
+    "west": "block/infested_stone",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

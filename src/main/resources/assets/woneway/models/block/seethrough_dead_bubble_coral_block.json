@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/dead_bubble_coral_block",
+    "up": "block/dead_bubble_coral_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/dead_bubble_coral_block",
+    "south": "block/dead_bubble_coral_block",
+    "west": "block/dead_bubble_coral_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

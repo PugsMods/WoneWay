@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/jungle_leaves",
+    "up": "block/jungle_leaves",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/jungle_leaves",
+    "south": "block/jungle_leaves",
+    "west": "block/jungle_leaves",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
