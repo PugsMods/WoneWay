@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/bookshelf",
+    "up": "block/bookshelf",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/bookshelf",
+    "south": "block/bookshelf",
+    "west": "block/bookshelf",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

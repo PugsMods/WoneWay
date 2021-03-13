@@ -1,4 +1,5 @@
-{
+
+    {
   "variants": {
     "facing=north": {
       "model": "woneway:block/seethrough_basalt"

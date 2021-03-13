@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/acacia_leaves",
+    "up": "block/acacia_leaves",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/acacia_leaves",
+    "south": "block/acacia_leaves",
+    "west": "block/acacia_leaves",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

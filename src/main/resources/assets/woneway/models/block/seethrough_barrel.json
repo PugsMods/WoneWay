@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/basalt",
-    "up": "block/basalt",
+    "down": "block/barrel",
+    "up": "block/barrel",
     "north": "woneway:blocks/clear_side",
-    "east": "block/basalt",
-    "south": "block/basalt",
-    "west": "block/basalt",
+    "east": "block/barrel",
+    "south": "block/barrel",
+    "west": "block/barrel",
     "particle": "woneway:blocks/clear_side"
   }
 }

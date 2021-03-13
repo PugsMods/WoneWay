@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/chain_command_block",
+    "up": "block/chain_command_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/chain_command_block",
+    "south": "block/chain_command_block",
+    "west": "block/chain_command_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

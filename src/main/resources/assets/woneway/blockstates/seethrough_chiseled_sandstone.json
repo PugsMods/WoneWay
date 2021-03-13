@@ -1,0 +1,28 @@
+
+    {
+  "variants": {
+    "facing=north": {
+      "model": "woneway:block/seethrough_chiseled_sandstone"
+    },
+    "facing=east": {
+      "model": "woneway:block/seethrough_chiseled_sandstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woneway:block/seethrough_chiseled_sandstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woneway:block/seethrough_chiseled_sandstone",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "woneway:block/seethrough_chiseled_sandstone",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "woneway:block/seethrough_chiseled_sandstone",
+      "x": 90
+    }
+  }
+}

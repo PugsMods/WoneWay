@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/crafting_table",
+    "up": "block/crafting_table",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/crafting_table",
+    "south": "block/crafting_table",
+    "west": "block/crafting_table",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

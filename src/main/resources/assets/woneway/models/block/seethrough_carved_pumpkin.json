@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/carved_pumpkin",
+    "up": "block/carved_pumpkin",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/carved_pumpkin",
+    "south": "block/carved_pumpkin",
+    "west": "block/carved_pumpkin",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

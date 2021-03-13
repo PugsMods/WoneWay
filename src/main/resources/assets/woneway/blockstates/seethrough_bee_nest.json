@@ -1,0 +1,28 @@
+
+    {
+  "variants": {
+    "facing=north": {
+      "model": "woneway:block/seethrough_bee_nest"
+    },
+    "facing=east": {
+      "model": "woneway:block/seethrough_bee_nest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woneway:block/seethrough_bee_nest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woneway:block/seethrough_bee_nest",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "woneway:block/seethrough_bee_nest",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "woneway:block/seethrough_bee_nest",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/crimson_planks",
+    "up": "block/crimson_planks",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/crimson_planks",
+    "south": "block/crimson_planks",
+    "west": "block/crimson_planks",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
