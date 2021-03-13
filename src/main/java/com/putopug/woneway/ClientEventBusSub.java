@@ -18,7 +18,7 @@ public class ClientEventBusSub {
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_ACACIA_LEAVES.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_ACACIA_LOG.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_ACACIA_PLANKS.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_ACACIA_BARK.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_ACACIA_WOOD.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_ANCIENT_DEBRIS.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_ANDESITE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_BARREL.get(), RenderType.getCutout());
