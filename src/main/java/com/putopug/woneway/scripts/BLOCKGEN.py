@@ -23,6 +23,6 @@ for index in GEN_INPUT:
     # Write to the file
     createJAVA.write(
         "public static final RegistryObject<Block> " + stripped_prefix.upper()+"_"+stripped.upper() + " = " + stripped_reg + '.register("' +
-        stripped_prefix.lower()+stripped.lower() + '",' + stripped_extends + '::new);\n\r')
+        stripped_prefix.lower()+"_"+stripped.lower() + '",' + stripped_extends + '::new);\n\r')
     # Print to the console
     print("Generating syntax for :" + index)
