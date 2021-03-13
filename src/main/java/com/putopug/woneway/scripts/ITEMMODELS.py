@@ -30,4 +30,4 @@ for index in names:
   "parent": "woneway:block/'''+index+'''"
 }
     ''')
-    print(index)
+    print("Generating JSON for "+index)

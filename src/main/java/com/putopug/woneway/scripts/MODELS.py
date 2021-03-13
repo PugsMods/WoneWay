@@ -39,4 +39,4 @@ for index in names:
   }
 }
     ''')
-    print(index)
+    print("Generating JSON for "+index)
