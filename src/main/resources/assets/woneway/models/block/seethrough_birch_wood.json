@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/birch_wood",
-    "up": "block/birch_wood",
+    "down": "block/birch_log",
+    "up": "block/birch_log",
     "north": "woneway:blocks/clear_side",
-    "east": "block/birch_wood",
-    "south": "block/birch_wood",
-    "west": "block/birch_wood",
+    "east": "block/birch_log",
+    "south": "block/birch_log",
+    "west": "block/birch_log",
     "particle": "woneway:blocks/clear_side"
   }
 }

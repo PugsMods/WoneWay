@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/beehive",
-    "up": "block/beehive",
+    "down": "block/beehive_top",
+    "up": "block/beehive_bottom",
     "north": "woneway:blocks/clear_side",
-    "east": "block/beehive",
-    "south": "block/beehive",
-    "west": "block/beehive",
+    "east": "block/beehive_side",
+    "south": "block/beehive_front",
+    "west": "block/beehive_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/cartography_table",
-    "up": "block/cartography_table",
+    "down": "block/dark_oak_planks",
+    "up": "block/cartography_table_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/cartography_table",
-    "south": "block/cartography_table",
-    "west": "block/cartography_table",
+    "south": "minecraft:block/cartography_table_side1",
+    "east": "minecraft:block/cartography_table_side3",
+    "west": "minecraft:block/cartography_table_side2",
     "particle": "woneway:blocks/clear_side"
   }
 }

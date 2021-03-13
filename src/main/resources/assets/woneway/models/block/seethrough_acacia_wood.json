@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/acacia_wood",
-    "up": "block/acacia_wood",
+    "down": "block/acacia_log",
+    "up": "block/acacia_log",
     "north": "woneway:blocks/clear_side",
-    "east": "block/acacia_wood",
-    "south": "block/acacia_wood",
-    "west": "block/acacia_wood",
+    "east": "block/acacia_log",
+    "south": "block/acacia_log",
+    "west": "block/acacia_log",
     "particle": "woneway:blocks/clear_side"
   }
 }
