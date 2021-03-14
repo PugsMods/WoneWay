@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/polished_basalt",
+    "up": "block/polished_basalt",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/polished_basalt",
+    "south": "block/polished_basalt",
+    "west": "block/polished_basalt",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

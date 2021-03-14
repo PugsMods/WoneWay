@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/smithing_table",
+    "up": "block/smithing_table",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/smithing_table",
+    "south": "block/smithing_table",
+    "west": "block/smithing_table",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

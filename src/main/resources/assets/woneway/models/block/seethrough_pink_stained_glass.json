@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/pink_stained_glass",
+    "up": "block/pink_stained_glass",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/pink_stained_glass",
+    "south": "block/pink_stained_glass",
+    "west": "block/pink_stained_glass",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

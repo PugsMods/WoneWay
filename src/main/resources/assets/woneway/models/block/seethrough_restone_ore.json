@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/restone_ore",
+    "up": "block/restone_ore",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/restone_ore",
+    "south": "block/restone_ore",
+    "west": "block/restone_ore",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

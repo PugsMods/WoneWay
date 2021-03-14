@@ -1,0 +1,28 @@
+
+    {
+  "variants": {
+    "facing=north": {
+      "model": "woneway:block/seethrough_redstone_lamp"
+    },
+    "facing=east": {
+      "model": "woneway:block/seethrough_redstone_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woneway:block/seethrough_redstone_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woneway:block/seethrough_redstone_lamp",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "woneway:block/seethrough_redstone_lamp",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "woneway:block/seethrough_redstone_lamp",
+      "x": 90
+    }
+  }
+}

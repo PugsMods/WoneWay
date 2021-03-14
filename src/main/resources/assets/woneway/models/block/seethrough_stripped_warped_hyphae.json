@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/stripped_warped_hyphae",
+    "up": "block/stripped_warped_hyphae",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/stripped_warped_hyphae",
+    "south": "block/stripped_warped_hyphae",
+    "west": "block/stripped_warped_hyphae",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

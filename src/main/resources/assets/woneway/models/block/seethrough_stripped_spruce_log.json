@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/stripped_spruce_log",
+    "up": "block/stripped_spruce_log",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/stripped_spruce_log",
+    "south": "block/stripped_spruce_log",
+    "west": "block/stripped_spruce_log",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

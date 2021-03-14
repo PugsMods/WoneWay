@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/soul_soil",
+    "up": "block/soul_soil",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/soul_soil",
+    "south": "block/soul_soil",
+    "west": "block/soul_soil",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

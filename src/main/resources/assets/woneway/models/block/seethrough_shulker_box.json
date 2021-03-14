@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/shulker_box",
+    "up": "block/shulker_box",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/shulker_box",
+    "south": "block/shulker_box",
+    "west": "block/shulker_box",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

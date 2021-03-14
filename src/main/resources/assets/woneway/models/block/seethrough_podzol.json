@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/podzol",
+    "up": "block/podzol",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/podzol",
+    "south": "block/podzol",
+    "west": "block/podzol",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

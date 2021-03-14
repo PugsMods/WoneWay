@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/smoker",
+    "up": "block/smoker",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/smoker",
+    "south": "block/smoker",
+    "west": "block/smoker",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/netherrack",
+    "up": "block/netherrack",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/netherrack",
+    "south": "block/netherrack",
+    "west": "block/netherrack",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

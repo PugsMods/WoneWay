@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/stripped_spruce_wood",
+    "up": "block/stripped_spruce_wood",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/stripped_spruce_wood",
+    "south": "block/stripped_spruce_wood",
+    "west": "block/stripped_spruce_wood",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

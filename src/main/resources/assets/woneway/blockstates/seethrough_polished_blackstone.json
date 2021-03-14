@@ -1,0 +1,28 @@
+
+    {
+  "variants": {
+    "facing=north": {
+      "model": "woneway:block/seethrough_polished_blackstone"
+    },
+    "facing=east": {
+      "model": "woneway:block/seethrough_polished_blackstone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woneway:block/seethrough_polished_blackstone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woneway:block/seethrough_polished_blackstone",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "woneway:block/seethrough_polished_blackstone",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "woneway:block/seethrough_polished_blackstone",
+      "x": 90
+    }
+  }
+}

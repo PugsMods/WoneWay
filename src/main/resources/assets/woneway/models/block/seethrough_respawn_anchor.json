@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/respawn_anchor",
+    "up": "block/respawn_anchor",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/respawn_anchor",
+    "south": "block/respawn_anchor",
+    "west": "block/respawn_anchor",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

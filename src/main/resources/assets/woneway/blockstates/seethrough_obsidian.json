@@ -1,0 +1,28 @@
+
+    {
+  "variants": {
+    "facing=north": {
+      "model": "woneway:block/seethrough_obsidian"
+    },
+    "facing=east": {
+      "model": "woneway:block/seethrough_obsidian",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woneway:block/seethrough_obsidian",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woneway:block/seethrough_obsidian",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "woneway:block/seethrough_obsidian",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "woneway:block/seethrough_obsidian",
+      "x": 90
+    }
+  }
+}

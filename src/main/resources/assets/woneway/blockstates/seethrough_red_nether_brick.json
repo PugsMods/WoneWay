@@ -1,0 +1,28 @@
+
+    {
+  "variants": {
+    "facing=north": {
+      "model": "woneway:block/seethrough_red_nether_brick"
+    },
+    "facing=east": {
+      "model": "woneway:block/seethrough_red_nether_brick",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woneway:block/seethrough_red_nether_brick",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woneway:block/seethrough_red_nether_brick",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "woneway:block/seethrough_red_nether_brick",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "woneway:block/seethrough_red_nether_brick",
+      "x": 90
+    }
+  }
+}

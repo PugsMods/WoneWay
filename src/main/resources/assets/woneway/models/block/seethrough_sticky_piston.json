@@ -1,0 +1,14 @@
+
+    {
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/sticky_piston",
+    "up": "block/sticky_piston",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/sticky_piston",
+    "south": "block/sticky_piston",
+    "west": "block/sticky_piston",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
