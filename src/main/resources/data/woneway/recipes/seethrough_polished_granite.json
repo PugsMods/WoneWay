@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:polished_granite"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_polished_granite",
+        "count": 2
+    }
+        }

@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:nether_gold_ore"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_nether_gold_ore",
+        "count": 2
+    }
+        }

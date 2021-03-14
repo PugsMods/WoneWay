@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:infested_mossy_stone_bricks"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_infested_mossy_stone_bricks",
+        "count": 2
+    }
+        }

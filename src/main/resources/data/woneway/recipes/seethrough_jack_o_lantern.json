@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:jack_o_lantern"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_jack_o_lantern",
+        "count": 2
+    }
+        }

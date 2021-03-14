@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:sponge"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_sponge",
+        "count": 2
+    }
+        }

@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:iron_ore"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_iron_ore",
+        "count": 2
+    }
+        }

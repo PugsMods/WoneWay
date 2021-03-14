@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:crying_obsidian"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_crying_obsidian",
+        "count": 2
+    }
+        }

@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:red_sand"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_red_sand",
+        "count": 2
+    }
+        }

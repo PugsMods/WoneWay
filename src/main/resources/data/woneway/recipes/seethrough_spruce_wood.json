@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:spruce_wood"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_spruce_wood",
+        "count": 2
+    }
+        }

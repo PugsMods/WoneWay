@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:restone_ore"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_restone_ore",
+        "count": 2
+    }
+        }

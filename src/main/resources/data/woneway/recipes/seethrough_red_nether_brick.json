@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:red_nether_brick"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_red_nether_brick",
+        "count": 2
+    }
+        }

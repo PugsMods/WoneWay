@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:orange_shulker_box"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_orange_shulker_box",
+        "count": 2
+    }
+        }

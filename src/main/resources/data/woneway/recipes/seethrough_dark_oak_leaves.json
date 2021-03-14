@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:dark_oak_leaves"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_dark_oak_leaves",
+        "count": 2
+    }
+        }

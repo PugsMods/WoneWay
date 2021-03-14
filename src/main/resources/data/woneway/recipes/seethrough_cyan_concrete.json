@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:cyan_concrete"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_cyan_concrete",
+        "count": 2
+    }
+        }

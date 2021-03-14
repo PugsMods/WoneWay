@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:smithing_table"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_smithing_table",
+        "count": 2
+    }
+        }

@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:quartz_bricks"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_quartz_bricks",
+        "count": 2
+    }
+        }

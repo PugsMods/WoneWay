@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:ancient_debris"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_ancient_debris",
+        "count": 2
+    }
+        }

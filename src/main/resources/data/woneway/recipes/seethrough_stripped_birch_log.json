@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:stripped_birch_log"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_stripped_birch_log",
+        "count": 2
+    }
+        }

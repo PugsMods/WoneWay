@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:bookshelf"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_bookshelf",
+        "count": 2
+    }
+        }

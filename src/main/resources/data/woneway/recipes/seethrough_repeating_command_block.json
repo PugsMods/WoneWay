@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:repeating_command_block"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_repeating_command_block",
+        "count": 2
+    }
+        }

@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:lodestone"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_lodestone",
+        "count": 2
+    }
+        }

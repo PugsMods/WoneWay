@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:bedrock"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_bedrock",
+        "count": 2
+    }
+        }

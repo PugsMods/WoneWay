@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:lapis_block"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_lapis_block",
+        "count": 2
+    }
+        }

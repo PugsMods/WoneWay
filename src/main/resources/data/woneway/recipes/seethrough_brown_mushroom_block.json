@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:brown_mushroom_block"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_brown_mushroom_block",
+        "count": 2
+    }
+        }

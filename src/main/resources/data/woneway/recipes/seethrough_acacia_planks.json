@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:acacia_planks"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_acacia_planks",
+        "count": 2
+    }
+        }

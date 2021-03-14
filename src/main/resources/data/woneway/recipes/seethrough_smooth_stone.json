@@ -1,0 +1,16 @@
+
+        {
+         "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:smooth_stone"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_smooth_stone",
+        "count": 2
+    }
+        }
