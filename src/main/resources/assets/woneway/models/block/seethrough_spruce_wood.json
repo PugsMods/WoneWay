@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/spruce_wood",
-    "up": "block/spruce_wood",
+    "down": "block/spruce_log",
+    "up": "block/spruce_log",
     "north": "woneway:blocks/clear_side",
-    "east": "block/spruce_wood",
-    "south": "block/spruce_wood",
-    "west": "block/spruce_wood",
+    "east": "block/spruce_log",
+    "south": "block/spruce_log",
+    "west": "block/spruce_log",
     "particle": "woneway:blocks/clear_side"
   }
 }

@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/observer",
-    "up": "block/observer",
+    "down": "block/observer_top",
+    "up": "block/observer_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/observer",
-    "south": "block/observer",
-    "west": "block/observer",
+    "east": "block/observer_",
+    "south": "block/observer_front",
+    "west": "block/observer_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

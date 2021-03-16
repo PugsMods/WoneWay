@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/pumpkin",
-    "up": "block/pumpkin",
+    "down": "block/pumpkin_side",
+    "up": "block/pumpkin_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/pumpkin",
-    "south": "block/pumpkin",
-    "west": "block/pumpkin",
+    "east": "block/pumpkin_side",
+    "south": "block/pumpkin_side",
+    "west": "block/pumpkin_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

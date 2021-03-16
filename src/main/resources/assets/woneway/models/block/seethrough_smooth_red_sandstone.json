@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/smooth_red_sandstone",
-    "up": "block/smooth_red_sandstone",
+    "down": "block/red_sandstone_top",
+    "up": "block/red_sandstone_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/smooth_red_sandstone",
-    "south": "block/smooth_red_sandstone",
-    "west": "block/smooth_red_sandstone",
+    "east": "block/red_sandstone_top",
+    "south": "block/red_sandstone_top",
+    "west": "block/red_sandstone_top",
     "particle": "woneway:blocks/clear_side"
   }
 }

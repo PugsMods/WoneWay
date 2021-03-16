@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/podzol",
-    "up": "block/podzol",
+    "down": "block/dirt",
+    "up": "block/podzol_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/podzol",
-    "south": "block/podzol",
-    "west": "block/podzol",
+    "east": "block/podzol_side",
+    "south": "block/podzol_side",
+    "west": "block/podzol_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

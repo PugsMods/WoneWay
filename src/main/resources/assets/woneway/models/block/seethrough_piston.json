@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/piston",
-    "up": "block/piston",
+    "down": "block/piston_side",
+    "up": "block/piston_side",
     "north": "woneway:blocks/clear_side",
-    "east": "block/piston",
-    "south": "block/piston",
-    "west": "block/piston",
+    "east": "block/piston_side",
+    "south": "block/piston_front",
+    "west": "block/piston_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

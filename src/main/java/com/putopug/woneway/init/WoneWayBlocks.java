@@ -256,7 +256,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Block> SEETHROUGH_RED_CONCRETE_POWDER = BLOCKS.register("seethrough_red_concrete_powder",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_RED_GLAZED_TERRACOTTA = BLOCKS.register("seethrough_red_glazed_terracotta",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_RED_MUSHROOM_BLOCK = BLOCKS.register("seethrough_red_mushroom_block",SeeThroughBlock::new);
-    public static final RegistryObject<Block> SEETHROUGH_RED_NETHER_BRICK = BLOCKS.register("seethrough_red_nether_brick",SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_RED_NETHER_BRICKS = BLOCKS.register("seethrough_red_nether_bricks",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_RED_SAND = BLOCKS.register("seethrough_red_sand",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_RED_SANDSTONE = BLOCKS.register("seethrough_red_sandstone",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_RED_SHULKER_BOX = BLOCKS.register("seethrough_red_shulker_box",SeeThroughBlock::new);
@@ -572,7 +572,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Item> SEETHROUGH_RED_CONCRETE_POWDER_ITEM = ITEMS.register("seethrough_red_concrete_powder",() -> new BlockItemBase(SEETHROUGH_RED_CONCRETE_POWDER.get()));
     public static final RegistryObject<Item> SEETHROUGH_RED_GLAZED_TERRACOTTA_ITEM = ITEMS.register("seethrough_red_glazed_terracotta",() -> new BlockItemBase(SEETHROUGH_RED_GLAZED_TERRACOTTA.get()));
     public static final RegistryObject<Item> SEETHROUGH_RED_MUSHROOM_BLOCK_ITEM = ITEMS.register("seethrough_red_mushroom_block",() -> new BlockItemBase(SEETHROUGH_RED_MUSHROOM_BLOCK.get()));
-    public static final RegistryObject<Item> SEETHROUGH_RED_NETHER_BRICK_ITEM = ITEMS.register("seethrough_red_nether_brick",() -> new BlockItemBase(SEETHROUGH_RED_NETHER_BRICK.get()));
+    public static final RegistryObject<Item> SEETHROUGH_RED_NETHER_BRICKS_ITEM = ITEMS.register("seethrough_red_nether_bricks",() -> new BlockItemBase(SEETHROUGH_RED_NETHER_BRICKS.get()));
     public static final RegistryObject<Item> SEETHROUGH_RED_SAND_ITEM = ITEMS.register("seethrough_red_sand",() -> new BlockItemBase(SEETHROUGH_RED_SAND.get()));
     public static final RegistryObject<Item> SEETHROUGH_RED_SANDSTONE_ITEM = ITEMS.register("seethrough_red_sandstone",() -> new BlockItemBase(SEETHROUGH_RED_SANDSTONE.get()));
     public static final RegistryObject<Item> SEETHROUGH_RED_SHULKER_BOX_ITEM = ITEMS.register("seethrough_red_shulker_box",() -> new BlockItemBase(SEETHROUGH_RED_SHULKER_BOX.get()));

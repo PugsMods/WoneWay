@@ -266,7 +266,7 @@ public class ClientEventBusSub {
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_CONCRETE_POWDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_GLAZED_TERRACOTTA.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_MUSHROOM_BLOCK.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_NETHER_BRICK.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_NETHER_BRICKS.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_SAND.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_SANDSTONE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_RED_SHULKER_BOX.get(), RenderType.getCutout());

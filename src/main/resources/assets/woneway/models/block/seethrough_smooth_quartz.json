@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/smooth_quartz",
-    "up": "block/smooth_quartz",
+    "down": "block/quartz_block_bottom",
+    "up": "block/quartz_block_bottom",
     "north": "woneway:blocks/clear_side",
-    "east": "block/smooth_quartz",
-    "south": "block/smooth_quartz",
-    "west": "block/smooth_quartz",
+    "east": "block/quartz_block_bottom",
+    "south": "block/quartz_block_bottom",
+    "west": "block/quartz_block_bottom",
     "particle": "woneway:blocks/clear_side"
   }
 }
