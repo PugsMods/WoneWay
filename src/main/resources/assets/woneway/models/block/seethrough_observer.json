@@ -5,7 +5,7 @@
     "down": "block/observer_top",
     "up": "block/observer_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/observer_",
+    "east": "block/observer_side",
     "south": "block/observer_front",
     "west": "block/observer_side",
     "particle": "woneway:blocks/clear_side"

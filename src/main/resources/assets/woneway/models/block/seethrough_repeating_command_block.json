@@ -5,7 +5,7 @@
     "down": "block/repeating_command_block_side",
     "up": "block/repeating_command_block_side",
     "north": "woneway:blocks/clear_side",
-    "east": "block/repeating_command_block",
+    "east": "block/repeating_command_block_side",
     "south": "block/repeating_command_block_front",
     "west": "block/repeating_command_block_side",
     "particle": "woneway:blocks/clear_side"
