@@ -1,5 +1,6 @@
 package com.putopug.woneway;
 
+import com.putopug.woneway.drpc.WoneWayDRPC;
 import com.putopug.woneway.init.WoneWayBlocks;
 import net.minecraft.block.Block;
 import net.minecraftforge.common.MinecraftForge;
@@ -38,7 +39,7 @@ public class WoneWay
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-
+        WoneWayDRPC.initDiscord();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
