@@ -39,7 +39,7 @@ public class WoneWay
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        WoneWayDRPC.initDiscord();
+        //WoneWayDRPC.initDiscord();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)
