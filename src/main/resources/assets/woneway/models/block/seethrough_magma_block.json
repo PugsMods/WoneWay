@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/magma_block",
-    "up": "block/magma_block",
+    "down": "block/magma",
+    "up": "block/magma",
     "north": "woneway:blocks/clear_side",
-    "east": "block/magma_block",
-    "south": "block/magma_block",
-    "west": "block/magma_block",
+    "east": "block/magma",
+    "south": "block/magma",
+    "west": "block/magma",
     "particle": "woneway:blocks/clear_side"
   }
 }
