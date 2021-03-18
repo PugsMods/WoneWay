@@ -9,12 +9,12 @@ displayName="WoneWay"
 updateJSONURL="http://myurl.me/"
 displayURL="I am ded"
 logoFile="examplemod.png"
-credits="PugzAreCute"
+credits="LeeTheSoloGamer - Bugtesting"
 authors="PugzAreCute_"
 description='''
 A Mod.........
 '''
-[[dependencies.examplemod]]
+[[dependencies.woneway]]
     modId="forge"
     mandatory=true
     versionRange="[35,)"

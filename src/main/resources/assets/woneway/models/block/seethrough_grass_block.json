@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/grass_block",
-    "up": "block/grass_block",
+    "down": "block/dirt",
+    "up": "block/grass_block_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/grass_block",
-    "south": "block/grass_block",
-    "west": "block/grass_block",
+    "east": "block/grass_block_side",
+    "south": "block/grass_block_side",
+    "west": "block/grass_block_side",
     "particle": "woneway:blocks/clear_side"
   }
 }
