@@ -184,11 +184,11 @@ public class ClientEventBusSub {
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_BLUE_WOOL.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GRAY_CONCRETE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GRAY_CONCRETE_POWDER.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GREY_GLAZED_TERRACOTTA.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GRAY_GLAZED_TERRACOTTA.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GRAY_SHULKER_BOX.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GREY_STAINED_GLASS.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GREY_TERRACOTTA.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GREY_WOOL.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GRAY_STAINED_GLASS.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GRAY_TERRACOTTA.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIGHT_GRAY_WOOL.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIME_CONCRETE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIME_CONCRETE_POWDER.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(WoneWayBlocks.SEETHROUGH_LIME_GLAZED_TERRACOTTA.get(), RenderType.getCutout());
