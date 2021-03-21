@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/crimson_hyphae",
-    "up": "block/crimson_hyphae",
+    "down": "block/crimson_hyphae_top",
+    "up": "block/crimson_hyphae_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/crimson_hyphae",
-    "south": "block/crimson_hyphae",
-    "west": "block/crimson_hyphae",
+    "east": "block/crimson_hyphae_side",
+    "south": "block/crimson_hyphae_side",
+    "west": "block/crimson_hyphae_side",
     "particle": "woneway:blocks/clear_side"
   }
 }
