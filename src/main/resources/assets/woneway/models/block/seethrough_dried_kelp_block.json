@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/dried_kelp_block",
-    "up": "block/dried_kelp_block",
+    "down": "block/dried_kelp_block_top",
+    "up": "block/dried_kelp_block_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/dried_kelp_block",
-    "south": "block/dried_kelp_block",
-    "west": "block/dried_kelp_block",
+    "east": "block/dried_kelp_block_side",
+    "south": "block/dried_kelp_block_side",
+    "west": "block/dried_kelp_block_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/hay_bale",
-    "up": "block/hay_bale",
+    "down": "block/hay_bale_top",
+    "up": "block/hay_bale_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/hay_bale",
-    "south": "block/hay_bale",
-    "west": "block/hay_bale",
+    "east": "block/hay_bale_side",
+    "south": "block/hay_bale_side",
+    "west": "block/hay_bale_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

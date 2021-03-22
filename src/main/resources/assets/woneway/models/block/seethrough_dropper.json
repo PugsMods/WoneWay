@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/dropper",
-    "up": "block/dropper",
+    "down": "block/furnace_side",
+    "up": "block/furnace_side",
     "north": "woneway:blocks/clear_side",
-    "east": "block/dropper",
-    "south": "block/dropper",
-    "west": "block/dropper",
+    "east": "block/furnace_top",
+    "south": "block/dropper_front",
+    "west": "block/furnace_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

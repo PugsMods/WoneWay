@@ -265,7 +265,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Block> SEETHROUGH_RED_WOOL = BLOCKS.register("seethrough_red_wool",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_REDSTONE_BLOCK = BLOCKS.register("seethrough_redstone_block",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_REDSTONE_LAMP = BLOCKS.register("seethrough_redstone_lamp",SeeThroughBlock::new);
-    public static final RegistryObject<Block> SEETHROUGH_RESTONE_ORE = BLOCKS.register("seethrough_restone_ore",SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_REDSTONE_ORE = BLOCKS.register("seethrough_redstone_ore",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_REPEATING_COMMAND_BLOCK = BLOCKS.register("seethrough_repeating_command_block",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_RESPAWN_ANCHOR = BLOCKS.register("seethrough_respawn_anchor",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_SAND = BLOCKS.register("seethrough_sand",SeeThroughBlock::new);
@@ -581,7 +581,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Item> SEETHROUGH_RED_WOOL_ITEM = ITEMS.register("seethrough_red_wool",() -> new BlockItemBase(SEETHROUGH_RED_WOOL.get()));
     public static final RegistryObject<Item> SEETHROUGH_REDSTONE_BLOCK_ITEM = ITEMS.register("seethrough_redstone_block",() -> new BlockItemBase(SEETHROUGH_REDSTONE_BLOCK.get()));
     public static final RegistryObject<Item> SEETHROUGH_REDSTONE_LAMP_ITEM = ITEMS.register("seethrough_redstone_lamp",() -> new BlockItemBase(SEETHROUGH_REDSTONE_LAMP.get()));
-    public static final RegistryObject<Item> SEETHROUGH_RESTONE_ORE_ITEM = ITEMS.register("seethrough_restone_ore",() -> new BlockItemBase(SEETHROUGH_RESTONE_ORE.get()));
+    public static final RegistryObject<Item> SEETHROUGH_REDSTONE_ORE_ITEM = ITEMS.register("seethrough_redstone_ore",() -> new BlockItemBase(SEETHROUGH_REDSTONE_ORE.get()));
     public static final RegistryObject<Item> SEETHROUGH_REPEATING_COMMAND_BLOCK_ITEM = ITEMS.register("seethrough_repeating_command_block",() -> new BlockItemBase(SEETHROUGH_REPEATING_COMMAND_BLOCK.get()));
     public static final RegistryObject<Item> SEETHROUGH_RESPAWN_ANCHOR_ITEM = ITEMS.register("seethrough_respawn_anchor",() -> new BlockItemBase(SEETHROUGH_RESPAWN_ANCHOR.get()));
     public static final RegistryObject<Item> SEETHROUGH_SAND_ITEM = ITEMS.register("seethrough_sand",() -> new BlockItemBase(SEETHROUGH_SAND.get()));
