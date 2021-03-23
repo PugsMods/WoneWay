@@ -22,29 +22,29 @@ import java.util.List;
 public class SeeThroughBlock extends Block {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
     public SeeThroughBlock() {
-        super(Block.Properties.create(Material.ORGANIC).sound(SoundType.WOOD).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).notSolid()
-                .setOpaque((bs, br, bp) -> false));
-        this.setDefaultState(this.stateContainer.getBaseState().with(FACING, Direction.NORTH));
+        super(Block.Properties.of(Material.METAL).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 0).noOcclusion()
+                .isRedstoneConductor((bs, br, bp) -> false));
+        this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH));
     }
 
 
     @Override
-    protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder) {
+    protected void createBlockStateDefinition(StateContainer.Builder<Block, BlockState> builder) {
         builder.add(FACING);
     }
 
     public BlockState rotate(BlockState state, Rotation rot) {
-        return state.with(FACING, rot.rotate(state.get(FACING)));
+        return state.setValue(FACING, rot.rotate(state.getValue(FACING)));
     }
 
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
-        return state.rotate(mirrorIn.toRotation(state.get(FACING)));
+        return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
     }
 
     @Override
     public BlockState getStateForPlacement(BlockItemUseContext context) {
         ;
-        return this.getDefaultState().with(FACING, context.getNearestLookingDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getNearestLookingDirection().getOpposite());
     }
 
     @Override
