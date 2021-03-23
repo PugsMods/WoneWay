@@ -7,12 +7,12 @@ modId="woneway"
 version="1.0.0BETA"
 displayName="WoneWay"
 updateJSONURL="http://myurl.me/"
-displayURL="I am ded"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/woneway"
 logoFile="examplemod.png"
 credits="LeeTheSoloGamer - Bugtesting"
 authors="PugzAreCute_"
 description='''
-A Mod.........
+A Mod which adds one way blocks!!
 '''
 [[dependencies.woneway]]
     modId="forge"
