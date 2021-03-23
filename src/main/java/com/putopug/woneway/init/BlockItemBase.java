@@ -13,11 +13,11 @@ public class BlockItemBase extends BlockItem {
 
     public static final net.minecraft.item.ItemGroup BLOCKS = new net.minecraft.item.ItemGroup("wonewayblocks") {
         @Override
-        public ItemStack createIcon() {
+        public ItemStack makeIcon() {
             return new ItemStack(WoneWayBlocks.SEETHROUGH_DIAMOND_BLOCK.get());
         }
     };
     public BlockItemBase(Block block) {
-        super(block, new Item.Properties().group(BLOCKS));
+        super(block, new Item.Properties().tab(BLOCKS));
     }
 }
