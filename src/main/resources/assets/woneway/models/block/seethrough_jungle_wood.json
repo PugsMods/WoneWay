@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/jungle_wood",
-    "up": "block/jungle_wood",
+    "down": "block/jungle_log",
+    "up": "block/jungle_log",
     "north": "woneway:blocks/clear_side",
-    "east": "block/jungle_wood",
-    "south": "block/jungle_wood",
-    "west": "block/jungle_wood",
+    "east": "block/jungle_log",
+    "south": "block/jungle_log",
+    "west": "block/jungle_log",
     "particle": "woneway:blocks/clear_side"
   }
 }

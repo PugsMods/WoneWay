@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/honey_block",
-    "up": "block/honey_block",
+    "down": "block/honey_block_bottom",
+    "up": "block/honey_block_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/honey_block",
-    "south": "block/honey_block",
-    "west": "block/honey_block",
+    "east": "block/honey_block_side",
+    "south": "block/honey_block_side",
+    "west": "block/honey_block_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

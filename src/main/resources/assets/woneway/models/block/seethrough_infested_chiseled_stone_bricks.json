@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/infested_chiseled_stone_bricks",
-    "up": "block/infested_chiseled_stone_bricks",
+    "down": "block/chiseled_stone_bricks",
+    "up": "block/chiseled_stone_bricks",
     "north": "woneway:blocks/clear_side",
-    "east": "block/infested_chiseled_stone_bricks",
-    "south": "block/infested_chiseled_stone_bricks",
-    "west": "block/infested_chiseled_stone_bricks",
+    "east": "block/chiseled_stone_bricks",
+    "south": "block/chiseled_stone_bricks",
+    "west": "block/chiseled_stone_bricks",
     "particle": "woneway:blocks/clear_side"
   }
 }

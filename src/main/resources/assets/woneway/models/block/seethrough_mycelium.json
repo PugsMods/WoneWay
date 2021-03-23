@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/mycelium",
-    "up": "block/mycelium",
+    "down": "block/dirt",
+    "up": "block/mycelium_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/mycelium",
-    "south": "block/mycelium",
-    "west": "block/mycelium",
+    "east": "block/mycelium_side",
+    "south": "block/mycelium_side",
+    "west": "block/mycelium_side",
     "particle": "woneway:blocks/clear_side"
   }
 }

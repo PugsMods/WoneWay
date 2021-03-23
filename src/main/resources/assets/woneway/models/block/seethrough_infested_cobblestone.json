@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/infested_cobblestone",
-    "up": "block/infested_cobblestone",
+    "down": "block/cobblestone",
+    "up": "block/cobblestone",
     "north": "woneway:blocks/clear_side",
-    "east": "block/infested_cobblestone",
-    "south": "block/infested_cobblestone",
-    "west": "block/infested_cobblestone",
+    "east": "block/cobblestone",
+    "south": "block/cobblestone",
+    "west": "block/cobblestone",
     "particle": "woneway:blocks/clear_side"
   }
 }
