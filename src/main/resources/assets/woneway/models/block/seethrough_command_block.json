@@ -2,11 +2,11 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/command_block_bottom",
-    "up": "block/command_block_top",
+    "down": "block/command_block_side",
+    "up": "block/command_block_side",
     "north": "woneway:blocks/clear_side",
     "east": "block/command_block_side",
-    "south": "block/command_block_side",
+    "south": "block/command_block_front",
     "west": "block/command_block_side",
     "particle": "woneway:blocks/clear_side"
   }

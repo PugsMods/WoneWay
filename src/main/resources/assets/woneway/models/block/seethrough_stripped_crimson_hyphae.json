@@ -2,12 +2,12 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/stripped_crimson_stem",
-    "up": "block/stripped_crimson_stem",
+    "down": "block/crimson_stem",
+    "up": "block/crimson_stem",
     "north": "woneway:blocks/clear_side",
-    "east": "block/stripped_crimson_stem",
-    "south": "block/stripped_crimson_stem",
-    "west": "block/stripped_crimson_stem",
+    "east": "block/crimson_stem",
+    "south": "block/crimson_stem",
+    "west": "block/crimson_stem",
     "particle": "woneway:blocks/clear_side"
   }
 }
