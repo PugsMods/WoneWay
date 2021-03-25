@@ -5,9 +5,9 @@
     "down": "block/crimson_hyphae_top",
     "up": "block/crimson_hyphae_top",
     "north": "woneway:blocks/clear_side",
-    "east": "block/crimson_hyphae_side",
-    "south": "block/crimson_hyphae_side",
-    "west": "block/crimson_hyphae_side",
+    "east": "block/crimson_hyphae",
+    "south": "block/crimson_hyphae",
+    "west": "block/crimson_hyphae",
     "particle": "woneway:blocks/clear_side"
   }
 }
