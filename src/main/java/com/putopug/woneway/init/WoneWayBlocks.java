@@ -76,7 +76,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Block> SEETHROUGH_CHISELED_RED_SANDSTONE = BLOCKS.register("seethrough_chiseled_red_sandstone", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_CHISELED_SANDSTONE = BLOCKS.register("seethrough_chiseled_sandstone", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_CHISELED_STONE_BRICKS = BLOCKS.register("seethrough_chiseled_stone_bricks", SeeThroughBlock::new);
-    public static final RegistryObject<Block> SEETHROUGH_CLAY_BLOCK = BLOCKS.register("seethrough_clay", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_CLAY_BLOCK = BLOCKS.register("seethrough_clay_block", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_COAL_BLOCK = BLOCKS.register("seethrough_coal_block", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_COAL_ORE = BLOCKS.register("seethrough_coal_ore", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_COARSE_DIRT = BLOCKS.register("seethrough_coarse_dirt", SeeThroughBlock::new);
@@ -388,11 +388,11 @@ public class WoneWayBlocks {
     public static final RegistryObject<Item> SEETHROUGH_CARVED_PUMPKIN_ITEM = ITEMS.register("seethrough_carved_pumpkin", () -> new BlockItemBase(SEETHROUGH_CARVED_PUMPKIN.get()));
     public static final RegistryObject<Item> SEETHROUGH_CHAIN_COMMAND_BLOCK_ITEM = ITEMS.register("seethrough_chain_command_block", () -> new BlockItemBase(SEETHROUGH_CHAIN_COMMAND_BLOCK.get()));
     public static final RegistryObject<Item> SEETHROUGH_CHISELED_NETHER_BRICKS_ITEM = ITEMS.register("seethrough_chiseled_nether_bricks", () -> new BlockItemBase(SEETHROUGH_CHISELED_NETHER_BRICKS.get()));
-    public static final RegistryObject<Item> SEETHROUGH_CHISELED_POLISHED_BLACKSTONE_ITEM = ITEMS.register("seethrough_chiseled_polished_blackstone_bricks", () -> new BlockItemBase(SEETHROUGH_CHISELED_POLISHED_BLACKSTONE.get()));
+    public static final RegistryObject<Item> SEETHROUGH_CHISELED_POLISHED_BLACKSTONE_ITEM = ITEMS.register("seethrough_chiseled_polished_blackstone", () -> new BlockItemBase(SEETHROUGH_CHISELED_POLISHED_BLACKSTONE.get()));
     public static final RegistryObject<Item> SEETHROUGH_CHISELED_RED_SANDSTONE_ITEM = ITEMS.register("seethrough_chiseled_red_sandstone", () -> new BlockItemBase(SEETHROUGH_CHISELED_RED_SANDSTONE.get()));
     public static final RegistryObject<Item> SEETHROUGH_CHISELED_SANDSTONE_ITEM = ITEMS.register("seethrough_chiseled_sandstone", () -> new BlockItemBase(SEETHROUGH_CHISELED_SANDSTONE.get()));
     public static final RegistryObject<Item> SEETHROUGH_STONE_BRICKS_ITEM = ITEMS.register("seethrough_stone_bricks", () -> new BlockItemBase(SEETHROUGH_CHISELED_STONE_BRICKS.get()));
-    public static final RegistryObject<Item> SEETHROUGH_CLAY_BLOCK_ITEM = ITEMS.register("seethrough_clay", () -> new BlockItemBase(SEETHROUGH_CLAY_BLOCK.get()));
+    public static final RegistryObject<Item> SEETHROUGH_CLAY_BLOCK_ITEM = ITEMS.register("seethrough_clay_block", () -> new BlockItemBase(SEETHROUGH_CLAY_BLOCK.get()));
     public static final RegistryObject<Item> SEETHROUGH_COAL_BLOCK_ITEM = ITEMS.register("seethrough_coal_block", () -> new BlockItemBase(SEETHROUGH_COAL_BLOCK.get()));
     public static final RegistryObject<Item> SEETHROUGH_COAL_ORE_ITEM = ITEMS.register("seethrough_coal_ore", () -> new BlockItemBase(SEETHROUGH_COAL_ORE.get()));
     public static final RegistryObject<Item> SEETHROUGH_COARSE_DIRT_ITEM = ITEMS.register("seethrough_coarse_dirt", () -> new BlockItemBase(SEETHROUGH_COARSE_DIRT.get()));
