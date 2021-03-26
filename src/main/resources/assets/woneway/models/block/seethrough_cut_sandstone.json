@@ -2,8 +2,8 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/cut_sandstone",
-    "up": "block/cut_sandstone",
+    "down": "block/sandstone_top",
+    "up": "block/sandstone_top",
     "north": "woneway:blocks/clear_side",
     "east": "block/cut_sandstone",
     "south": "block/cut_sandstone",
