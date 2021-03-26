@@ -126,7 +126,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Block> SEETHROUGH_GILDED_BLACKSTONE = BLOCKS.register("seethrough_gilded_blackstone",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_GLASS = BLOCKS.register("seethrough_glass",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_GLOWSTONE = BLOCKS.register("seethrough_glowstone",SeeThroughBlock::new);
-    public static final RegistryObject<Block> SEETHROUGH_BLOCK_OF_GOLD = BLOCKS.register("seethrough_block_of_gold",SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_GOLD_BLOCK = BLOCKS.register("seethrough_gold_block",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_GOLD_ORE = BLOCKS.register("seethrough_gold_ore",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_GRANITE = BLOCKS.register("seethrough_granite",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_GRASS_BLOCK = BLOCKS.register("seethrough_grass_block",SeeThroughBlock::new);
@@ -442,7 +442,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Item> SEETHROUGH_GILDED_BLACKSTONE_ITEM = ITEMS.register("seethrough_gilded_blackstone",() -> new BlockItemBase(SEETHROUGH_GILDED_BLACKSTONE.get()));
     public static final RegistryObject<Item> SEETHROUGH_GLASS_ITEM = ITEMS.register("seethrough_glass",() -> new BlockItemBase(SEETHROUGH_GLASS.get()));
     public static final RegistryObject<Item> SEETHROUGH_GLOWSTONE_ITEM = ITEMS.register("seethrough_glowstone",() -> new BlockItemBase(SEETHROUGH_GLOWSTONE.get()));
-    public static final RegistryObject<Item> SEETHROUGH_BLOCK_OF_GOLD_ITEM = ITEMS.register("seethrough_block_of_gold",() -> new BlockItemBase(SEETHROUGH_BLOCK_OF_GOLD.get()));
+    public static final RegistryObject<Item> SEETHROUGH_GOLD_BLOCK_ITEM = ITEMS.register("seethrough_gold_block",() -> new BlockItemBase(SEETHROUGH_GOLD_BLOCK.get()));
     public static final RegistryObject<Item> SEETHROUGH_GOLD_ORE_ITEM = ITEMS.register("seethrough_gold_ore",() -> new BlockItemBase(SEETHROUGH_GOLD_ORE.get()));
     public static final RegistryObject<Item> SEETHROUGH_GRANITE_ITEM = ITEMS.register("seethrough_granite",() -> new BlockItemBase(SEETHROUGH_GRANITE.get()));
     public static final RegistryObject<Item> SEETHROUGH_GRASS_BLOCK_ITEM = ITEMS.register("seethrough_grass_block",() -> new BlockItemBase(SEETHROUGH_GRASS_BLOCK.get()));

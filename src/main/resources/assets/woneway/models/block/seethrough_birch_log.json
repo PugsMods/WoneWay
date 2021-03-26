@@ -2,8 +2,8 @@
     {
   "parent": "block/cube",
   "textures": {
-    "down": "block/birch_log",
-    "up": "block/birch_log",
+    "down": "block/birch_log_top",
+    "up": "block/birch_log_top",
     "north": "woneway:blocks/clear_side",
     "east": "block/birch_log",
     "south": "block/birch_log",

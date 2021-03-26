@@ -308,5 +308,7 @@
   "block.woneway.seethrough_yellow_shulker_box" : "Seethrough Yellow Shulker Box",
   "block.woneway.seethrough_yellow_stained_glass" : "Seethrough Yellow Stained Glass",
   "block.woneway.seethrough_yellow_terracotta" : "Seethrough Yellow Terracotta",
-  "block.woneway.seethrough_yellow_wool" : "Seethrough Yellow Wool"
+  "block.woneway.seethrough_yellow_wool" : "Seethrough Yellow Wool",
+
+  "itemGroup.wonewayblocks": "WoneWay Blocks"
 }
