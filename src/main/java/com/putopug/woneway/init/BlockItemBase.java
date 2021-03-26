@@ -10,9 +10,6 @@ import net.minecraft.item.ItemStack;
 //@author PutoPug
 //
 public class BlockItemBase extends BlockItem {
-    //strippedcrimson  hyphae\\
-    //SHULKERS
-    //birch log\\
     public static final net.minecraft.item.ItemGroup BLOCKS = new net.minecraft.item.ItemGroup("wonewayblocks") {
         @Override
         public ItemStack makeIcon() {
