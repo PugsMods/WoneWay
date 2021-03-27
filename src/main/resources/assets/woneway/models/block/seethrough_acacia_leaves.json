@@ -1,6 +1,5 @@
-
-    {
-  "parent": "block/cube",
+{
+  "parent": "woneway:block/leaf",
   "textures": {
     "down": "block/acacia_leaves",
     "up": "block/acacia_leaves",

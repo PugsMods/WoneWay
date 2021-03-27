@@ -1,6 +1,6 @@
 
     {
-  "parent": "block/cube",
+  "parent": "woneway:block/leaf",
   "textures": {
     "down": "block/birch_leaves",
     "up": "block/birch_leaves",
