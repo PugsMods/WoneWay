@@ -1,50 +1,558 @@
-Carved Pumpkin
-//Polished blackstone
-//clay
-crimson hyphae
-Piston both (rotate)
-acacia wood stripped
-acacia log strippes
-[11:38:33] [Server thread/WARN] [minecraft/MinecraftServer]: Can't keep up! Is the server overloaded? Running 2400ms or 48 ticks behind
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_clay.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_clay.json
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_clay.json' missing model for variant: 'woneway:seethrough_clay#'
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_crismon_planks.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_crismon_planks.json
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_crismon_planks.json' missing model for variant: 'woneway:seethrough_crismon_planks#facing=west'
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_crismon_planks.json' missing model for variant: 'woneway:seethrough_crismon_planks#facing=east'
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_crismon_planks.json' missing model for variant: 'woneway:seethrough_crismon_planks#facing=up'
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_crismon_planks.json' missing model for variant: 'woneway:seethrough_crismon_planks#facing=down'
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_crismon_planks.json' missing model for variant: 'woneway:seethrough_crismon_planks#facing=south'
-[11:38:58] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_crismon_planks.json' missing model for variant: 'woneway:seethrough_crismon_planks#facing=north'
-[11:38:59] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_gold_block.json' in resourcepack: 'Mod Resources' for variant: 'facing=east': Unknown blockstate property: 'facing'
-[11:38:59] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_gold_block.json' in resourcepack: 'Mod Resources' for variant: 'facing=south': Unknown blockstate property: 'facing'
-[11:38:59] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_gold_block.json' in resourcepack: 'Mod Resources' for variant: 'facing=down': Unknown blockstate property: 'facing'
-[11:38:59] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_gold_block.json' in resourcepack: 'Mod Resources' for variant: 'facing=north': Unknown blockstate property: 'facing'
-[11:38:59] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_gold_block.json' in resourcepack: 'Mod Resources' for variant: 'facing=up': Unknown blockstate property: 'facing'
-[11:38:59] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_gold_block.json' in resourcepack: 'Mod Resources' for variant: 'facing=west': Unknown blockstate property: 'facing'
-[11:38:59] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_gold_block.json' missing model for variant: 'woneway:seethrough_gold_block#'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_light_grey_glazed_terracotta.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_light_grey_glazed_terracotta.json
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_light_grey_glazed_terracotta.json' missing model for variant: 'woneway:seethrough_light_grey_glazed_terracotta#'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_light_grey_stained_glass.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_light_grey_stained_glass.json
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_light_grey_stained_glass.json' missing model for variant: 'woneway:seethrough_light_grey_stained_glass#'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_light_grey_terracotta.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_light_grey_terracotta.json
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_light_grey_terracotta.json' missing model for variant: 'woneway:seethrough_light_grey_terracotta#'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_light_grey_wool.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_light_grey_wool.json
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_light_grey_wool.json' missing model for variant: 'woneway:seethrough_light_grey_wool#'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_block_of_gold.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_block_of_gold.json
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_block_of_gold.json' missing model for variant: 'woneway:seethrough_block_of_gold#facing=up'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_block_of_gold.json' missing model for variant: 'woneway:seethrough_block_of_gold#facing=down'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_block_of_gold.json' missing model for variant: 'woneway:seethrough_block_of_gold#facing=south'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_block_of_gold.json' missing model for variant: 'woneway:seethrough_block_of_gold#facing=east'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_block_of_gold.json' missing model for variant: 'woneway:seethrough_block_of_gold#facing=north'
-[11:39:00] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_block_of_gold.json' missing model for variant: 'woneway:seethrough_block_of_gold#facing=west'
-[11:39:01] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_red_nether_brick.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_red_nether_brick.json
-[11:39:01] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_red_nether_brick.json' missing model for variant: 'woneway:seethrough_red_nether_brick#'
-[11:39:02] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: woneway:blockstates/seethrough_restone_ore.json: java.io.FileNotFoundException: woneway:blockstates/seethrough_restone_ore.json
-[11:39:02] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Exception loading blockstate definition: 'woneway:blockstates/seethrough_restone_ore.json' missing model for variant: 'woneway:seethrough_restone_ore#'
-[11:39:03] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Unable to load model: 'woneway:block/seethrough_light_grey_glazed_terracotta' referenced from: woneway:seethrough_light_gray_glazed_terracotta#facing=north: java.io.FileNotFoundException: woneway:models/block/seethrough_light_grey_glazed_terracotta.json
-[11:39:03] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Unable to load model: 'woneway:block/seethrough_light_grey_stained_glass' referenced from: woneway:seethrough_light_gray_stained_glass#facing=north: java.io.FileNotFoundException: woneway:models/block/seethrough_light_grey_stained_glass.json
-[11:39:03] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Unable to load model: 'woneway:block/seethrough_light_grey_terracotta' referenced from: woneway:seethrough_light_gray_terracotta#facing=north: java.io.FileNotFoundException: woneway:models/block/seethrough_light_grey_terracotta.json
-[11:39:03] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Unable to load model: 'woneway:block/seethrough_light_grey_wool' referenced from: woneway:seethrough_light_gray_wool#facing=north: java.io.FileNotFoundException: woneway:models/block/seethrough_light_grey_wool.json
-[11:39:21] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Unable to load model: 'woneway:seethrough_block_of_gold#inventory' referenced from: woneway:seethrough_block_of_gold#inventory: java.io.FileNotFoundException: woneway:models/item/seethrough_block_of_gold.json
-[11:39:21] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Unable to load model: 'woneway:seethrough_clay#inventory' referenced from: woneway:seethrough_clay#inventory: java.io.FileNotFoundException: woneway:models/item/seethrough_clay.json
-[11:39:27] [Worker-Main-31/WARN] [minecraft/ModelBakery]: Unable to resolve texture reference: #missingno in woneway:item/seethrough_light_gray_glazed_terracotta
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_light_gray_glazed_terracotta
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:light_grey_glazed_terracotta'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_block_of_gold
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:block_of_gold'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_light_gray_stained_glass
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:light_grey_stained_glass'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_red_nether_brick
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:red_nether_brick'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_hay_bale
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:hay_bale'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_chiseled_stone_bricks
+com.google.gson.JsonSyntaxException: Unknown item 'woneway:seethrough_chiseled_stone_bricks'
+	at net.minecraft.item.crafting.ShapedRecipe.lambda$itemFromJson$0(ShapedRecipe.java:262) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.ShapedRecipe.itemFromJson(ShapedRecipe.java:261) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_light_gray_wool
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:light_grey_wool'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_clay_block
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:clay_block'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_light_gray_terracotta
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:light_grey_terracotta'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+[09:00:33] [Render thread/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe woneway:seethrough_restone_ore
+com.google.gson.JsonSyntaxException: Unknown item 'minecraft:restone_ore'
+	at net.minecraft.item.crafting.Ingredient.lambda$valueFromJson$11(Ingredient.java:216) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at java.util.Optional.orElseThrow(Optional.java:290) ~[?:1.8.0_261] {}
+	at net.minecraft.item.crafting.Ingredient.valueFromJson(Ingredient.java:215) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraftforge.common.crafting.VanillaIngredientSerializer.parse(VanillaIngredientSerializer.java:41) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraftforge.common.crafting.CraftingHelper.getIngredient(CraftingHelper.java:155) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.Ingredient.fromJson(Ingredient.java:189) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.itemsFromJson(ShapelessRecipe.java:95) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:80) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.ShapelessRecipe$Serializer.fromJson(ShapelessRecipe.java:76) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.item.crafting.RecipeManager.fromJson(RecipeManager.java:141) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:61) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.item.crafting.RecipeManager.apply(RecipeManager.java:38) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.resources.ReloadListener.lambda$reload$1(ReloadListener.java:14) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at java.util.concurrent.CompletableFuture.uniAccept(CompletableFuture.java:670) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:646) ~[?:1.8.0_261] {}
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:456) ~[?:1.8.0_261] {}
+	at net.minecraft.resources.AsyncReloader.lambda$null$3(AsyncReloader.java:66) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.doRunTask(ThreadTaskExecutor.java:136) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.RecursiveEventLoop.doRunTask(RecursiveEventLoop.java:22) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.pollTask(ThreadTaskExecutor.java:109) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.managedBlock(ThreadTaskExecutor.java:119) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.Minecraft.makeServerStem(Minecraft.java:1858) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.doLoadLevel(Minecraft.java:1711) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.loadLevel(Minecraft.java:1681) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.loadWorld(WorldSelectionList.java:364) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.joinWorld(WorldSelectionList.java:273) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.WorldSelectionList$Entry.mouseClicked(WorldSelectionList.java:228) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.widget.list.AbstractList.mouseClicked(AbstractList.java:309) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.INestedGuiEventHandler.mouseClicked(INestedGuiEventHandler.java:28) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$onPress$0(MouseHelper.java:87) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:427) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.onPress(MouseHelper.java:85) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MouseHelper.lambda$null$4(MouseHelper.java:175) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.util.concurrent.ThreadTaskExecutor.execute(ThreadTaskExecutor.java:86) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.MouseHelper.lambda$setup$5(MouseHelper.java:174) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:36) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.2.2.jar:build 10] {}
+	at org.lwjgl.glfw.GLFW.glfwPollEvents(GLFW.java:3101) ~[lwjgl-glfw-3.2.2.jar:build 10] {}
+	at com.mojang.blaze3d.systems.RenderSystem.flipFrame(RenderSystem.java:93) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.MainWindow.updateDisplay(MainWindow.java:305) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:996) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.Minecraft.run(Minecraft.java:607) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:accesstransformer:B,pl:runtimedistcleaner:A}
+	at net.minecraft.client.main.Main.main(Main.java:184) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {re:classloading,pl:runtimedistcleaner:A}
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_261] {}
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_261] {}
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_261] {}
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_261] {}
+	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:52) ~[forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:82) [modlauncher-8.0.6.jar:?] {}
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:66) [modlauncher-8.0.6.jar:?] {}
+	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:105) [forge-1.16.4-35.1.4_mapped_official_1.16.4-recomp.jar:?] {}
+
+	GRASS
