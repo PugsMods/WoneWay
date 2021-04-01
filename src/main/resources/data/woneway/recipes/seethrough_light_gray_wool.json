@@ -6,11 +6,11 @@
             "item": "minecraft:glass"
         },
         {
-            "item": "minecraft:light_grey_wool"
+            "item": "minecraft:light_gray_wool"
         }
     ],
     "result": {
-        "item": "woneway:seethrough_light_grey_wool",
+        "item": "woneway:seethrough_light_gray_wool",
         "count": 2
     }
         }

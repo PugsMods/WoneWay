@@ -6,11 +6,11 @@
             "item": "minecraft:glass"
         },
         {
-            "item": "minecraft:restone_ore"
+            "item": "minecraft:gold_block"
         }
     ],
     "result": {
-        "item": "woneway:seethrough_restone_ore",
+        "item": "woneway:seethrough_block_of_gold",
         "count": 2
     }
         }

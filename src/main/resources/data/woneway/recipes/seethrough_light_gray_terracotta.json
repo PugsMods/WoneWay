@@ -6,11 +6,11 @@
             "item": "minecraft:glass"
         },
         {
-            "item": "minecraft:light_grey_terracotta"
+            "item": "minecraft:light_gray_terracotta"
         }
     ],
     "result": {
-        "item": "woneway:seethrough_light_grey_terracotta",
+        "item": "woneway:seethrough_light_gray_terracotta",
         "count": 2
     }
         }
