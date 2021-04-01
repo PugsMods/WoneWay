@@ -88,7 +88,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Block> SEETHROUGH_CRAFTING_TABLE = BLOCKS.register("seethrough_crafting_table", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_CRIMSON_HYPHAE = BLOCKS.register("seethrough_crimson_hyphae", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_CRIMSON_NYLIUM = BLOCKS.register("seethrough_crimson_nylium", SeeThroughBlock::new);
-    public static final RegistryObject<Block> SEETHROUGH_CRIMSON_PLANKS = BLOCKS.register("seethrough_crismon_planks", SeeThroughBlock::new);
+    public static final RegistryObject<Block> SEETHROUGH_CRIMSON_PLANKS = BLOCKS.register("seethrough_crimson_planks", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_CRIMSON_STEM = BLOCKS.register("seethrough_crimson_stem", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_CRYING_OBSIDIAN = BLOCKS.register("seethrough_crying_obsidian", SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_CUT_RED_SANDSTONE = BLOCKS.register("seethrough_cut_red_sandstone", SeeThroughBlock::new);

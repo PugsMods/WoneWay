@@ -4,16 +4,14 @@ license="GNU General Public License Version 3.0"
 issueTrackerURL="https://github.com/PugsMods/WoneWay/issues"
 [[mods]]
 modId="woneway"
-version="1.0.0BETA-4"
+version="1.0.0BETA-5"
 displayName="WoneWay"
 updateJSONURL="https://raw.githubusercontent.com/PugsMods/WoneWay/master/src/main/java/com/putopug/woneway/update.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/woneway"
-logoFile="examplemod.png"
+logoFile="woneway.png"
 credits="LeeTheSoloGamer - Bugtesting"
 authors="PugzAreCute_"
-description='''
-A Mod which adds one way blocks!!
-'''
+description='''A Mod which adds one way blocks!!'''
 [[dependencies.woneway]]
     modId="forge"
     mandatory=true
