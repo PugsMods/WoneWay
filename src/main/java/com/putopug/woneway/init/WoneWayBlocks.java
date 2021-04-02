@@ -14,8 +14,8 @@ import net.minecraftforge.registries.ForgeRegistries;
 //
 @SuppressWarnings("all")// Line so my ide wont give me a billion UNUSED FIELDS ERRORS
 public class WoneWayBlocks {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
+    public static final DeferredRegister<Item> ITEMS = new DeferredRegister<>(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
+    public static final DeferredRegister<Block> BLOCKS = new DeferredRegister<>(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
 
     public static void init(){
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -282,7 +282,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Block> SEETHROUGH_SMOOTH_STONE = BLOCKS.register("seethrough_smooth_stone",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_SNOW_BLOCK = BLOCKS.register("seethrough_snow_block",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_SOUL_SAND = BLOCKS.register("seethrough_soul_sand",SeeThroughBlock::new);
-    public static final RegistryObject<Block> SEETHROUGH_SOUL_SOIL = BLOCKS.register("seethrough_soul_soil",SeeThroughBlock::new);
+    //public static final RegistryObject<Block> SEETHROUGH_SOUL_SOIL = BLOCKS.register("seethrough_soul_soil",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_SPAWNER = BLOCKS.register("seethrough_spawner",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_SPONGE = BLOCKS.register("seethrough_sponge",SeeThroughBlock::new);
     public static final RegistryObject<Block> SEETHROUGH_SPRUCE_LEAVES = BLOCKS.register("seethrough_spruce_leaves",SeeThroughBlock::new);
@@ -598,7 +598,7 @@ public class WoneWayBlocks {
     public static final RegistryObject<Item> SEETHROUGH_SMOOTH_STONE_ITEM = ITEMS.register("seethrough_smooth_stone",() -> new BlockItemBase(SEETHROUGH_SMOOTH_STONE.get()));
     public static final RegistryObject<Item> SEETHROUGH_SNOW_BLOCK_ITEM = ITEMS.register("seethrough_snow_block",() -> new BlockItemBase(SEETHROUGH_SNOW_BLOCK.get()));
     public static final RegistryObject<Item> SEETHROUGH_SOUL_SAND_ITEM = ITEMS.register("seethrough_soul_sand",() -> new BlockItemBase(SEETHROUGH_SOUL_SAND.get()));
-    public static final RegistryObject<Item> SEETHROUGH_SOUL_SOIL_ITEM = ITEMS.register("seethrough_soul_soil",() -> new BlockItemBase(SEETHROUGH_SOUL_SOIL.get()));
+    //public static final RegistryObject<Item> SEETHROUGH_SOUL_SOIL_ITEM = ITEMS.register("seethrough_soul_soil",() -> new BlockItemBase(SEETHROUGH_SOUL_SOIL.get()));
     public static final RegistryObject<Item> SEETHROUGH_SPAWNER_ITEM = ITEMS.register("seethrough_spawner",() -> new BlockItemBase(SEETHROUGH_SPAWNER.get()));
     public static final RegistryObject<Item> SEETHROUGH_SPONGE_ITEM = ITEMS.register("seethrough_sponge",() -> new BlockItemBase(SEETHROUGH_SPONGE.get()));
     public static final RegistryObject<Item> SEETHROUGH_SPRUCE_LEAVES_ITEM = ITEMS.register("seethrough_spruce_leaves",() -> new BlockItemBase(SEETHROUGH_SPRUCE_LEAVES.get()));
