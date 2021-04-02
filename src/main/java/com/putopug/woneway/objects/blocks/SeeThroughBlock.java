@@ -6,12 +6,14 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.ItemStack;
-import net.minecraft.loot.LootContext;
 import net.minecraft.state.DirectionProperty;
 import net.minecraft.state.StateContainer;
 import net.minecraft.util.Direction;
 import net.minecraft.util.Mirror;
 import net.minecraft.util.Rotation;
+import net.minecraft.util.math.BlockPos;
+import net.minecraft.world.IBlockReader;
+import net.minecraft.world.storage.loot.LootContext;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -22,8 +24,7 @@ import java.util.List;
 public class SeeThroughBlock extends Block {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
     public SeeThroughBlock() {
-        super(Block.Properties.of(Material.METAL).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 0).noOcclusion()
-                .isRedstoneConductor((bs, br, bp) -> false));
+        super(Block.Properties.of(Material.METAL).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(0).noOcclusion());//.isRedstoneConductor((bs, br, bp) -> false));
         this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH));
     }
 
@@ -54,4 +55,10 @@ public class SeeThroughBlock extends Block {
             return dropsOriginal;
         return Collections.singletonList(new ItemStack(this, 1));
     }
+
+    /*@Override
+    @SuppressWarnings("deprecation")
+    public boolean isRedstoneConductor(BlockState p_220081_1_, IBlockReader p_220081_2_, BlockPos p_220081_3_) {
+        return false;
+    }*/
 }
