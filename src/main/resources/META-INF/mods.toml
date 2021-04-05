@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[35,)"
+loaderVersion="[36,35,34,33,32)"
 license="GNU General Public License Version 3.0"
 issueTrackerURL="https://github.com/PugsMods/WoneWay/issues"
 [[mods]]
@@ -15,7 +15,7 @@ description='''A Mod which adds one way blocks!!'''
 [[dependencies.woneway]]
     modId="forge"
     mandatory=true
-    versionRange="[35,)"
+    versionRange="[32,36)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.woneway]]
