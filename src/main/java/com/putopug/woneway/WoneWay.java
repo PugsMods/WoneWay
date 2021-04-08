@@ -35,11 +35,11 @@ public class WoneWay
 
     private void setup(final FMLCommonSetupEvent event)
     {
-
+        LOGGER.warn("WoneWay - Copyright 2021 PutoPug/PugzAreCute");
     }
 
     private void doClientStuff(final FMLClientSetupEvent event) {
-        //WoneWayDRPC.initDiscord();
+        new WoneWayDRPC();
     }
 
     private void enqueueIMC(final InterModEnqueueEvent event)

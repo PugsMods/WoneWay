@@ -20,9 +20,6 @@ public class WoneWayDRPC {
         }));
 
         initDiscord();
-
-        int score = 0;
-        System.out.println("Running callbacks...");
     }
 
     private static void initDiscord() {
@@ -38,4 +35,5 @@ public class WoneWayDRPC {
         DiscordRPC.discordInitialize("786094298268565504", handlers, false);
         DiscordRPC.discordRegister("786094298268565504", "");
     }
+
 }
