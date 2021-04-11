@@ -1,22 +1,23 @@
 {
   "homepage": "https://www.curseforge.com/minecraft/mc-mods/woneway",
   "promos": {
-    "1.16.5-latest": "1.0.1",
-    "1.16.5-recommended": "1.0.1",
-    "1.16.4-latest": "1.0.1",
-    "1.16.4-recommended": "1.0.1",
-    "1.16.3-latest": "1.0.1",
-    "1.16.3-recommended": "1.0.1",
-    "1.16.2-latest": "1.0.1",
-    "1.16.2-recommended": "1.0.1",
-    "1.16.1-latest": "1.0.1",
-    "1.16.1-recommended": "1.0.1",
-    "1.16-latest": "1.0.1",
-    "1.16-recommended": "1.0.1",
-    "1.15.2-latest": "1.0.0BETA-4",
-    "1.15.2-recommended": "1.0.0BETA-4"
+    "1.16.5-latest": "1.0.2",
+    "1.16.5-recommended": "1.0.2",
+    "1.16.4-latest": "1.0.2",
+    "1.16.4-recommended": "1.0.2",
+    "1.16.3-latest": "1.0.2",
+    "1.16.3-recommended": "1.0.2",
+    "1.16.2-latest": "1.0.2",
+    "1.16.2-recommended": "1.0.2",
+    "1.16.1-latest": "1.0.2",
+    "1.16.1-recommended": "1.0.2",
+    "1.16-latest": "1.0.2",
+    "1.16-recommended": "1.0.2",
+    "1.15.2-latest": "1.0.0",
+    "1.15.2-recommended": "1.0.0"
   },
   "1.16.5": {
+    "1.0.2": "Change logo and do some internal stuff",
     "1.0.1": "Fixed The Bug In The Last 2 Builds",
     "1.0.0": "Quick Patch Cause i messed up the last build",
     "1.0.0BETA-8": "Fixed an FMLVERSION Bug, Hopefully bump to FML 36, More fixes to grass block",
@@ -29,6 +30,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.4": {
+    "1.0.2": "Change logo and do some internal stuff",
     "1.0.1": "Fixed The Bug In The Last 2 Builds",
     "1.0.0": "Quick Patch Cause i messed up the last build",
     "1.0.0BETA-8": "Fixed an FMLVERSION Bug, Hopefully bump to FML 36, More fixes to grass block",
@@ -41,6 +43,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.3": {
+    "1.0.2": "Change logo and do some internal stuff",
     "1.0.1": "Fixed The Bug In The Last 2 Builds",
     "1.0.0": "Quick Patch Cause i messed up the last build",
     "1.0.0BETA-8": "Fixed an FMLVERSION Bug, Hopefully bump to FML 36, More fixes to grass block",
@@ -53,6 +56,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.2": {
+    "1.0.2": "Change logo and do some internal stuff",
     "1.0.1": "Fixed The Bug In The Last 2 Builds",
     "1.0.0": "Quick Patch Cause i messed up the last build",
     "1.0.0BETA-8": "Fixed an FMLVERSION Bug, Hopefully bump to FML 36, More fixes to grass block",
@@ -65,6 +69,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.1": {
+    "1.0.2": "Change logo and do some internal stuff",
     "1.0.1": "Fixed The Bug In The Last 2 Builds",
     "1.0.0": "Quick Patch Cause i messed up the last build",
     "1.0.0BETA-8": "Fixed an FMLVERSION Bug, Hopefully bump to FML 36, More fixes to grass block",
@@ -77,6 +82,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16": {
+    "1.0.2": "Change logo and do some internal stuff",
     "1.0.1": "Fixed The Bug In The Last 2 Builds",
     "1.0.0": "Quick Patch Cause i messed up the last build",
     "1.0.0BETA-8": "Fixed an FMLVERSION Bug, Hopefully bump to FML 36, More fixes to grass block",
@@ -89,6 +95,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.15.2": {
+    "1.0.0": "Change logo and do some internal stuff",
     "1.0.0BETA-4": "Tiny grass Bugfix",
     "1.0.0BETA-3": "Fixed Leaves and Grass blocks",
     "1.0.0BETA-2": "Pistons Work Now",
