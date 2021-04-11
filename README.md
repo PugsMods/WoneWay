@@ -10,6 +10,8 @@ A Minecraft mod which adds One way blocks
 
 # Code For Old Versions
 
+[1.15.2-1.0.0BETA-4](https://github.com/PugsMods/WoneWay/tree/653770fa7e7c1ea9974741da2f2b7e6fa8dce476)
+
 [1.15.2-1.0.0BETA-3](https://github.com/PugsMods/WoneWay/tree/ae389f47db99495e546691a1106462cda3da8499)
 
 [1.15.2-1.0.0BETA-2](https://github.com/PugsMods/WoneWay/tree/0a412808d3d4427aa8182eaaedf634652299b073)
