@@ -1,8 +1,6 @@
 package com.putopug.woneway;
 
-import com.putopug.woneway.WoneWay;
 import com.putopug.woneway.init.WoneWayBlocks;
-import net.minecraft.client.renderer.color.BlockColors;
 import net.minecraft.client.renderer.color.ItemColors;
 import net.minecraft.world.FoliageColors;
 import net.minecraft.world.GrassColors;
