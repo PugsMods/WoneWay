@@ -327,6 +327,7 @@ public class WoneWayBlocks {
      register("seethrough_yellow_wool");
     }
   private static void register(String id) {
-   BLOCKS.register(id,SeeThroughBlock::new);
+   RegistryObject<Block> X = BLOCKS.register(id,SeeThroughBlock::new);
+   ITEMS.register(id, () -> new BlockItemBase(X.get()));
  }
 }
