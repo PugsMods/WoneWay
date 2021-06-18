@@ -22,35 +22,7 @@ public class WoneWay
     public static final String MOD_ID = "woneway";
 
     public WoneWay() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::enqueueIMC);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::processIMC);
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::doClientStuff);
         MinecraftForge.EVENT_BUS.register(this);
         WoneWayBlocks.init();
-    }
-
-    private void setup(final FMLCommonSetupEvent event)
-    {
-        LOGGER.warn("WoneWay - Copyright 2021 PutoPug/PugzAreCute");
-    }
-
-    private void doClientStuff(final FMLClientSetupEvent event) {
-
-    }
-
-    private void enqueueIMC(final InterModEnqueueEvent event)
-    {
-
-    }
-
-    private void processIMC(final InterModProcessEvent event)
-    {
-        LOGGER.info("Got IMC {}", event.getIMCStream().
-                map(m->m.getMessageSupplier().get()).
-                collect(Collectors.toList()));
-    }
-    @SubscribeEvent
-    public void onServerStarting(FMLServerStartingEvent event) {
     }
 }
