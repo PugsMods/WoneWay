@@ -20,6 +20,6 @@ public class ClientEventBusSub {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         //Iterate through every block in the register and set its RenderType.
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator,RenderType.translucent());
+        RenderTypeLookup.setRenderLayer(WoneWayBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator, RenderType.translucent());
     }
 }

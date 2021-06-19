@@ -16,6 +16,7 @@ public class BlockItemBase extends BlockItem {
             return new ItemStack(Blocks.DAMAGED_ANVIL);
         }
     };
+
     public BlockItemBase(Block block) {
         super(block, new Item.Properties().tab(BLOCKS));
     }

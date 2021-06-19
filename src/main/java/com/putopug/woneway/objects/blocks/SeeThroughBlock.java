@@ -19,6 +19,7 @@ import java.util.List;
 
 public class SeeThroughBlock extends Block {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
+
     public SeeThroughBlock() {
         super(Block.Properties.of(Material.METAL).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 0).noOcclusion()
                 .isRedstoneConductor((bs, br, bp) -> false));

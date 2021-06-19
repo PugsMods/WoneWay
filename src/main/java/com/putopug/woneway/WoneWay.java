@@ -5,8 +5,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod("woneway")
-public class WoneWay
-{
+public class WoneWay {
     public static final String MOD_ID = "woneway";
 
     public WoneWay() {
