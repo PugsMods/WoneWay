@@ -1,4 +1,4 @@
-package com.putopug.woneway.objects.blocks;
+package com.pugzarecute.woneway.objects.blocks;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;

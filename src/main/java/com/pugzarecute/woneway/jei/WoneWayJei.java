@@ -1,4 +1,4 @@
-package com.putopug.woneway.jei;
+package com.pugzarecute.woneway.jei;
 
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;

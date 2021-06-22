@@ -1,10 +1,9 @@
-package com.putopug.woneway.init;
+package com.pugzarecute.woneway.init;
 
-import com.putopug.woneway.WoneWay;
-import com.putopug.woneway.objects.blocks.SeeThroughBlock;
+import com.pugzarecute.woneway.WoneWay;
+import com.pugzarecute.woneway.objects.blocks.SeeThroughBlock;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -12,7 +11,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 //

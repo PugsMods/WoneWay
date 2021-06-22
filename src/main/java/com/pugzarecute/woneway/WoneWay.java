@@ -1,6 +1,6 @@
-package com.putopug.woneway;
+package com.pugzarecute.woneway;
 
-import com.putopug.woneway.init.WoneWayBlocks;
+import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 

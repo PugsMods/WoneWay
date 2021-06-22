@@ -1,6 +1,6 @@
-package com.putopug.woneway;
+package com.pugzarecute.woneway;
 
-import com.putopug.woneway.init.WoneWayBlocks;
+import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;

@@ -1,4 +1,4 @@
-package com.putopug.woneway.init;
+package com.pugzarecute.woneway.init;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
