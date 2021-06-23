@@ -18,16 +18,14 @@ import java.util.regex.Pattern;
 //@author PutoPug
 //
 public class WoneWayBlocks {
-    public static Map<String,RegistryObject<Block>> map ;
+    public static Map<String,RegistryObject<Block>> blocks;
+    public static Map<String,RegistryObject<Block>> leaves;
     private final static Logger logger = LogManager.getLogger();
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
-    public static final DeferredRegister<Block> LEAVES = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
-        LEAVES.register(FMLJavaModLoadingContext.get().getModEventBus());
-
         register("seethrough_acacia_leaves");
         register("seethrough_acacia_log");
         register("seethrough_acacia_planks");
@@ -335,12 +333,11 @@ public class WoneWayBlocks {
     }
 
     private static void register(String id) {
-        RegistryObject<Block> X;
+        RegistryObject<Block> X = BLOCKS.register(id, SeeThroughBlock::new);
         if(Pattern.compile("LEAVES").matcher(id).find()) {
-            X = LEAVES.register(id, SeeThroughBlock::new);
+            leaves.put(id,X);
         } else {
-            X = BLOCKS.register(id, SeeThroughBlock::new);
-            map.put(id,X);
+            blocks.put(id,X);
         }
         ITEMS.register(id, () -> new BlockItemBase(X.get()));
         logger.debug("WoneWay: Registering block " + id);
