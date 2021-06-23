@@ -11,12 +11,14 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.Map;
 import java.util.regex.Pattern;
 
 //
 //@author PutoPug
 //
 public class WoneWayBlocks {
+    public static Map<String,RegistryObject<Block>> map ;
     private final static Logger logger = LogManager.getLogger();
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
@@ -338,6 +340,7 @@ public class WoneWayBlocks {
             X = LEAVES.register(id, SeeThroughBlock::new);
         } else {
             X = BLOCKS.register(id, SeeThroughBlock::new);
+            map.put(id,X);
         }
         ITEMS.register(id, () -> new BlockItemBase(X.get()));
         logger.debug("WoneWay: Registering block " + id);

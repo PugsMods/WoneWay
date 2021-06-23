@@ -1,6 +1,7 @@
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
+import net.minecraft.block.Block;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
@@ -19,7 +20,8 @@ public class ClientEventBusSub {
     //Subscribe to the FMLClientSetupEvent Event.
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
-        //Iterate through every block in the register and set its RenderType.
-        RenderTypeLookup.setRenderLayer(WoneWayBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get)::iterator, RenderType.translucent());
+        for (String blk :WoneWayBlocks.map.keySet()) {
+            RenderTypeLookup.setRenderLayer(WoneWayBlocks.map.get(blk).get(), RenderType.translucent());
+        }
     }
 }
