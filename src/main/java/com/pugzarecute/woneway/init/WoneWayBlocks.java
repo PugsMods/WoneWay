@@ -334,7 +334,7 @@ public class WoneWayBlocks {
 
     private static void register(String id) {
         RegistryObject<Block> X = BLOCKS.register(id, SeeThroughBlock::new);
-        if(Pattern.compile("LEAVES").matcher(id).find()) {
+        if(Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
             leaves.put(id,X);
         } else {
             blocks.put(id,X);

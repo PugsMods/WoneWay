@@ -6,9 +6,6 @@ import mezz.jei.api.registration.*;
 import mezz.jei.api.runtime.IJeiRuntime;
 import net.minecraft.util.ResourceLocation;
 
-//
-//@author PutoPug
-//
 @JeiPlugin
 public class WoneWayJei implements IModPlugin {
     @Override
