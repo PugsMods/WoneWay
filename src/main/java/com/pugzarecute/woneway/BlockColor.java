@@ -7,10 +7,8 @@ import net.minecraft.world.biome.BiomeColors;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 
-//Commented out for now for the optimization update
 @Mod.EventBusSubscriber(modid = WoneWay.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BlockColor {
     @SubscribeEvent
@@ -25,6 +23,6 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupItemColors(ColorHandlerEvent.Item event) {
         ItemColors colors = event.getItemColors();
-        //colors.register((stack, tint) -> FoliageColors.getDefaultColor(),);
+        for(String lvs: WoneWayBlocks.leaves.keySet()) colors.register((stack, tint) -> FoliageColors.getDefaultColor(),WoneWayBlocks.leaves.get(lvs).get());
     }
 }
