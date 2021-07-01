@@ -99,6 +99,8 @@ publishing {
         }
     }
 }
+
+//JSON Minimization code
 import groovy.json.JsonSlurper
 import groovy.json.JsonOutput
 processResources {
