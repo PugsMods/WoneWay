@@ -13,3 +13,5 @@ Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-m
 # Code For Old Versions
 
 Please Look At [VERSIONS.md](VERSIONS.md)
+
+[This Project Is Sponsored by JetBrains](https://jetbrains.com/)
