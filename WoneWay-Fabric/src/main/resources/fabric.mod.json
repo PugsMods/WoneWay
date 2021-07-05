@@ -3,13 +3,13 @@
   "id": "woneway",
   "version": "${version}",
   "name": "WoneWay",
-  "description": "TO BE FILLED",
+  "description": "A Mod which adds one way blocks!!",
   "authors": [
-    "TO_BE_FILLED"
+    "PugzAreCute"
   ],
   "contact": {
-    "website": "TO BE FILLED",
-    "repo": "TO BE FILLED"
+    "website": "https://www.curseforge.com/minecraft/mc-mods/woneway",
+    "repo": "https://github.com/PugsMods/WoneWay"
   },
   "license": "GPL-3.0",
   "icon": "assets/woneway/icon.png",
