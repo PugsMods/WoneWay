@@ -16,6 +16,9 @@
  */
 package com.pugzarecute.woneway.client;
 
-@net.fabricmc.api.Environment(net.fabricmc.api.EnvType.CLIENT)
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
+
+@Environment(EnvType.CLIENT)
 public class WonewayClient {
 }
