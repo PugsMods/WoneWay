@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "woneway",
+  "version": "${version}",
+  "name": "WoneWay",
+  "description": "TO BE FILLED",
+  "authors": [
+    "TO_BE_FILLED"
+  ],
+  "contact": {
+    "website": "TO BE FILLED",
+    "repo": "TO BE FILLED"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/woneway/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.pugzarecute.woneway.client.WonewayClient"
+    ],
+    "main": [
+      "com.pugzarecute.woneway.Woneway"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
