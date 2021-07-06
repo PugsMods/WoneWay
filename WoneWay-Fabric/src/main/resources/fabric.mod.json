@@ -15,9 +15,6 @@
   "icon": "assets/woneway/icon.png",
   "environment": "*",
   "entrypoints": {
-    "client": [
-      "com.pugzarecute.woneway.client.WonewayClient"
-    ],
     "main": [
       "com.pugzarecute.woneway.Woneway"
     ]
