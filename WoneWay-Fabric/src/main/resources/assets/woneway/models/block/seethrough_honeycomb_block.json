@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/honeycomb_block",
+    "up": "block/honeycomb_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/honeycomb_block",
+    "south": "block/honeycomb_block",
+    "west": "block/honeycomb_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

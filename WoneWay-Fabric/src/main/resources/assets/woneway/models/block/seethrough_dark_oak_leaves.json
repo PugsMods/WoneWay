@@ -1,0 +1,13 @@
+{
+  "parent": "woneway:block/leaf",
+  "textures": {
+    "down": "block/dark_oak_leaves",
+    "up": "block/dark_oak_leaves",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/dark_oak_leaves",
+    "south": "block/dark_oak_leaves",
+    "west": "block/dark_oak_leaves",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

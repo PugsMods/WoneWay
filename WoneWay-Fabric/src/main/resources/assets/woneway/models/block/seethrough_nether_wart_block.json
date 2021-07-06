@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/nether_wart_block",
+    "up": "block/nether_wart_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/nether_wart_block",
+    "south": "block/nether_wart_block",
+    "west": "block/nether_wart_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

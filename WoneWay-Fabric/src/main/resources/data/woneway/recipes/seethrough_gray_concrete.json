@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:gray_concrete"
+    }
+  ],
+  "result": {
+    "item": "woneway:seethrough_gray_concrete",
+    "count": 2
+  }
+}

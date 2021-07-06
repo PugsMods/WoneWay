@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:lime_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "woneway:seethrough_lime_stained_glass",
+    "count": 2
+  }
+}

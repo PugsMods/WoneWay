@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/cyan_glazed_terracotta",
+    "up": "block/cyan_glazed_terracotta",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/cyan_glazed_terracotta",
+    "south": "block/cyan_glazed_terracotta",
+    "west": "block/cyan_glazed_terracotta",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

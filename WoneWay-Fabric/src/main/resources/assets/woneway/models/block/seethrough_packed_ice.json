@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/packed_ice",
+    "up": "block/packed_ice",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/packed_ice",
+    "south": "block/packed_ice",
+    "west": "block/packed_ice",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

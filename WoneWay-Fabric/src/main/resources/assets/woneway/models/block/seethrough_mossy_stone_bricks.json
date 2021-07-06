@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/mossy_stone_bricks",
+    "up": "block/mossy_stone_bricks",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/mossy_stone_bricks",
+    "south": "block/mossy_stone_bricks",
+    "west": "block/mossy_stone_bricks",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

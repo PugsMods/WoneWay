@@ -1,0 +1,13 @@
+{
+  "parent": "woneway:block/leaf",
+  "textures": {
+    "down": "block/birch_leaves",
+    "up": "block/birch_leaves",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/birch_leaves",
+    "south": "block/birch_leaves",
+    "west": "block/birch_leaves",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

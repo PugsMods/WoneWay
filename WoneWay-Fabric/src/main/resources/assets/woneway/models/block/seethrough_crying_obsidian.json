@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/crying_obsidian",
+    "up": "block/crying_obsidian",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/crying_obsidian",
+    "south": "block/crying_obsidian",
+    "west": "block/crying_obsidian",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
