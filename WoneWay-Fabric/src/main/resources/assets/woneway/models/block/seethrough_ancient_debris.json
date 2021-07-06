@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/ancient_debris_top",
+    "up": "block/ancient_debris_top",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/ancient_debris_side",
+    "south": "block/ancient_debris_side",
+    "west": "block/ancient_debris_side",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/purple_wool",
+    "up": "block/purple_wool",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/purple_wool",
+    "south": "block/purple_wool",
+    "west": "block/purple_wool",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

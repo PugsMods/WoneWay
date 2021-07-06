@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:respawn_anchor"
+    }
+  ],
+  "result": {
+    "item": "woneway:seethrough_respawn_anchor",
+    "count": 2
+  }
+}

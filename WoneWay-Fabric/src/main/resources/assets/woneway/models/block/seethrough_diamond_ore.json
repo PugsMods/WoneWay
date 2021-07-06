@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/diamond_ore",
+    "up": "block/diamond_ore",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/diamond_ore",
+    "south": "block/diamond_ore",
+    "west": "block/diamond_ore",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
