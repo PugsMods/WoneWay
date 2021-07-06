@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:crimson_hyphae"
+    }
+  ],
+  "result": {
+    "item": "woneway:seethrough_crimson_hyphae",
+    "count": 2
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/chiseled_polished_blackstone",
+    "up": "block/chiseled_polished_blackstone",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/chiseled_polished_blackstone",
+    "south": "block/chiseled_polished_blackstone",
+    "west": "block/chiseled_polished_blackstone",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

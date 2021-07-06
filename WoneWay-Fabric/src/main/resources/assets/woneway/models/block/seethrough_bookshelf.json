@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/oak_planks",
+    "up": "block/oak_planks",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/bookshelf",
+    "south": "block/bookshelf",
+    "west": "block/bookshelf",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

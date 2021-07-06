@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/sandstone_top",
+    "up": "block/sandstone_top",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/cut_sandstone",
+    "south": "block/cut_sandstone",
+    "west": "block/cut_sandstone",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
