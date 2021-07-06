@@ -14,11 +14,18 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.pugzarecute.woneway.client;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
+package com.pugzarecute.woneway;
 
-@Environment(EnvType.CLIENT)
-public class WonewayClient {
+import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.Block;
+import net.minecraft.block.MapColor;
+import net.minecraft.block.Material;
+import net.minecraft.item.ItemGroup;
+
+public class SeeThroughBlock extends Block {
+    public SeeThroughBlock() {
+        super(FabricBlockSettings.of(Material.GLASS).strength(1f, 10f).nonOpaque());
+    }
 }

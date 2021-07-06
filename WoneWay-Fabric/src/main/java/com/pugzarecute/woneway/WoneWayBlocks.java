@@ -14,11 +14,11 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
-package com.pugzarecute.woneway.client;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
+package com.pugzarecute.woneway;
 
-@Environment(EnvType.CLIENT)
-public class WonewayClient {
+public class WoneWayBlocks {
+    public static void init() {
+        //TODO: LOGIC
+    }
 }
