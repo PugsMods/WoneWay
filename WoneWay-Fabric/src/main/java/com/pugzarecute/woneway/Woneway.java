@@ -27,7 +27,7 @@ public class Woneway implements ModInitializer {
     @Override
     public void onInitialize() {
         Registry.register(Registry.BLOCK, new Identifier("woneway", "seethrough_diamond_ore"), new SeeThroughBlock());
-        Registry.register(Registry.ITEM, new Identifier("tutorial", "example_block"), new BlockItem(new SeeThroughBlock(), new FabricItemSettings().group(ItemGroup.MISC)));
+        Registry.register(Registry.ITEM, new Identifier("woneway", "seethrough_diamond_ore"), new BlockItem(new SeeThroughBlock(), new FabricItemSettings().group(ItemGroup.MISC)));
         WoneWayBlocks.init();
     }
 }
