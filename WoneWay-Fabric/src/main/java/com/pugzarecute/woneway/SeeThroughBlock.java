@@ -40,12 +40,6 @@ public class SeeThroughBlock extends FacingBlock {
         stateManager.add(Properties.FACING);
     }
 
-    @Override
-    public VoxelShape getOutlineShape(BlockState state, BlockView view, BlockPos pos, ShapeContext ctx) {
-        Direction dir = state.get(FACING);
-        return VoxelShapes.fullCube();
-    }
-
     public BlockState getPlacementState(ItemPlacementContext ctx) {
         return (BlockState) this.getDefaultState().with(Properties.FACING, ctx.getPlayerFacing().getOpposite());
     }
