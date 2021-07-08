@@ -6,7 +6,11 @@
 [![Keybase PGP](https://img.shields.io/keybase/pgp/pugzarecute?style=for-the-badge)](https://keybase.io/pugzarecute)
 [![Discord](https://img.shields.io/discord/773211530413867028?label=Discord%3A&style=for-the-badge)](https://discord.gg/geNRqMu5XW)
 # WoneWay
-A Minecraft mod which adds One way blocks
+A Minecraft mod which adds One way blocks. 
+
+I have no plans of supporting versions NOT in the LTS system.
+
+1.17 Will come when it comes. No ETA's
 
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 
