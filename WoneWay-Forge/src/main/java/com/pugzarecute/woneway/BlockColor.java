@@ -40,7 +40,6 @@ public class BlockColor {
         for (String leaves:WoneWayBlocks.leaves.keySet()) {
             colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColors.getDefaultColor(), WoneWayBlocks.leaves.get(leaves).get());
         }
-        //colors.register((state, world, pos, tint) ->  tint == 1 ? (world != null && pos != null ? BiomeColors.getAverageGrassColor(world, pos) : GrassColors.get(0.5D, 1.0D)) : -1, WoneWayBlocks.SEETHROUGH_GRASS_BLOCK.get());
     }
 
     @SubscribeEvent
