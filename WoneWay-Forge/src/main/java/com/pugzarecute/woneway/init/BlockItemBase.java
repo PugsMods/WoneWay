@@ -32,9 +32,11 @@ import net.minecraft.item.ItemStack;
 
 public class BlockItemBase extends BlockItem {
     public static final ItemGroup BLOCKS = new ItemGroup("wonewayblocks") {
-        @Override public ItemStack makeIcon() {
+        @Override
+        public ItemStack makeIcon() {
             return new ItemStack(Blocks.DAMAGED_ANVIL);
-        }};
+        }
+    };
     public BlockItemBase(Block block) {
         super(block, new Item.Properties().tab(BLOCKS));
     }
