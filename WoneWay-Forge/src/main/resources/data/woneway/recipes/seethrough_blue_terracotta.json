@@ -1,16 +1,15 @@
-
-        {
-         "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:glass"
-        },
-        {
-            "item": "minecraft:blue_terracotta"
-        }
-    ],
-    "result": {
-        "item": "woneway:seethrough_blue_terracotta",
-        "count": 2
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:blue_terracotta"
     }
-        }
+  ],
+  "result": {
+    "item": "woneway:seethrough_blue_terracotta",
+    "count": 2
+  }
+}

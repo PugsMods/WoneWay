@@ -1,5 +1,4 @@
-
-    {
+{
   "parent": "block/cube",
   "textures": {
     "down": "block/blue_concrete_powder",
