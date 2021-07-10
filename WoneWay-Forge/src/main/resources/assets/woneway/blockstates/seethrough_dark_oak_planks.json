@@ -1,5 +1,4 @@
-
-    {
+{
   "variants": {
     "facing=north": {
       "model": "woneway:block/seethrough_dark_oak_planks"
