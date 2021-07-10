@@ -1,5 +1,4 @@
-
-    {
+{
   "parent": "woneway:block/leaf",
   "textures": {
     "down": "block/birch_leaves",
