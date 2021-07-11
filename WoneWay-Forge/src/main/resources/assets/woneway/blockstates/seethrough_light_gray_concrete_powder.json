@@ -1,5 +1,4 @@
-
-    {
+{
   "variants": {
     "facing=north": {
       "model": "woneway:block/seethrough_light_gray_concrete_powder"
