@@ -1,16 +1,15 @@
-
-        {
-         "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:glass"
-        },
-        {
-            "item": "minecraft:pumpkin"
-        }
-    ],
-    "result": {
-        "item": "woneway:seethrough_pumpkin",
-        "count": 2
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:pumpkin"
     }
-        }
+  ],
+  "result": {
+    "item": "woneway:seethrough_pumpkin",
+    "count": 2
+  }
+}
