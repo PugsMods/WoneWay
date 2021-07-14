@@ -1,5 +1,4 @@
-
-    {
+{
   "parent": "block/cube",
   "textures": {
     "down": "block/repeating_command_block_side",
