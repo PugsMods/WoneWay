@@ -1,16 +1,15 @@
-
-        {
-         "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:glass"
-        },
-        {
-            "item": "minecraft:quartz_pillar"
-        }
-    ],
-    "result": {
-        "item": "woneway:seethrough_quartz_pillar",
-        "count": 2
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:quartz_pillar"
     }
-        }
+  ],
+  "result": {
+    "item": "woneway:seethrough_quartz_pillar",
+    "count": 2
+  }
+}
