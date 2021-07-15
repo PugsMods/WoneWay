@@ -1,16 +1,15 @@
-
-        {
-         "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-            "item": "minecraft:glass"
-        },
-        {
-            "item": "minecraft:slime_block"
-        }
-    ],
-    "result": {
-        "item": "woneway:seethrough_slime_block",
-        "count": 2
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:slime_block"
     }
-        }
+  ],
+  "result": {
+    "item": "woneway:seethrough_slime_block",
+    "count": 2
+  }
+}
