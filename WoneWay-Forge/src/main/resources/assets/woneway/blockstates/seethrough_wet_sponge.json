@@ -1,5 +1,4 @@
-
-    {
+{
   "variants": {
     "facing=north": {
       "model": "woneway:block/seethrough_wet_sponge"
