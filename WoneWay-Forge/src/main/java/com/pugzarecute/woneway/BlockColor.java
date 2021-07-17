@@ -38,7 +38,7 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupBlockColors(ColorHandlerEvent.Block event) {
         BlockColors colors = event.getBlockColors();
-        //Iterate through every leaf
+        //Iterate through every leaf and set its biomecolor
         for (String leaves : WoneWayBlocks.leaves.keySet())
             colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColors.getDefaultColor(), WoneWayBlocks.leaves.get(leaves).get());
     }
@@ -46,7 +46,7 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupItemColors(ColorHandlerEvent.Item event) {
         ItemColors colors = event.getItemColors();
-        //Iterate through every leaf
+        //Iterate through every leaf and set its biomecolor
         for(String lvs: WoneWayBlocks.leaves.keySet()) colors.register((stack, tint) -> FoliageColors.getDefaultColor(),WoneWayBlocks.leaves.get(lvs).get());
     }
 }
