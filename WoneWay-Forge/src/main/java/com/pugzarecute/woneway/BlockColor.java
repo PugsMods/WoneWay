@@ -24,6 +24,7 @@
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
+import net.minecraft.client.renderer.color.BlockColors;
 import net.minecraft.client.renderer.color.ItemColors;
 import net.minecraft.world.FoliageColors;
 import net.minecraft.world.biome.BiomeColors;
@@ -36,7 +37,7 @@ import net.minecraftforge.fml.common.Mod;
 public class BlockColor {
     @SubscribeEvent
     public static void setupBlockColors(ColorHandlerEvent.Block event) {
-        net.minecraft.client.renderer.color.BlockColors colors = event.getBlockColors();
+        BlockColors colors = event.getBlockColors();
         for (String leaves:WoneWayBlocks.leaves.keySet()) {
             colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColors.getDefaultColor(), WoneWayBlocks.leaves.get(leaves).get());
         }

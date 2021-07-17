@@ -35,7 +35,9 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ClientEventBusSub {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
-        for (String blk :WoneWayBlocks.blocks.keySet()) {
+        //Iterate through every block
+        for (String blk : WoneWayBlocks.blocks.keySet()) {
+            //And set its rendertype
             RenderTypeLookup.setRenderLayer(WoneWayBlocks.blocks.get(blk).get(), RenderType.translucent());
         }
     }

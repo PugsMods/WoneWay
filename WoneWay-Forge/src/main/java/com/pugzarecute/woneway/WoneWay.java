@@ -29,7 +29,7 @@ import net.minecraftforge.fml.common.Mod;
 @Mod("woneway")
 public class WoneWay {
     public static final String MOD_ID = "woneway";
-
+    //Call init on blocks when mod initialization
     public WoneWay() {
         WoneWayBlocks.init();
     }
