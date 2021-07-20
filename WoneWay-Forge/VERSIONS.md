@@ -1,5 +1,11 @@
 # Versions:
 
+[1.16.X-1.0.4](https://github.com/PugsMods/WoneWay/tree/bb581ad7bb24ecb88f3df19856a05ac3dbc09ce0)
+
+[1.16.X-1.0.3](https://github.com/PugsMods/WoneWay/tree/5964a36c962452d7e0fea758f97d913c0d52dce1)
+
+[1.16.X-1.0.2](https://github.com/PugsMods/WoneWay/tree/42a454ea0319684477768b18853b133b73d0c763)
+
 [1.16.X-1.0.1](https://github.com/PugsMods/WoneWay/tree/b4585c232314e84858ff885ec735667b048cf41f)
 
 [1.16.X-1.0.0](https://github.com/PugsMods/WoneWay/tree/b4585c232314e84858ff885ec735667b048cf41f)
