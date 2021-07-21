@@ -6,6 +6,7 @@
 [![Keybase PGP](https://img.shields.io/keybase/pgp/pugzarecute?style=for-the-badge)](https://keybase.io/pugzarecute)
 [![Discord](https://img.shields.io/discord/773211530413867028?label=Discord%3A&style=for-the-badge)](https://discord.gg/geNRqMu5XW)
 # WoneWay
+
 A Minecraft mod which adds One way blocks
 
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
@@ -15,3 +16,5 @@ Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-m
 Please Look At [VERSIONS.md](VERSIONS.md)
 
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
+
+[![Vercel](../img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)

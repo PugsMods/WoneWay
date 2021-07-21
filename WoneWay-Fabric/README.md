@@ -17,3 +17,5 @@ Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-m
 ~~ Please Look At [VERSIONS.md](VERSIONS.md) ~~
 
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
+
+[![Vercel](../img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
