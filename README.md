@@ -18,3 +18,7 @@ Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-m
 [Forge (WoneWay-Forge)](https://github.com/PugsMods/WoneWay/tree/1.16.X/WoneWay-Forge)
 
 [Fabric (WoneWay-Fabric)](https://github.com/PugsMods/WoneWay/tree/1.16.X/WoneWay-Fabric)
+
+[This Project Is Sponsored by JetBrains](https://jetbrains.com/)
+
+[![Vercel](../img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
