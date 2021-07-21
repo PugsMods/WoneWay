@@ -5,9 +5,12 @@
 [![GitHub repo size](https://img.shields.io/github/repo-size/PugsMods/WoneWay?style=for-the-badge)](https://github.com/PugsMods/WoneWay)
 [![Keybase PGP](https://img.shields.io/keybase/pgp/pugzarecute?style=for-the-badge)](https://keybase.io/pugzarecute)
 [![Discord](https://img.shields.io/discord/773211530413867028?label=Discord%3A&style=for-the-badge)](https://discord.gg/geNRqMu5XW)
+
 # WoneWay
 
 A Minecraft mod which adds One way blocks
+
+Don't ask will you port to version X. I will do if I want to.
 
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 

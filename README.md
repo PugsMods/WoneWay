@@ -8,7 +8,7 @@
 # WoneWay
 A Minecraft mod which adds One way blocks. 
 
-I have no plans of supporting versions NOT in the LTS system.
+Don't ask will you port to version X. I will do if I want to.
 
 1.17 Will come when it comes. No ETA's
 
