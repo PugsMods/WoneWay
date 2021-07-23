@@ -24,12 +24,14 @@
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
+import net.minecraft.client.renderer.RenderBuffers;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
+import net.minecraftforge.fmlclient.registry.RenderingRegistry;
 
 @Mod.EventBusSubscriber(modid = WoneWay.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ClientEventBusSub {
@@ -38,7 +40,7 @@ public class ClientEventBusSub {
         //Iterate through every block
         for (String blk : WoneWayBlocks.blocks.keySet()) {
             //And set its rendertype
-            RenderTypeLookup.setRenderLayer(WoneWayBlocks.blocks.get(blk).get(), RenderType.translucent());
+              (WoneWayBlocks.blocks.get(blk), RenderType.translucent());
         }
     }
 }
