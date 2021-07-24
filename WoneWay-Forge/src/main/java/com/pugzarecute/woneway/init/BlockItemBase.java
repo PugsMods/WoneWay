@@ -23,19 +23,20 @@
 
 package com.pugzarecute.woneway.init;
 
-import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
-import net.minecraft.item.ItemStack;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 
 public class BlockItemBase extends BlockItem {
-    public static final ItemGroup BLOCKS = new ItemGroup("wonewayblocks") {
+    public static final CreativeModeTab BLOCKS = new CreativeModeTab("wonewayblocks") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Blocks.DAMAGED_ANVIL);
+            return new ItemStack(Blocks.ACACIA_BUTTON);
         }
+
     };
     public BlockItemBase(Block block) {
         super(block, new Item.Properties().tab(BLOCKS));
