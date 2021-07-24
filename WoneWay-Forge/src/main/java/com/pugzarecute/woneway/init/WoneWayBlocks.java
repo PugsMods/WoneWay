@@ -24,7 +24,7 @@
 package com.pugzarecute.woneway.init;
 
 import com.pugzarecute.woneway.WoneWay;
-import com.pugzarecute.woneway.blocks.SeeThroughBlock;
+import com.pugzarecute.woneway.blocks.SeethroughBlock;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -353,7 +353,7 @@ public class WoneWayBlocks {
     }
 
     private static void register(String id) {
-        RegistryObject<Block> X = BLOCKS.register(id, SeeThroughBlock::new);
+        RegistryObject<Block> X = BLOCKS.register(id, SeethroughBlock::new);
         if(Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
             leaves.put(id,X);
         } else {
