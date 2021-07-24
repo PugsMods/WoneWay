@@ -34,7 +34,7 @@ import net.minecraft.world.level.material.Material;
 import java.util.Collections;
 import java.util.List;
 
-public class SeeThroughBlock extends Block {
+public class SeeThroughBlock extends HalfTransparentBlock {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
     public SeeThroughBlock() {
@@ -43,7 +43,9 @@ public class SeeThroughBlock extends Block {
     }
 
     @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) { builder.add(FACING); }
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+        builder.add(FACING);
+    }
 
     public BlockState rotate(BlockState state, Rotation rot) { return state.setValue(FACING, rot.rotate(state.getValue(FACING))); }
 

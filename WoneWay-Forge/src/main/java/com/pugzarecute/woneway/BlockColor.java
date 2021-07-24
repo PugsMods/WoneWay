@@ -20,10 +20,13 @@
  * containing parts covered by the terms of All Rights Reserved, the licensors of this Program grant you additional permission to convey the resulting work.
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
  */
-
+/*
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
+import net.minecraft.client.color.block.BlockColors;
+import net.minecraft.client.color.item.ItemColors;
+import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.color.BlockColors;
 import net.minecraft.client.renderer.color.ItemColors;
 import net.minecraft.world.FoliageColors;
@@ -40,7 +43,7 @@ public class BlockColor {
         BlockColors colors = event.getBlockColors();
         //Iterate through every leaf and set its biomecolor
         for (String leaves : WoneWayBlocks.leaves.keySet())
-            colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColors.getDefaultColor(), WoneWayBlocks.leaves.get(leaves).get());
+            colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoilageColors.getDefaultColor(), WoneWayBlocks.leaves.get(leaves).get());
     }
 
     @SubscribeEvent
@@ -49,4 +52,4 @@ public class BlockColor {
         //Iterate through every leaf and set its biomecolor
         for(String lvs: WoneWayBlocks.leaves.keySet()) colors.register((stack, tint) -> FoliageColors.getDefaultColor(),WoneWayBlocks.leaves.get(lvs).get());
     }
-}
+}*/
