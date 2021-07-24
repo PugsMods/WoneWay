@@ -24,7 +24,7 @@
 package com.pugzarecute.woneway.init;
 
 import com.pugzarecute.woneway.WoneWay;
-import com.pugzarecute.woneway.objects.blocks.SeeThroughBlock;
+import com.pugzarecute.woneway.blocks.SeeThroughBlock;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

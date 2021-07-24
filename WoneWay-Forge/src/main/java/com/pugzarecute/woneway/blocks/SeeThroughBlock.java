@@ -21,7 +21,7 @@
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
  */
 
-package com.pugzarecute.woneway.objects.blocks;
+package com.pugzarecute.woneway.blocks;
 
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
@@ -30,9 +30,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.material.Material;
-
-import java.util.Collections;
-import java.util.List;
 
 public class SeeThroughBlock extends HalfTransparentBlock {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
