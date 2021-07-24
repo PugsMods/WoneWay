@@ -31,10 +31,10 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.material.Material;
 
-public class SeeThroughBlock extends HalfTransparentBlock {
+public class SeethroughBlock extends HalfTransparentBlock {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
-    public SeeThroughBlock() {
+    public SeethroughBlock() {
         super(Block.Properties.of(Material.METAL).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 0).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
         this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH));
     }
