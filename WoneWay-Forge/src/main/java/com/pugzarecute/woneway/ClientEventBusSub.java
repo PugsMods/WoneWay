@@ -1,4 +1,4 @@
-/*/*
+/*
  * Copyright (C) 2021 PugzAreCute
  *
  * This program is free software: you can redistribute it and/or modify
@@ -19,7 +19,7 @@
  * If you modify this Program, or any covered work, by linking or combining it with Minecraft (or a modified version of that library),
  * containing parts covered by the terms of All Rights Reserved, the licensors of this Program grant you additional permission to convey the resulting work.
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
- *\/
+ */
 
 package com.pugzarecute.woneway;
 
@@ -44,4 +44,3 @@ public class ClientEventBusSub {
         }
     }
 }
-*/
