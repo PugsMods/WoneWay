@@ -40,7 +40,7 @@ public class ClientEventBusSub {
         //Iterate through every block
         for (String blk : WoneWayBlocks.blocks.keySet()) {
             //And set its rendertype
-              (WoneWayBlocks.blocks.get(blk), RenderType.translucent());
+            // (WoneWayBlocks.blocks.get(blk), RenderType.translucent());
         }
     }
 }
