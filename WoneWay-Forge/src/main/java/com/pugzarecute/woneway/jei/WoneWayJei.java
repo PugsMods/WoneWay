@@ -20,7 +20,7 @@
  * containing parts covered by the terms of All Rights Reserved, the licensors of this Program grant you additional permission to convey the resulting work.
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
  *\/
-
+//BROKEN CLASS DUE TO 1.17.1
 package com.pugzarecute.woneway.jei;
 
 import mezz.jei.api.IModPlugin;
