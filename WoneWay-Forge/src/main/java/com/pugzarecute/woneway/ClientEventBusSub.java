@@ -24,7 +24,6 @@
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
-import net.minecraft.client.renderer.RenderBuffers;
 import net.minecraft.client.renderer.RenderType;
 //import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
@@ -36,6 +35,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ClientEventBusSub {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
+        //TODO: Make future me remember to figure out rendertypes in 1.17.1
         //Iterate through every block
         for (String blk : WoneWayBlocks.blocks.keySet()) {
             //And set its rendertype
