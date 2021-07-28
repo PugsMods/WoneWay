@@ -20,10 +20,11 @@
  * containing parts covered by the terms of All Rights Reserved, the licensors of this Program grant you additional permission to convey the resulting work.
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
  */
-//BROKEN CLASS DUE TO 1.17.1
+//BROKEN CLASS DUE TO 1.17.1 (The Class is "Broken" because
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;
 //import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,11 +36,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 public class ClientEventBusSub {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
-        //TODO: Make future me remember to figure out rendertypes in 1.17.1
         //Iterate through every block
         for (String blk : WoneWayBlocks.blocks.keySet()) {
             //And set its rendertype
-            // (WoneWayBlocks.blocks.get(blk), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(WoneWayBlocks.blocks.get(blk).get(), RenderType.translucent());
         }
     }
 }
