@@ -6,6 +6,6 @@ import org.apache.logging.log4j.Logger;
 public class Utils {
     private static final Logger LOGGER = LogManager.getLogger();
     public static void timerInit() {
-        LOGGER.debug("Tomer started");
+        LOGGER.debug("Timer started");
     }
 }
