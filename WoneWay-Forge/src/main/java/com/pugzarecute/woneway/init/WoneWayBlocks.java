@@ -47,6 +47,7 @@ public class WoneWayBlocks {
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        //Mess below, dont look, its horrible code
         register("seethrough_acacia_leaves");
         register("seethrough_acacia_log");
         register("seethrough_acacia_planks");
