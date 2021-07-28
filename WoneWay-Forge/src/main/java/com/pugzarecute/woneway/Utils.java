@@ -7,5 +7,6 @@ public class Utils {
     private static final Logger LOGGER = LogManager.getLogger();
     public static void timerInit() {
         LOGGER.debug("Timer started");
+        //TODO: timer
     }
 }
