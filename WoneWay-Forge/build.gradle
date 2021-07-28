@@ -78,7 +78,7 @@ repositories {
     }
 }
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.17.1-37.0.9'
+    minecraft 'net.minecraftforge:forge:1.17.1-37.0.13'
     // Wait for JEI compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
     // Wait for JEI runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
 }
