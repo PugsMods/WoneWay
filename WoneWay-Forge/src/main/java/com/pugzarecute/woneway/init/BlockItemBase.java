@@ -34,7 +34,7 @@ public class BlockItemBase extends BlockItem {
     public static final CreativeModeTab BLOCKS = new CreativeModeTab("wonewayblocks") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(Blocks.ACACIA_BUTTON);
+            return new ItemStack(Blocks.GLASS);
         }
 
     };
