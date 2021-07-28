@@ -25,12 +25,25 @@ package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Mod("woneway")
 public class WoneWay {
+    private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "woneway";
+
     //Call init on blocks when mod initialization
     public WoneWay() {
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         WoneWayBlocks.init();
+    }
+
+    private void setup(final FMLCommonSetupEvent event)
+    {
+        LOGGER.debug("Starting timer");
+        Utils.timerInit();
     }
 }
