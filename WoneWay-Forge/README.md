@@ -10,7 +10,7 @@
 
 A Minecraft mod which adds One way blocks
 
-Don't ask will you port to version X. I will do if I want to.
+Any bugs? Feel free to open an issue in [the issue tracker](https://github.com/PugsMods/WoneWay/issues)
 
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 
