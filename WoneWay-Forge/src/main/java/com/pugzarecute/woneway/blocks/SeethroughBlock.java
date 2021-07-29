@@ -31,7 +31,7 @@ import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.material.Material;
 
-public class SeethroughBlock extends HalfTransparentBlock {
+public class SeethroughBlock extends Block {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
     public SeethroughBlock() {
