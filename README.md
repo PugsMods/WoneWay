@@ -23,4 +23,4 @@ WoneWay as a whole, is licenced under GPLv3, Please see [here to get a copy of t
 
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
 
-[![Vercel](../img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
+[![Vercel](img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
