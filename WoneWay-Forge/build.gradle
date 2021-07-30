@@ -17,6 +17,8 @@ group = 'com.pugzarecute'
 archivesBaseName = 'woneway'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(16)
+println('Java version: ' + System.getProperty('java.version') + ' Java VM Version: ' + System.getProperty('java.vm.version') + '(Java VM Vendor: ' + System.getProperty('java.vendor') + ') System Architecture: ' + System.getProperty('os.arch'))
+
 minecraft {
     mappings channel: 'official', version: '1.17.1'
     runs {
