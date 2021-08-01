@@ -19,7 +19,7 @@ see [here to get a copy of the license](https://www.gnu.org/licenses/gpl-3.0.txt
 
 # Code For Old Versions
 
-~~ Please Look At [VERSIONS.md](VERSIONS.md) ~~
+<img src="img/NoPort.png" width="50%">
 
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
 
