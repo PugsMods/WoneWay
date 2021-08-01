@@ -34,12 +34,13 @@ import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Pattern;
 
 public class WoneWayBlocks {
-    public static Map<String,RegistryObject<Block>> blocks;
-    public static Map<String,RegistryObject<Block>> leaves;
+    public static Map<String,RegistryObject<Block>> blocks = new HashMap<>();
+    public static Map<String,RegistryObject<Block>> leaves = new HashMap<>();
     private final static Logger logger = LogManager.getLogger();
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
