@@ -3,16 +3,16 @@
   "promos": {
     "1.17.1-latest": "1.0.6",
     "1.17.1-recommended": "1.0.6",
-    "1.16.5-latest": "1.0.4",
-    "1.16.5-recommended": "1.0.4",
-    "1.16.4-latest": "1.0.4",
-    "1.16.4-recommended": "1.0.4",
-    "1.16.3-latest": "1.0.4",
-    "1.16.3-recommended": "1.0.4",
-    "1.16.2-latest": "1.0.4",
-    "1.16.2-recommended": "1.0.4",
-    "1.16.1-latest": "1.0.4",
-    "1.16.1-recommended": "1.0.4",
+    "1.16.5-latest": "1.0.5-PATCH",
+    "1.16.5-recommended": "1.0.5-PATCH",
+    "1.16.4-latest": "1.0.5-PATCH",
+    "1.16.4-recommended": "1.0.5-PATCH",
+    "1.16.3-latest": "1.0.5-PATCH",
+    "1.16.3-recommended": "1.0.5-PATCH",
+    "1.16.2-latest": "1.0.5-PATCH",
+    "1.16.2-recommended": "1.0.5-PATCH",
+    "1.16.1-latest": "1.0.5-PATCH",
+    "1.16.1-recommended": "1.0.5-PATCH",
     "1.15.2-latest": "1.0.1",
     "1.15.2-recommended": "1.0.1"
   },
@@ -20,6 +20,7 @@
     "1.0.6": "First 1.17 preview"
   },
   "1.16.5": {
+    "1.0.5-PATCH": "Fix the NPE",
     "1.0.4": "Lots of code optimisations",
     "1.0.3": "Russian \"Translations\"",
     "1.0.2": "Change logo and do some internal stuff",
@@ -35,6 +36,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.4": {
+    "1.0.5-PATCH": "Fix the NPE",
     "1.0.4": "Lots of code optimisations",
     "1.0.3": "Russian \"Translations\"",
     "1.0.2": "Change logo and do some internal stuff",
@@ -50,6 +52,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.3": {
+    "1.0.5-PATCH": "Fix the NPE",
     "1.0.4": "Lots of code optimisations",
     "1.0.3": "Russian \"Translations\"",
     "1.0.2": "Change logo and do some internal stuff",
@@ -65,6 +68,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.2": {
+    "1.0.5-PATCH": "Fix the NPE",
     "1.0.4": "Lots of code optimisations",
     "1.0.3": "Russian \"Translations\"",
     "1.0.2": "Change logo and do some internal stuff",
@@ -80,6 +84,7 @@
     "1.0.0BETA": "First Release!"
   },
   "1.16.1": {
+    "1.0.5-PATCH": "Fix the NPE",
     "1.0.4": "Lots of code optimisations",
     "1.0.3": "Russian \"Translations\"",
     "1.0.2": "Change logo and do some internal stuff",
