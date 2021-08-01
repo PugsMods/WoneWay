@@ -20,7 +20,8 @@
  * containing parts covered by the terms of All Rights Reserved, the licensors of this Program grant you additional permission to convey the resulting work.
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
  */
-package com.pugzarecute.woneway;
+/*
+p ackage com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraft.client.color.block.BlockColors;
@@ -48,4 +49,4 @@ public class BlockColor {
         ItemColors colors = event.getItemColors();
         for(String lvs: WoneWayBlocks.leaves.keySet()) colors.register((stack, tint) -> ,WoneWayBlocks.leaves.get(lvs).get());
     }
-}
+}*/
