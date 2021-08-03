@@ -21,8 +21,9 @@
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
  */
 //BROKEN CLASS DUE TO 1.17.1 (The Class is "Broken" because
-package com.pugzarecute.woneway;
+package com.pugzarecute.woneway.client;
 
+import com.pugzarecute.woneway.WoneWay;
 import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraft.client.renderer.ItemBlockRenderTypes;
 import net.minecraft.client.renderer.RenderType;

@@ -1,4 +1,4 @@
-package com.pugzarecute.woneway;
+package com.pugzarecute.woneway.utils;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
