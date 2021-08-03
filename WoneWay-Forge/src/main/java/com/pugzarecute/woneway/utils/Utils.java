@@ -2,6 +2,7 @@ package com.pugzarecute.woneway.utils;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.lwjgl.glfw.GLFW;
 
 public class Utils {
     private static final Logger LOGGER = LogManager.getLogger();
@@ -13,5 +14,8 @@ public class Utils {
 
     public static void timeRan(){
         LOGGER.debug("Process has been running for "+(startTimeMills-System.currentTimeMillis())+"ms");
+    }
+    public static void isKeyDepressed(int keyIn){
+
     }
 }
