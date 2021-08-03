@@ -24,6 +24,8 @@
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
+import com.pugzarecute.woneway.utils.Utils;
+import com.pugzarecute.woneway.utils.TimerRunnable;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -43,6 +45,7 @@ public class WoneWay {
 
     private void setup(final FMLCommonSetupEvent event)
     {
+        Runtime.getRuntime().addShutdownHook(new Thread(new TimerRunnable()));
         LOGGER.debug("Starting timer");
         Utils.timerInit();
     }
