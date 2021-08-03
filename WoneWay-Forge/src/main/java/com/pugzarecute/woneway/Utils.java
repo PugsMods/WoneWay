@@ -10,4 +10,8 @@ public class Utils {
         startTimeMills = System.currentTimeMillis();
         LOGGER.debug("Timer started");
     }
+
+    public static void timeRan(){
+        LOGGER.debug("Process has been running for "+(startTimeMills-System.currentTimeMillis())+"ms");
+    }
 }
