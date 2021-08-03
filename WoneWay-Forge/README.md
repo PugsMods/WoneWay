@@ -19,7 +19,7 @@ WoneWay as a whole, is licenced under GPLv3, Please  see [here to get a copy of 
 
 Please Look At [VERSIONS.md](VERSIONS.md)
 
-<img src="https://pugzarecute.com/img/NoPort.png" width="50%">
+<img src="https://pugzarecute.com/img/NoPort.png" width="50%" alt="Dont ask for this mod to be ported">
 
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
 
