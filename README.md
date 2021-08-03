@@ -8,10 +8,6 @@
 # WoneWay
 A Minecraft mod which adds One way blocks. 
 
-Don't ask will you port to version X. I will do if I want to.
-
-1.17 Will come when it comes. No ETA's
-
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 
 WoneWay as a whole, is licenced under GPLv3, Please see [here to get a copy of the license](https://www.gnu.org/licenses/gpl-3.0.txt)
@@ -20,6 +16,8 @@ WoneWay as a whole, is licenced under GPLv3, Please see [here to get a copy of t
 [Forge (WoneWay-Forge)](https://github.com/PugsMods/WoneWay/tree/1.16.X/WoneWay-Forge)
 
 [Fabric (WoneWay-Fabric)](https://github.com/PugsMods/WoneWay/tree/1.16.X/WoneWay-Fabric)
+
+<img src="img/NoPort.png" width="50%">
 
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
 
