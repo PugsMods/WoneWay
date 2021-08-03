@@ -6,7 +6,9 @@ import org.lwjgl.glfw.GLFW;
 
 public class Utils {
     private static final Logger LOGGER = LogManager.getLogger();
+
     public static long startTimeMills;
+
     public static void timerInit() {
         startTimeMills = System.currentTimeMillis();
         LOGGER.debug("Timer started");
