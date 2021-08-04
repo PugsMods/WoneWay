@@ -10,8 +10,6 @@ A Minecraft mod which adds One way blocks.
 
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 
-WoneWay as a whole, is licenced under GPLv3, Please see [here to get a copy of the license](https://www.gnu.org/licenses/gpl-3.0.txt)
-
 # Code for respective modloaders wll be found in their respective folders.
 [Forge (WoneWay-Forge)](https://github.com/PugsMods/WoneWay/tree/1.16.X/WoneWay-Forge)
 
