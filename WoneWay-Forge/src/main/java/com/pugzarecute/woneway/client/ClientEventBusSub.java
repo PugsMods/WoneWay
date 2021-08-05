@@ -38,9 +38,9 @@ public class ClientEventBusSub {
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
         //Iterate through every block
-        for (String blk : WoneWayBlocks.blocks.keySet()) {
+        for (String blk : WoneWayBlocks.BLOCKMAP.keySet()) {
             //And set its rendertype
-            ItemBlockRenderTypes.setRenderLayer(WoneWayBlocks.blocks.get(blk).get(), RenderType.translucent());
+            ItemBlockRenderTypes.setRenderLayer(WoneWayBlocks.BLOCKMAP.get(blk).get(), RenderType.translucent());
         }
     }
 }
