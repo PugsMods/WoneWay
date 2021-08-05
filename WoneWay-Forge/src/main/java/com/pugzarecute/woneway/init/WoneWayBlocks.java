@@ -41,7 +41,7 @@ import java.util.regex.Pattern;
 public class WoneWayBlocks {
     public static final Map<String,RegistryObject<Block>> BLOCKMAP = new HashMap<>();
     public static final Map<String,RegistryObject<Block>> LEAFMAP = new HashMap<>();
-    
+
     private final static Logger logger = LogManager.getLogger();
 
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
@@ -360,10 +360,11 @@ public class WoneWayBlocks {
 
     private static void register(String id) {
         RegistryObject<Block> X = BLOCKS.register(id, SeethroughBlock::new);
+
         if(Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
-            leaves.put(id,X);
+            LEAFMAP.put(id,X);
         } else {
-            blocks.put(id,X);
+            BLOCKMAP.put(id,X);
         }
         ITEMS.register(id, () -> new BlockItemProvider(X.get()));
         logger.debug("WoneWay: Registering block " + id);
