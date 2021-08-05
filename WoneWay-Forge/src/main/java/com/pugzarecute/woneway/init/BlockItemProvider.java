@@ -30,7 +30,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
-public class BlockItemBase extends BlockItem {
+public class BlockItemProvider extends BlockItem {
     public static final CreativeModeTab WONEWAY_BLOCKS = new CreativeModeTab("wonewayblocks") {
         @Override
         public ItemStack makeIcon() {
@@ -38,7 +38,7 @@ public class BlockItemBase extends BlockItem {
         }
 
     };
-    public BlockItemBase(Block block) {
+    public BlockItemProvider(Block block) {
         super(block, new Item.Properties().tab(WONEWAY_BLOCKS));
     }
 }
