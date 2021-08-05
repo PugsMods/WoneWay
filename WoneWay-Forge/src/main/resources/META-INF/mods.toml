@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[37,)"
-license = "GNU GPL v3"
+license = "GNU Lesser General Public Licese v3"
 issueTrackerURL = "https://github.com/PugsMods/WoneWay/issues"
 [[mods]]
 modId = "woneway"
