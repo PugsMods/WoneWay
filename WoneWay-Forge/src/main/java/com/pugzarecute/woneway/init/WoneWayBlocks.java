@@ -24,7 +24,6 @@
 package com.pugzarecute.woneway.init;
 
 import com.pugzarecute.woneway.WoneWay;
-import com.pugzarecute.woneway.init.WoneWayBlocks;
 import com.pugzarecute.woneway.blocks.SeethroughBlock;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -362,7 +361,7 @@ public class WoneWayBlocks {
         } else {
             blocks.put(id,X);
         }
-        ITEMS.register(id, () -> new BlockItemBase(X.get()));
+        ITEMS.register(id, () -> new BlockItemProvider(X.get()));
         logger.debug("WoneWay: Registering block " + id);
     }
 }
