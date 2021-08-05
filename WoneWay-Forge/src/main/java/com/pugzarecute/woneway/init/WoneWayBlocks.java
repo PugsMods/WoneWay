@@ -39,14 +39,18 @@ import java.util.Map;
 import java.util.regex.Pattern;
 
 public class WoneWayBlocks {
-    public static final Map<String,RegistryObject<Block>> blocks = new HashMap<>();
-    public static final Map<String,RegistryObject<Block>> leaves = new HashMap<>();
+    public static final Map<String,RegistryObject<Block>> BLOCKMAP = new HashMap<>();
+    public static final Map<String,RegistryObject<Block>> LEAFMAP = new HashMap<>();
+    
     private final static Logger logger = LogManager.getLogger();
+
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
+
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
+
         //Mess below, dont look, its horrible code
         register("seethrough_acacia_leaves");
         register("seethrough_acacia_log");
