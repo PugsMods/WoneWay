@@ -36,7 +36,6 @@ public class BlockItemProvider extends BlockItem {
         public ItemStack makeIcon() {
             return new ItemStack(Blocks.GLASS);
         }
-
     };
     public BlockItemProvider(Block block) {
         super(block, new Item.Properties().tab(TAB_WONEWAY_BLOCKS));
