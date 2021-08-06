@@ -21,7 +21,7 @@
  * {Corresponding Source for a non-source form of such a combination shall include the source code for the parts of Minecraft used as well as that of the covered work.}
  */
 /*
-p ackage com.pugzarecute.woneway;
+package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraft.client.color.block.BlockColors;
