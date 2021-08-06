@@ -23,6 +23,7 @@
 
 package com.pugzarecute.woneway.blocks;
 
+import net.minecraft.MethodsReturnNonnullByDefault;
 import net.minecraft.core.Direction;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.block.*;
@@ -30,6 +31,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.material.Material;
+
+import javax.annotation.Nonnull;
 
 public class SeethroughBlock extends Block {
     public static final DirectionProperty FACING = DirectionalBlock.FACING;
@@ -45,11 +48,13 @@ public class SeethroughBlock extends Block {
     }
 
     @SuppressWarnings("deprecation")
+    @Nonnull
     public BlockState rotate(BlockState state, Rotation rot) {
         return state.setValue(FACING, rot.rotate(state.getValue(FACING)));
     }
 
     @SuppressWarnings("deprecation")
+    @Nonnull
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
         return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
     }
