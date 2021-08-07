@@ -44,4 +44,5 @@ public class BlockColor {
         ItemColors colors = event.getItemColors();
         for(String lvs: WoneWayBlocks.leaves.keySet()) colors.register((stack, tint) -> ,WoneWayBlocks.leaves.get(lvs).get());
     }
-}*/
+}
+*/
