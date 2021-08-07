@@ -29,15 +29,15 @@ public class Utils {
 
     private static final Logger LOGGER = LogManager.getLogger();
 
-    public static long startTimeMills;
+    public static long startTimeInMills;
 
     public static void timerInit() {
-        startTimeMills = System.currentTimeMillis();
+        startTimeInMills = System.currentTimeMillis();
         LOGGER.debug("Timer started");
     }
 
     public static void timeRan(){
-        LOGGER.debug("Process has been running for "+(startTimeMills-System.currentTimeMillis())+"ms");
+        LOGGER.debug("Process has been running for "+(startTimeInMills-System.currentTimeMillis())+"ms");
     }
 
     public static boolean isKeyDepressed(int keyIn){
