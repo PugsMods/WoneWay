@@ -18,10 +18,8 @@
 package com.pugzarecute.woneway.client;
 
 import com.pugzarecute.woneway.WoneWay;
-import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraft.client.color.block.BlockColors;
 import net.minecraft.client.color.item.ItemColors;
-import net.minecraft.client.renderer.BiomeColors;
 //import net.minecraft.client.renderer.color.BlockColors;
 //import net.minecraft.client.renderer.color.ItemColors;
 //import net.minecraft.world.FoliageColors;
