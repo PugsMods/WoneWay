@@ -15,8 +15,7 @@
  * along with WoneWay.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/*
-package com.pugzarecute.woneway;
+package com.pugzarecute.woneway.client;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraft.client.color.block.BlockColors;
@@ -45,4 +44,3 @@ public class BlockColor {
         for(String lvs: WoneWayBlocks.leaves.keySet()) colors.register((stack, tint) -> ,WoneWayBlocks.leaves.get(lvs).get());
     }
 }
-*/
