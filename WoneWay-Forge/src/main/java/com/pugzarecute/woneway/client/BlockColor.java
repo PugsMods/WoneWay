@@ -22,9 +22,9 @@ import com.pugzarecute.woneway.init.WoneWayBlocks;
 import net.minecraft.client.color.block.BlockColors;
 import net.minecraft.client.color.item.ItemColors;
 import net.minecraft.client.renderer.BiomeColors;
-import net.minecraft.client.renderer.color.BlockColors;
-import net.minecraft.client.renderer.color.ItemColors;
-import net.minecraft.world.FoliageColors;
+//import net.minecraft.client.renderer.color.BlockColors;
+//import net.minecraft.client.renderer.color.ItemColors;
+//import net.minecraft.world.FoliageColors;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -35,13 +35,12 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupBlockColors(ColorHandlerEvent.Block event) {
         BlockColors colors = event.getBlockColors();
-        for (String leaves : WoneWayBlocks.LEAFMAP.keySet())
-            colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : Foila WoneWayBlocks.leaves.get(leaves).get());
+        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : Foila WoneWayBlocks.leaves.get(leaves).get());
     }
 
     @SubscribeEvent
     public static void setupItemColors(ColorHandlerEvent.Item event) {
         ItemColors colors = event.getItemColors();
-        for(String lvs: WoneWayBlocks.LEAFMAP.keySet()) colors.register((stack, tint) -> ,WoneWayBlocks.leaves.get(lvs).get());
+        //for(String lvs: WoneWayBlocks.LEAFMAP.keySet()) colors.register((stack, tint) -> ,WoneWayBlocks.leaves.get(lvs).get());
     }
 }
