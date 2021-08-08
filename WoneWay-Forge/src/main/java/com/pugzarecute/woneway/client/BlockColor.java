@@ -35,7 +35,7 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupBlockColors(ColorHandlerEvent.Block event) {
         BlockColors colors = event.getBlockColors();
-        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : Foila WoneWayBlocks.leaves.get(leaves).get());
+        //for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : Foila WoneWayBlocks.leaves.get(leaves).get());
     }
 
     @SubscribeEvent
