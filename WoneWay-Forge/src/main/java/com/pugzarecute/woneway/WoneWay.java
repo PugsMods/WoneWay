@@ -26,9 +26,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import static com.pugzarecute.woneway.WoneWay.MOD_ID;
-
-@Mod(MOD_ID)
+@Mod(WoneWay.MOD_ID)
 public class WoneWay {
     private static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "woneway";
