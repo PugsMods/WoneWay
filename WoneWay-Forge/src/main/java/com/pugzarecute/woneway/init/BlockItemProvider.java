@@ -24,9 +24,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
+import javax.annotation.Nonnull;
+
 public class BlockItemProvider extends BlockItem {
     public static final CreativeModeTab TAB_WONEWAY_BLOCKS = new CreativeModeTab("wonewayblocks") {
         @Override
+        @Nonnull
         public ItemStack makeIcon() {
             return new ItemStack(Blocks.GLASS);
         }
