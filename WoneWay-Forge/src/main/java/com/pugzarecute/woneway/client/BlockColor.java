@@ -40,9 +40,9 @@ public class BlockColor {
         for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(), WoneWayBlocks.LEAFMAP.get(leaves).get());
     }
 
-    /*@SubscribeEvent
+    @SubscribeEvent
     public static void setupItemColors(ColorHandlerEvent.Item event) {
         ItemColors colors = event.getItemColors();
-        for(String lvs: WoneWayBlocks.LEAFMAP.keySet()) colors.register((stack, tint) -> ,WoneWayBlocks.leaves.get(lvs).get());
-    }*/
+        for(String lvs: WoneWayBlocks.LEAFMAP.keySet()) colors.register((stack, tint) -> FoliageColor.getDefaultColor(),WoneWayBlocks.leaves.get(lvs).get());
+    }
 }
