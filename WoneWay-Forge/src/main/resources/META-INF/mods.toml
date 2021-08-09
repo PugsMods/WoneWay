@@ -11,7 +11,7 @@ displayURL = "https://www.curseforge.com/minecraft/mc-mods/woneway"
 logoFile = "WoneWay.png"
 credits = "LeeTheSoloGamer - Bugtesting"
 authors = "PugzAreCute_"
-description = '''A Mod which adds one way blocks!!'''
+description = '''A Minecraft mod that adds one way blocks!'''
 [[dependencies.woneway]]
 modId = "forge"
 mandatory = true
