@@ -25,6 +25,8 @@ import net.minecraft.client.color.block.BlockColors;
 import net.minecraft.client.color.item.ItemColors;
 //import net.minecraft.world.FoliageColors;
 import net.minecraft.client.renderer.BiomeColors;
+import net.minecraft.world.level.FoliageColor;
+import net.minecraft.world.level.GrassColor;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ColorHandlerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -35,7 +37,7 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupBlockColors(ColorHandlerEvent.Block event) {
         BlockColors colors = event.getBlockColors();
-        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : Foila WoneWayBlocks.LEAFMAP.get(leaves).get());
+        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(), WoneWayBlocks.LEAFMAP.get(leaves).get());
     }
 
     /*@SubscribeEvent
