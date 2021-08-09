@@ -22,8 +22,6 @@ package com.pugzarecute.woneway.client;
 import com.pugzarecute.woneway.WoneWay;
 import net.minecraft.client.color.block.BlockColors;
 import net.minecraft.client.color.item.ItemColors;
-//import net.minecraft.client.renderer.color.BlockColors;
-//import net.minecraft.client.renderer.color.ItemColors;
 //import net.minecraft.world.FoliageColors;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.ColorHandlerEvent;
