@@ -43,14 +43,14 @@ public class WoneWayBlocks {
 
 
     private static void register(String id) {
-        final RegistryObject<Block> X = BLOCKS.register(id, SeethroughBlock::new);
+        final RegistryObject<Block> BLOCK = BLOCKS.register(id, SeethroughBlock::new);
 
         if(Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
-            LEAFMAP.put(id,X);
+            LEAFMAP.put(id,BLOCK);
         } else {
-            BLOCKMAP.put(id,X);
+            BLOCKMAP.put(id,BLOCK);
         }
-        ITEMS.register(id, () -> new BlockItemProvider(X.get()));
+        ITEMS.register(id, () -> new BlockItemProvider(BLOCK.get()));
         logger.debug("WoneWay: Registering block " + id);
     }
 
