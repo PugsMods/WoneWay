@@ -16,7 +16,7 @@
  */
 
 /*
-//BROKEN CLASS DUE TO 1.17.1
+//Wait for Jei to update
 package com.pugzarecute.woneway.jei;
 
 import mezz.jei.api.IModPlugin;
