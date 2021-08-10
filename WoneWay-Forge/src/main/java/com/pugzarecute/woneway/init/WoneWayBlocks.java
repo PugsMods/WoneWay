@@ -351,16 +351,4 @@ public class WoneWayBlocks {
         register("seethrough_yellow_terracotta");
         register("seethrough_yellow_wool");
     }
-
-    private static void register(String id) {
-        RegistryObject<Block> X = BLOCKS.register(id, SeethroughBlock::new);
-
-        if(Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
-            LEAFMAP.put(id,X);
-        } else {
-            BLOCKMAP.put(id,X);
-        }
-        ITEMS.register(id, () -> new BlockItemProvider(X.get()));
-        logger.debug("WoneWay: Registering block " + id);
-    }
 }
