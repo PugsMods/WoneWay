@@ -43,7 +43,7 @@ public class WoneWayBlocks {
 
 
     private static void register(String id) {
-        RegistryObject<Block> X = BLOCKS.register(id, SeethroughBlock::new);
+        final RegistryObject<Block> X = BLOCKS.register(id, SeethroughBlock::new);
 
         if(Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
             LEAFMAP.put(id,X);
