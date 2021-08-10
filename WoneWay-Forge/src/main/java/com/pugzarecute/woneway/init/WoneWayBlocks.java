@@ -41,6 +41,19 @@ public class WoneWayBlocks {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
 
+
+    private static void register(String id) {
+        RegistryObject<Block> X = BLOCKS.register(id, SeethroughBlock::new);
+
+        if(Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
+            LEAFMAP.put(id,X);
+        } else {
+            BLOCKMAP.put(id,X);
+        }
+        ITEMS.register(id, () -> new BlockItemProvider(X.get()));
+        logger.debug("WoneWay: Registering block " + id);
+    }
+
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
