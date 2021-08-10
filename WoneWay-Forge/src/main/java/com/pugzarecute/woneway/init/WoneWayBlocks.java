@@ -59,6 +59,7 @@ public class WoneWayBlocks {
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
         //Mess below, dont look, its horrible code
+        //<editor-fold desc="Messy Registration Code">
         registerItemAndBlock("seethrough_acacia_leaves");
         registerItemAndBlock("seethrough_acacia_log");
         registerItemAndBlock("seethrough_acacia_planks");
@@ -363,5 +364,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_yellow_stained_glass");
         registerItemAndBlock("seethrough_yellow_terracotta");
         registerItemAndBlock("seethrough_yellow_wool");
+        //</editor-fold>
     }
 }
