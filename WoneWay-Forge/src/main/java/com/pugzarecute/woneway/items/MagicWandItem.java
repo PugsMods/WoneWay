@@ -34,9 +34,9 @@ public class MagicWandItem extends Item {
 
     @Override
     @Nonnull
-    public InteractionResultHolder<ItemStack> use(@Nonnull Level p_41432_,@Nonnull Player p_41433_,@Nonnull InteractionHand p_41434_) {
+    public InteractionResultHolder<ItemStack> use(@Nonnull Level level,@Nonnull Player player,@Nonnull InteractionHand hand) {
         //TOdo: else scan chunk and highlight all blocks using opengl
         //Todo : Raytracing (OHNO)
-        return super.use(p_41432_, p_41433_, p_41434_);
+        return super.use(level, player, hand);
     }
 }
