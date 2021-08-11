@@ -18,7 +18,7 @@ Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-m
 
 Please Look At [VERSIONS.md](VERSIONS.md)
 
-<img src="https://pugzarecute.com/img/NoPort.png" width="575%" alt="Dont ask for this mod to be ported">
+<img src="https://pugzarecute.com/img/NoPort.png" width="75%" alt="Dont ask for this mod to be ported">
 
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
 
