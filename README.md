@@ -11,9 +11,9 @@ A Minecraft mod which adds One way blocks.
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 
 # Code for respective modloaders wll be found in their respective folders.
-[Forge (WoneWay-Forge)](https://github.com/PugsMods/WoneWay/tree/1.16.X/WoneWay-Forge)
+[Forge (WoneWay-Forge)](https://github.com/PugsMods/WoneWay/tree/1.17.X/WoneWay-Forge)
 
-[Fabric (WoneWay-Fabric)](https://github.com/PugsMods/WoneWay/tree/1.16.X/WoneWay-Fabric)
+[Fabric (WoneWay-Fabric)](https://github.com/PugsMods/WoneWay/tree/1.17.X/WoneWay-Fabric)(Dead)
 
 <img src="img/NoPort.png" width="50%">
 
