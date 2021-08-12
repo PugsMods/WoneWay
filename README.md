@@ -17,6 +17,6 @@ Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-m
 
 <img src="img/NoPort.png" width="50%">
 
-[This Project Is Sponsored by JetBrains](https://jetbrains.com/)
+[This project is sponsored by JetBrains](https://jetbrains.com/)
 
 [![Vercel](img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
