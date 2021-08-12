@@ -31,7 +31,7 @@ public class SeethroughBlock extends Block {
     private static final DirectionProperty FACING = DirectionalBlock.FACING;
 
     public SeethroughBlock() {
-        super(Block.Properties.of(Material.METAL).sound(SoundType.WOOD).strength(1f, 10f).lightLevel(s -> 0).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+        super(Block.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(1f, 10f).lightLevel(s -> 0).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
         this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH));
     }
 
