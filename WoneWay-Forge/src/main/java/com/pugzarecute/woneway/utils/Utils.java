@@ -37,10 +37,4 @@ public class Utils {
     public static void timeRan(){
         LOGGER.debug("Process has been running for "+(startTimeInMills-System.currentTimeMillis())+"ms");
     }
-
-    public static boolean isKeyDepressed(int keyIn){
-        if(FMLEnvironment.dist == Dist.CLIENT){
-            return InputConstants.isKeyDown(WINDOW,keyIn);
-        }else return false;
-    }
 }
