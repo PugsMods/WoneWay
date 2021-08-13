@@ -25,7 +25,6 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class Utils {
-    private static final long WINDOW = Minecraft.getInstance().getWindow().getWindow();
     private static final Logger LOGGER = LogManager.getLogger();
     public static long startTimeInMills;
 
