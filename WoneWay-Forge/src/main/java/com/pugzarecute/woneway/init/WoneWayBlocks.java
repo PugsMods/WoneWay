@@ -61,6 +61,7 @@ public class WoneWayBlocks {
         //Mess below, don't look, its horrible code
         //I added an editor fold block if you want to minimize it
         //<editor-fold desc="Messy Registration Code">
+        //1.16.5 and below
         registerItemAndBlock("seethrough_acacia_leaves");
         registerItemAndBlock("seethrough_acacia_log");
         registerItemAndBlock("seethrough_acacia_planks");
