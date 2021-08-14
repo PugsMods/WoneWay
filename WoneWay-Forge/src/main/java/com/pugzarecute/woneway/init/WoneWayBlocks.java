@@ -366,6 +366,21 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_yellow_stained_glass");
         registerItemAndBlock("seethrough_yellow_terracotta");
         registerItemAndBlock("seethrough_yellow_wool");
+
+        //1.17.1
+        registerItemAndBlock("azalea_leaves");
+        registerItemAndBlock("flowering_azalea_leaves");
+        registerItemAndBlock("amethyst_block");
+        registerItemAndBlock("raw_gold_block");
+        registerItemAndBlock("raw_iron_block");
+        registerItemAndBlock("raw_copper_block");//COPP
+        registerItemAndBlock("budding_amethyst");
+        registerItemAndBlock("calcite");
+        registerItemAndBlock("cobbled_deepslate"); //DEEP
+        registerItemAndBlock("copper_ore");
+
+        //Do copper later
+        //Do deepslate later
         //</editor-fold>
     }
 }
