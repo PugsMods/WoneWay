@@ -52,7 +52,7 @@ public class WoneWayBlocks {
         }
         ITEMS.register(id, () -> new BlockItemProvider(BLOCK.get()));
         logger.debug("WoneWay: Registering block " + id);
-segbhabagrggaaergaregaergzrvdfdsfdfdbhghdhhh
+
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
