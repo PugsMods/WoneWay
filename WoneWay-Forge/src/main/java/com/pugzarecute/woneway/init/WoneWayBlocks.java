@@ -52,8 +52,7 @@ public class WoneWayBlocks {
         }
         ITEMS.register(id, () -> new BlockItemProvider(BLOCK.get()));
         logger.debug("WoneWay: Registering block " + id);
-    }
-
+segbhabagrggaaergaregaergzrvdfdsfdfdbhghdhhh
     public static void init() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
@@ -61,7 +60,7 @@ public class WoneWayBlocks {
         //Mess below, don't look, its horrible code
         //I added an editor fold block if you want to minimize it
         //<editor-fold desc="Messy Registration Code">
-        //1.16.5 and below
+        //1.16.5 and below (Initial releases)
         registerItemAndBlock("seethrough_acacia_leaves");
         registerItemAndBlock("seethrough_acacia_log");
         registerItemAndBlock("seethrough_acacia_planks");
@@ -373,10 +372,10 @@ public class WoneWayBlocks {
         registerItemAndBlock("amethyst_block");
         registerItemAndBlock("raw_gold_block");
         registerItemAndBlock("raw_iron_block");
-        registerItemAndBlock("raw_copper_block");//COPP
+        registerItemAndBlock("raw_copper_block"); //IGNORE(COPPER)
         registerItemAndBlock("budding_amethyst");
         registerItemAndBlock("calcite");
-        registerItemAndBlock("cobbled_deepslate"); //DEEP
+        registerItemAndBlock("cobbled_deepslate"); //IGNORE(DEEPSLATE)
         registerItemAndBlock("copper_ore");
 
         //Do copper later
