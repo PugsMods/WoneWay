@@ -78,8 +78,8 @@ repositories {
 }
 dependencies {
     minecraft 'net.minecraftforge:forge:1.17.1-37.0.36'
-    // Wait for JEI to update to 1.17.1//compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
-    // Wait for JEI to update to 1.17.1//runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
+    // Wait for JEI to update to 1.17.1 //compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
+    // Wait for JEI to update to 1.17.1 //runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
 }
 
 jar.finalizedBy('reobfJar') 
