@@ -28,7 +28,6 @@ import net.minecraft.world.level.material.Material;
 import javax.annotation.Nonnull;
 
 public class SeethroughBlock extends Block {
-
     public SeethroughBlock() {
         super(Block.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(1f, 10f).noOcclusion());
         this.registerDefaultState(this.getStateDefinition().any().setValue(DirectionalBlock.FACING, Direction.NORTH));
