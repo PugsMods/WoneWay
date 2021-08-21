@@ -41,7 +41,7 @@ public class SeethroughBlock extends Block {
     @SuppressWarnings("deprecation")
     @Nonnull
     public BlockState rotate(BlockState state, Rotation rot) {
-        return state.setValue(FACING, rot.rotate(state.getValue(FACING)));
+        return state.setValue(DirectionalBlock.FACING, rot.rotate(state.getValue(FACING)));
     }
 
     @SuppressWarnings("deprecation")
