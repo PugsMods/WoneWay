@@ -47,7 +47,7 @@ public class SeethroughBlock extends Block {
     @SuppressWarnings("deprecation")
     @Nonnull
     public BlockState mirror(BlockState state, Mirror mirrorIn) {
-        return state.rotate(mirrorIn.getRotation(state.getValue(FACING)));
+        return state.rotate(mirrorIn.getRotation(state.getValue(DirectionalBlock.FACING)));
     }
 
     @Override
