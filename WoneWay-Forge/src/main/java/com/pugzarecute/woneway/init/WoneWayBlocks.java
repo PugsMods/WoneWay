@@ -376,16 +376,15 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_budding_amethyst");
         registerItemAndBlock("seethrough_calcite");
         registerItemAndBlock("seethrough_cobbled_deepslate"); //IGNORE(DEEPSLATE)
-        registerItemAndBlock("seethrough_copper_ore");
-        registerItemAndBlock("seethrough_copper_block");
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
 
         //Copper!
-
         /*
             To all of you looking this code and going, "Hey, where is waxed copper?" and opening an issue, I KNOW I left it out.
             It is very pointless to add blocks which look the same. Especially if each block needs 3 jsons and one lang entry per language.
         */
+
+        registerItemAndBlock("seethrough_copper_ore");
         registerItemAndBlock("seethrough_raw_copper_block");
         registerItemAndBlock("seethrough_copper_block");
         registerItemAndBlock("seethrough_exposed_copper");
