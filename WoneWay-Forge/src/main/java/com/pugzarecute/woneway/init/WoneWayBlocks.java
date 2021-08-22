@@ -378,7 +378,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_cobbled_deepslate"); //IGNORE(DEEPSLATE)
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
 
-
         //<editor-fold desc="Copper!">
         /*
             To all of you looking this code and going, "Hey, where is waxed copper?" and opening an issue, I KNOW I left it out.
@@ -396,7 +395,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_weathered_cut_copper");
         registerItemAndBlock("seethrough_oxidized_cut_copper");
         //</editor-fold>
-
 
         //Do deepslate later
         //</editor-fold>
