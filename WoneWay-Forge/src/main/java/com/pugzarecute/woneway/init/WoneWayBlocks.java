@@ -368,16 +368,16 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_yellow_wool");
 
         //1.17.1
-        registerItemAndBlock("azalea_leaves");
-        registerItemAndBlock("flowering_azalea_leaves");
-        registerItemAndBlock("amethyst_block");
-        registerItemAndBlock("raw_gold_block");
-        registerItemAndBlock("raw_iron_block");
-        registerItemAndBlock("raw_copper_block"); //IGNORE(COPPER)
-        registerItemAndBlock("budding_amethyst");
-        registerItemAndBlock("calcite");
-        registerItemAndBlock("cobbled_deepslate"); //IGNORE(DEEPSLATE)
-        registerItemAndBlock("copper_ore");
+        registerItemAndBlock("seethrough_azalea_leaves");
+        registerItemAndBlock("seethrough_flowering_azalea_leaves");
+        registerItemAndBlock("seethrough_amethyst_block");
+        registerItemAndBlock("seethrough_raw_gold_block");
+        registerItemAndBlock("seethrough_raw_iron_block");
+        registerItemAndBlock("seethrough_raw_copper_block"); //IGNORE(COPPER)
+        registerItemAndBlock("seethrough_budding_amethyst");
+        registerItemAndBlock("seethrough_calcite");
+        registerItemAndBlock("seethrough_cobbled_deepslate"); //IGNORE(DEEPSLATE)
+        registerItemAndBlock("seethrough_copper_ore");
 
         //Do copper later
         //Do deepslate later
