@@ -385,6 +385,10 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_exposed_copper");
         registerItemAndBlock("seethrough_weathered_copper");
         registerItemAndBlock("seethrough_oxidized_copper");
+        registerItemAndBlock("seethrough_cut_copper");
+        registerItemAndBlock("seethrough_exposed_cut_copper");
+        registerItemAndBlock("seethrough_weathered_cut_copper");
+        registerItemAndBlock("seethrough_oxidized_cut_copper");
 
         //Do deepslate later
         //</editor-fold>
