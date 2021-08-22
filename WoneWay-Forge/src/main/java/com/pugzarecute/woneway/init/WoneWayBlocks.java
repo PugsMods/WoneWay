@@ -378,6 +378,8 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_calcite");
         registerItemAndBlock("seethrough_cobbled_deepslate"); //IGNORE(DEEPSLATE)
         registerItemAndBlock("seethrough_copper_ore");
+        registerItemAndBlock("seethrough_copper_block");
+        registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
 
         //Do copper later
         //Do deepslate later
