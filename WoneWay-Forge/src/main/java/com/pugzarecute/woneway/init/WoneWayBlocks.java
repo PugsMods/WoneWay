@@ -381,6 +381,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
 
         //Copper!
+        //To all of you looking this code and going, "Hey, where is waxed copper?" and opening an issue, I KNOW I left it out. It is very pointless to add blocks which look the same.
         registerItemAndBlock("seethrough_raw_copper_block");
         registerItemAndBlock("seethrough_copper_block");
         registerItemAndBlock("seethrough_exposed_copper");
