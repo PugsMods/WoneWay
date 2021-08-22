@@ -373,7 +373,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_amethyst_block");
         registerItemAndBlock("seethrough_raw_gold_block");
         registerItemAndBlock("seethrough_raw_iron_block");
-        registerItemAndBlock("seethrough_raw_copper_block"); //IGNORE(COPPER)
         registerItemAndBlock("seethrough_budding_amethyst");
         registerItemAndBlock("seethrough_calcite");
         registerItemAndBlock("seethrough_cobbled_deepslate"); //IGNORE(DEEPSLATE)
@@ -381,6 +380,8 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_copper_block");
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
 
+        //Copper!
+        registerItemAndBlock("seethrough_raw_copper_block");
         registerItemAndBlock("seethrough_copper_block");
         registerItemAndBlock("seethrough_exposed_copper");
         registerItemAndBlock("seethrough_weathered_copper");
@@ -389,6 +390,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_exposed_cut_copper");
         registerItemAndBlock("seethrough_weathered_cut_copper");
         registerItemAndBlock("seethrough_oxidized_cut_copper");
+
 
         //Do deepslate later
         //</editor-fold>
