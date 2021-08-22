@@ -381,7 +381,11 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_copper_block");
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
 
-        //Do copper later
+        registerItemAndBlock("seethrough_copper_block");
+        registerItemAndBlock("seethrough_exposed_copper");
+        registerItemAndBlock("seethrough_weathered_copper");
+        registerItemAndBlock("seethrough_oxidized_copper");
+
         //Do deepslate later
         //</editor-fold>
     }
