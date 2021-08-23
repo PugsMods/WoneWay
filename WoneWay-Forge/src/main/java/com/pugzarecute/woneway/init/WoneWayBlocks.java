@@ -58,7 +58,7 @@ public class WoneWayBlocks {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
-        //<editor-fold desc="1.16.5 ans below">
+        //<editor-fold desc="1.16.5 and below">
         registerItemAndBlock("seethrough_acacia_leaves");
         registerItemAndBlock("seethrough_acacia_log");
         registerItemAndBlock("seethrough_acacia_planks");
