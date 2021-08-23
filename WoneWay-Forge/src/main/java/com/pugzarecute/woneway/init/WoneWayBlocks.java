@@ -375,7 +375,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_budding_amethyst");
         registerItemAndBlock("seethrough_calcite");
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
-        //</editor-fold>
+
 
         //<editor-fold desc="Copper!">
         /*
@@ -397,6 +397,7 @@ public class WoneWayBlocks {
 
         //<editor-fold desc="Deepslate!">
         registerItemAndBlock("seethrough_cobbled_deepslate");
+        //</editor-fold>
         //</editor-fold>
 
     }
