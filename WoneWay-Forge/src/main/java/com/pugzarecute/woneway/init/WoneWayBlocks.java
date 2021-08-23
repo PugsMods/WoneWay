@@ -363,6 +363,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_yellow_stained_glass");
         registerItemAndBlock("seethrough_yellow_terracotta");
         registerItemAndBlock("seethrough_yellow_wool");
+        //</editor-fold>
 
         //1.17.1
         registerItemAndBlock("seethrough_azalea_leaves");
