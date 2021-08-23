@@ -395,7 +395,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_oxidized_cut_copper");
         //</editor-fold>
 
-
         //<editor-fold desc="Deepslate!">
         registerItemAndBlock("seethrough_cobbled_deepslate");
         //</editor-fold>
