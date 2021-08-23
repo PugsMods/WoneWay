@@ -375,7 +375,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_raw_iron_block");
         registerItemAndBlock("seethrough_budding_amethyst");
         registerItemAndBlock("seethrough_calcite");
-        registerItemAndBlock("seethrough_cobbled_deepslate"); //IGNORE(DEEPSLATE)
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
 
         //<editor-fold desc="Copper!">
@@ -396,7 +395,10 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_oxidized_cut_copper");
         //</editor-fold>
 
-        //Do deepslate later
+
+        //<editor-fold desc="Description">
+        registerItemAndBlock("seethrough_cobbled_deepslate"); //IGNORE(DEEPSLATE)
+        //</editor-fold>
         //</editor-fold>
     }
 }
