@@ -398,6 +398,7 @@ public class WoneWayBlocks {
         //<editor-fold desc="Deepslate!">
         registerItemAndBlock("seethrough_cobbled_deepslate");
         //</editor-fold>
+
         //</editor-fold>
     }
 }
