@@ -58,9 +58,7 @@ public class WoneWayBlocks {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
-        //Mess below, don't look, its horrible code
-        //I added an editor fold block if you want to minimize it
-        //<editor-fold desc="Messy Registration Code">
+        //<editor-fold desc="1.16.5 ans below">
         //1.16.5 and below (Initial releases)
         registerItemAndBlock("seethrough_acacia_leaves");
         registerItemAndBlock("seethrough_acacia_log");
