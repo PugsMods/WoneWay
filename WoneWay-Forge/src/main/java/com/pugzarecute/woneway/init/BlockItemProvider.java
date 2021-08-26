@@ -30,7 +30,8 @@ public class BlockItemProvider extends BlockItem {
     public static final CreativeModeTab TAB_WONEWAY_BLOCKS = new CreativeModeTab("woneway_blocks") {
         @Override
         @Nonnull
-        public ItemStack makeIcon() {
+        public ItemStack makeIcon()
+        {
             return new ItemStack(Blocks.GLASS);
         }
     };
