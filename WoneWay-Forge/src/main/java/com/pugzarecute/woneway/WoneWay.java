@@ -42,7 +42,7 @@ public class WoneWay {
         Runtime.getRuntime().addShutdownHook(new Thread(new TimerRunnable()));
         LOGGER.debug("Starting timer");
         Utils.timerInit();
-        System.out.println("Java version: " + System.getProperty("java.version") + " Java VM Version: " + System.getProperty("java.vm.version") + "(Java VM Vendor: " + System.getProperty("java.vendor") + ") System Architecture: " + System.getProperty("os.arch"));
+        LOGGER.info("Debug Info: Java version: " + System.getProperty("java.version") + " Java VM Version: " + System.getProperty("java.vm.version") + "(Java VM Vendor: " + System.getProperty("java.vendor") + ") System Architecture: " + System.getProperty("os.arch"));
 
     }
 }
