@@ -50,6 +50,6 @@ public class BlockColor {
         {
             colors.register((stack, tint) -> FoliageColor.getDefaultColor(),WoneWayBlocks.LEAFMAP.get(leaves).get());
             WoneWay.LOGGER.debug("WoneWay: Registering ItemTint for "+leaves);
-    }
+        }
     }
 }
