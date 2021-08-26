@@ -30,7 +30,8 @@ public class Utils {
         LOGGER.debug("Timer started");
     }
 
-    public static void timeRan() {
+    public static void timeRan()
+    {
         LOGGER.debug("Process has been running for "+(startTimeInMills-System.currentTimeMillis())+"ms");
     }
 }
