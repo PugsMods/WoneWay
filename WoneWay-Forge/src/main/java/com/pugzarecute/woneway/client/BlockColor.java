@@ -44,7 +44,8 @@ public class BlockColor {
     }
 
     @SubscribeEvent
-    public static void setupItemColors(ColorHandlerEvent.Item event) {
+    public static void setupItemColors(ColorHandlerEvent.Item event)
+    {
         ItemColors colors = event.getItemColors();
         for(String leaves: WoneWayBlocks.LEAFMAP.keySet())
         {
