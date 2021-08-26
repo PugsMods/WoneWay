@@ -31,7 +31,8 @@ public class WoneWay {
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "woneway";
 
-    public WoneWay() {
+    public WoneWay()
+    {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         WoneWayBlocks.init();
     }
