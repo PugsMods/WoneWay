@@ -33,7 +33,8 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = WoneWay.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class BlockColor {
     @SubscribeEvent
-    public static void setupBlockColors(ColorHandlerEvent.Block event) {
+    public static void setupBlockColors(ColorHandlerEvent.Block event)
+    {
         BlockColors colors = event.getBlockColors();
         for (String leaves : WoneWayBlocks.LEAFMAP.keySet())
         {
