@@ -36,7 +36,8 @@ public class BlockItemProvider extends BlockItem {
         }
     };
 
-    public BlockItemProvider(Block block) {
+    public BlockItemProvider(Block block)
+    {
         super(block, new Item.Properties().tab(TAB_WONEWAY_BLOCKS));
     }
 }
