@@ -38,7 +38,7 @@ public class WoneWay {
 
     private void setup(final FMLCommonSetupEvent event)
     {
-        LOGGER.debug("Registering shutdown hook.");
+        LOGGER.debug("Registering shutdown .");
         Runtime.getRuntime().addShutdownHook(new Thread(new TimerRunnable()));
         LOGGER.debug("Starting timer");
         Utils.timerInit();
