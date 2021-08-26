@@ -24,12 +24,13 @@ public class Utils {
     private static final Logger LOGGER = LogManager.getLogger();
     public static long startTimeInMills;
 
-    public static void timerInit() {
+    public static void timerInit()
+    {
         startTimeInMills = System.currentTimeMillis();
         LOGGER.debug("Timer started");
     }
 
-    public static void timeRan(){
+    public static void timeRan() {
         LOGGER.debug("Process has been running for "+(startTimeInMills-System.currentTimeMillis())+"ms");
     }
 }
