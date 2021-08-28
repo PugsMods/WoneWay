@@ -19,6 +19,6 @@ Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-m
 
 Proudly supported by:
 
-<img src="img/jetbrains-variant-3.png" width="25%">
+[<img src="img/jetbrains-variant-3.png" width="25%">](https://jetbrains.com/)
 
 [![Vercel](img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
