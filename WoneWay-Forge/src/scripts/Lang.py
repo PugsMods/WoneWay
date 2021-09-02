@@ -5,4 +5,4 @@ inputFile = open(inputFilePath)
 
 for x in inputFile:
     x = x.splitlines()[0]
-    print("block.woneway."+x+":"+"")
+    print("block.woneway."+x+":\""+re.sub("_"," ",x).title()+"\",")
