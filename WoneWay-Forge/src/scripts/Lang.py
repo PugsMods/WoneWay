@@ -15,7 +15,11 @@ import re
 
 inputFilePath = "generated/input_global.txt"
 inputFile = open(inputFilePath)
+outFile = open("generated/output_recipies.txt","a")
 
 for x in inputFile:
     x = x.splitlines()[0]
     print("block.woneway." + x + ":\"" + re.sub("_", " ", x).title() + "\",")
+    outFile.write("block.woneway." + x + ":\"" + re.sub("_", " ", x).title() + "\",")
+outFile.close()
+inputFile.close()
