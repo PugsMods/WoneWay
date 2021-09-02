@@ -17,4 +17,4 @@ forge*changelog.txt
 *.log
 !gradle-wrapper.jar
 src/scripts/generated/*.txt
-src/scripts/generated/*.json
+src/scripts/generated/*/*.json
