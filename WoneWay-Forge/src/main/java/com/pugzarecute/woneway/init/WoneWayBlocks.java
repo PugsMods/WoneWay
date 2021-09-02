@@ -380,7 +380,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_powdered_snow");
         registerItemAndBlock("seethrough_smooth_basalt");
 
-
         //<editor-fold desc="Copper!">
         /*
             To all of you looking this code and going, "Hey, where is waxed copper?" and opening an issue, I KNOW I left it out.
