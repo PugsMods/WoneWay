@@ -396,6 +396,11 @@ public class WoneWayBlocks {
 
         //<editor-fold desc="Deepslate!">
         registerItemAndBlock("seethrough_cobbled_deepslate");
+        registerItemAndBlock("seethrough_polished_deepslate");
+        registerItemAndBlock("seethrough_deepslate_bricks");
+        registerItemAndBlock("seethrough_cracked_deepslate_bricks");
+        registerItemAndBlock("seethrough_deepslate_tiles");
+        registerItemAndBlock("seethrough_cracked_deepslate_tiles");
         //</editor-fold>
         //</editor-fold>
     }
