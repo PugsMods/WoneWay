@@ -401,6 +401,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_cracked_deepslate_bricks");
         registerItemAndBlock("seethrough_deepslate_tiles");
         registerItemAndBlock("seethrough_cracked_deepslate_tiles");
+        registerItemAndBlock("seethrough_chiseled_deepslate");
         //</editor-fold>
         //</editor-fold>
     }
