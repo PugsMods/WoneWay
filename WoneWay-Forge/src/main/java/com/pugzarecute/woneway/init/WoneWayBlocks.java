@@ -374,6 +374,11 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_budding_amethyst");
         registerItemAndBlock("seethrough_calcite");
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
+        registerItemAndBlock("seethrough_dripstone");
+        registerItemAndBlock("seethrough_moss_block");
+        registerItemAndBlock("seethrough_rooted_dirt");
+        registerItemAndBlock("seethrough_powdered_snow");
+        registerItemAndBlock("seethrough_smooth_basalt");
 
 
         //<editor-fold desc="Copper!">
@@ -402,6 +407,8 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_deepslate_tiles");
         registerItemAndBlock("seethrough_cracked_deepslate_tiles");
         registerItemAndBlock("seethrough_chiseled_deepslate");
+
+        //Ores later
         //</editor-fold>
         //</editor-fold>
     }
