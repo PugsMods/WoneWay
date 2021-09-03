@@ -17,18 +17,18 @@ outputPath = "generated/models/"
 
 for x in inputFile:
     x = x.splitlines()[0]
-    outFileNameBlock = outputPath +"block/"+ x + ".json"
+    outFileNameBlock = outputPath + "block/" + x + ".json"
     outFileBlock = open(outFileNameBlock, "w+")
-    print("Generating JSON for "+x)
+    print("Generating JSON for " + x)
     outFileBlock.write("""{
   "parent": "block/cube",
   "textures": {
-    "down": "block/"""+ re.sub("seethrough_", "", x)+"""",
-    "up": "block/"""+ re.sub("seethrough_", "", x)+"""",
+    "down": "block/""" + re.sub("seethrough_", "", x) + """",
+    "up": "block/""" + re.sub("seethrough_", "", x) + """",
     "north": "woneway:blocks/clear_side",
-    "east": "block/"""+ re.sub("seethrough_", "", x)+"""",
-    "south": "block/"""+ re.sub("seethrough_", "", x)+"""",
-    "west": "block/"""+ re.sub("seethrough_", "", x)+"""",
+    "east": "block/""" + re.sub("seethrough_", "", x) + """",
+    "south": "block/""" + re.sub("seethrough_", "", x) + """",
+    "west": "block/""" + re.sub("seethrough_", "", x) + """",
     "particle": "woneway:blocks/clear_side"
   }
 }   
