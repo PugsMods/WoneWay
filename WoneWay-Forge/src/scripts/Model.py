@@ -17,10 +17,10 @@ outputPath = "generated/models/"
 
 for x in inputFile:
     x = x.splitlines()[0]
-    outFileName = outputPath + x + ".json"
-    outFile = open(outFileName, "w+")
+    outFileNameBlock = outputPath +"block/"+ x + ".json"
+    outFileBlock = open(outFileNameBlock, "w+")
     print("Generating JSON for "+x)
-    outFile.write("""{
+    outFileBlock.write("""{
   "parent": "block/cube",
   "textures": {
     "down": "block/"""+ re.sub("seethrough_", "", x)+"""",
@@ -33,5 +33,5 @@ for x in inputFile:
   }
 }   
 """)
-    outFile.close()
+    outFileBlock.close()
 inputFile.close()
