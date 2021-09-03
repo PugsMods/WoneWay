@@ -8,3 +8,12 @@
 # If you want to use this script, please remember the following things
 #
 # TO BE FILLED BY AUTHOR.
+import re
+
+inputFilePath = "generated/input_global.txt"
+inputFile = open(inputFilePath)
+
+outputPath = "generated/models/"
+
+for x in inputFile:
+    prnt(x)
