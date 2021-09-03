@@ -25,24 +25,8 @@ for x in inputFile:
     outFileName = outputPath + x + ".json"
     print(outFileName)
     outFile = open(outFileName, "w+")
-    print("""{
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-        "item": "minecraft:glass"
-        },
-        {
-            "item": "minecraft:""" + re.sub("seethrough_", "", x) + """"
-        }
-    ],
-    "result": {
-        "item": "woneway:""" + x + """",
-        "count": 2
-    }
-} 
-""")
-    outFile.write("""
-{
+    print("Generating JSON for "+x)
+    outFile.write("""{
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
