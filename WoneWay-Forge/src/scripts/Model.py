@@ -35,6 +35,9 @@ for x in inputFile:
   }
 }   
 """)
+    outFileItem.write("""{
+  "parent": "woneway:block/seethrough_oak_log"
+}""")
     outFileBlock.close()
     outFileItem.close()
 inputFile.close()
