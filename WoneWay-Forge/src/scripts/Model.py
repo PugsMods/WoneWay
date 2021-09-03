@@ -19,6 +19,8 @@ for x in inputFile:
     x = x.splitlines()[0]
     outFileNameBlock = outputPath + "block/" + x + ".json"
     outFileBlock = open(outFileNameBlock, "w+")
+    outFileNameItem = outputPath + "item/" + x + ".json"
+    outFileItem = open(outFileNameItem, "w+")
     print("Generating JSON for " + x)
     outFileBlock.write("""{
   "parent": "block/cube",
@@ -34,4 +36,5 @@ for x in inputFile:
 }   
 """)
     outFileBlock.close()
+    outFileItem.close()
 inputFile.close()
