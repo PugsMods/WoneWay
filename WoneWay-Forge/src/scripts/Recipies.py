@@ -23,7 +23,6 @@ outputPath = "generated/recipies/"
 for x in inputFile:
     x = x.splitlines()[0]
     outFileName = outputPath + x + ".json"
-    print(outFileName)
     outFile = open(outFileName, "w+")
     print("Generating JSON for "+x)
     outFile.write("""{
