@@ -12,7 +12,7 @@
 #
 # 2. This JSON will output everything to generated/recipes/.
 #
-# 3. You will get an FileNotFound error if generated/recipes docent exist, so im adding a placeholder file.
+# 3. You will get an FileNotFound error if generated/recipes dosent exist, so im adding a placeholder file.
 import re
 
 inputFilePath = "generated/input_global.txt"

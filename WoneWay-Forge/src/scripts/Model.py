@@ -12,7 +12,7 @@
 #
 # 2. This JSON will output everything to generated/models/*.
 #
-# 3. You will get an FileNotFound error if generated/models/* docent exist, so im adding a placeholder file.
+# 3. You will get an FileNotFound error if generated/models/* dosent exist, so im adding a placeholder file.
 import re
 
 inputFilePath = "generated/input_global.txt"
