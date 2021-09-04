@@ -10,7 +10,7 @@
 # 1. This script must be runt from this directory only. If you run it from another folder, the
 # generated/input_global.txt must be located it that directory.
 #
-# 2. This JSON will output everything to generated/models/*.
+# 2. This script will output everything to generated/models/*.
 #
 # 3. You will get an FileNotFound error if generated/models/* dosent exist, so im adding a placeholder file.
 import re
