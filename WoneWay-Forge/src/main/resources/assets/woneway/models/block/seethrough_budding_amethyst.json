@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/budding_amethyst",
+    "up": "block/budding_amethyst",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/budding_amethyst",
+    "south": "block/budding_amethyst",
+    "west": "block/budding_amethyst",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   

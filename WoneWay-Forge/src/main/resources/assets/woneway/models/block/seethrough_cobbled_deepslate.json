@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/cobbled_deepslate",
+    "up": "block/cobbled_deepslate",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/cobbled_deepslate",
+    "south": "block/cobbled_deepslate",
+    "west": "block/cobbled_deepslate",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   

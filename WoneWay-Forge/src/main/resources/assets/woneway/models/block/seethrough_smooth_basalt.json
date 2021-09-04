@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/smooth_basalt",
+    "up": "block/smooth_basalt",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/smooth_basalt",
+    "south": "block/smooth_basalt",
+    "west": "block/smooth_basalt",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   
