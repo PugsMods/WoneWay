@@ -17,5 +17,4 @@ forge*changelog.txt
 *.log
 !gradle-wrapper.jar
 src/scripts/generated/
-!input_global.txt
 !.directory_placeholder
