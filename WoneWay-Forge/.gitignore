@@ -16,6 +16,6 @@ run
 forge*changelog.txt
 *.log
 !gradle-wrapper.jar
-src/scripts/generated/*.txt
-src/scripts/generated/*/*.json
-!src/scripts/generated/input_global.txt
+src/scripts/generated/
+!input_global.txt
+!.directory_placeholder
