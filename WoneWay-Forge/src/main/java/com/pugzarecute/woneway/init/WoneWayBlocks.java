@@ -414,7 +414,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("deepslate_coal_ore");
         registerItemAndBlock("deepslate_lapis_ore");
 
-        //Ores later
         //</editor-fold>
         //</editor-fold>
     }
