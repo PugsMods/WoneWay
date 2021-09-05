@@ -408,6 +408,11 @@ public class WoneWayBlocks {
         registerItemAndBlock("deepslate_diamond_ore");
         registerItemAndBlock("deepslate_iron_ore");
         registerItemAndBlock("deepslate_gold_ore");
+        registerItemAndBlock("deepslate_copper_ore");
+        registerItemAndBlock("deepslate_redstone_ore");
+        registerItemAndBlock("deepslate_emerald_ore");
+        registerItemAndBlock("deepslate_coal_ore");
+
 
         //Ores later
         //</editor-fold>
