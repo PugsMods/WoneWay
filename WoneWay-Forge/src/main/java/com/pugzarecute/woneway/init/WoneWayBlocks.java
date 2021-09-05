@@ -405,6 +405,9 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_deepslate_tiles");
         registerItemAndBlock("seethrough_cracked_deepslate_tiles");
         registerItemAndBlock("seethrough_chiseled_deepslate");
+        registerItemAndBlock("deepslate_diamond_ore");
+        registerItemAndBlock("deepslate_iron_ore");
+        registerItemAndBlock("deepslate_gold_ore");
 
         //Ores later
         //</editor-fold>
