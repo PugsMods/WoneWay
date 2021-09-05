@@ -28,18 +28,15 @@ import javax.annotation.Nonnull;
 
 public class BlockItemProvider extends BlockItem {
 
-    public static final CreativeModeTab TAB_WONEWAY_BLOCKS = new CreativeModeTab("woneway_blocks")
-    {
+    public static final CreativeModeTab TAB_WONEWAY_BLOCKS = new CreativeModeTab("woneway_blocks") {
         @Override
         @Nonnull
-        public ItemStack makeIcon()
-        {
+        public ItemStack makeIcon() {
             return new ItemStack(Blocks.GLASS);
         }
     };
 
-    public BlockItemProvider(Block block)
-    {
+    public BlockItemProvider(Block block) {
         super(block, new Item.Properties().tab(TAB_WONEWAY_BLOCKS));
     }
 }
