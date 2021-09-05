@@ -41,7 +41,7 @@ for x in inputFile:
 }   
 """)
     outFileItem.write("""{
-  "parent": "woneway:block/"""+x+""""
+  "parent": "woneway:block/""" + x + """"
 }""")
     outFileBlock.close()
     outFileItem.close()
