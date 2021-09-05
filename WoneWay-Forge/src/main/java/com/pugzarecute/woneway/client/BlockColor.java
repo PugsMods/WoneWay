@@ -34,24 +34,20 @@ import net.minecraftforge.fml.common.Mod;
 public class BlockColor {
 
     @SubscribeEvent
-    public static void setupBlockColors(ColorHandlerEvent.Block event)
-    {
+    public static void setupBlockColors(ColorHandlerEvent.Block event) {
         BlockColors colors = event.getBlockColors();
-        for (String leaves : WoneWayBlocks.LEAFMAP.keySet())
-        {
+        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) {
             colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(), WoneWayBlocks.LEAFMAP.get(leaves).get());
-            WoneWay.LOGGER.debug("WoneWay: Registering BlockTint for "+leaves);
+            WoneWay.LOGGER.debug("WoneWay: Registering BlockTint for " + leaves);
         }
     }
 
     @SubscribeEvent
-    public static void setupItemColors(ColorHandlerEvent.Item event)
-    {
+    public static void setupItemColors(ColorHandlerEvent.Item event) {
         ItemColors colors = event.getItemColors();
-        for(String leaves: WoneWayBlocks.LEAFMAP.keySet())
-        {
-            colors.register((stack, tint) -> FoliageColor.getDefaultColor(),WoneWayBlocks.LEAFMAP.get(leaves).get());
-            WoneWay.LOGGER.debug("WoneWay: Registering ItemTint for "+leaves);
+        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) {
+            colors.register((stack, tint) -> FoliageColor.getDefaultColor(), WoneWayBlocks.LEAFMAP.get(leaves).get());
+            WoneWay.LOGGER.debug("WoneWay: Registering ItemTint for " + leaves);
         }
     }
 }
