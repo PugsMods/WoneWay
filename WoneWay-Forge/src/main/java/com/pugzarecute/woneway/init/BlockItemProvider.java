@@ -28,7 +28,7 @@ import javax.annotation.Nonnull;
 
 public class BlockItemProvider extends BlockItem {
 
-    private static final CreativeModeTab TAB_WONEWAY_BLOCKS = new CreativeModeTab("woneway_blocks") {
+    private static final CreativeModeTab TAB_SEETHROUGH_BLOCKS = new CreativeModeTab("woneway_blocks") {
         @Override
         @Nonnull
         public ItemStack makeIcon() {
