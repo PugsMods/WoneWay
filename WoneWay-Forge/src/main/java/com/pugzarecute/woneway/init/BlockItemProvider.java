@@ -35,7 +35,6 @@ public class BlockItemProvider extends BlockItem {
             return new ItemStack(Blocks.GLASS);
         }
     };
-reetetdfgfdbhfdzgdghgfhfgfghfhfghfghfghfghfghfghfghfghfghnlnlnlnfgfghfghfghfl.fllllllhjvnbvnvbnbvnvbn bmhbkjghjgjtyjxdjdfhgfhgfhfghfghfghfg
     public BlockItemProvider(Block block) {
         super(block, new Item.Properties().tab(TAB_WONEWAY_BLOCKS));
     }
