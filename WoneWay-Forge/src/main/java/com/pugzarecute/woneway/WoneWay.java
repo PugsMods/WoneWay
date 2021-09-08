@@ -18,8 +18,8 @@
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
-import com.pugzarecute.woneway.utils.Utils;
 import com.pugzarecute.woneway.utils.TimerRunnable;
+import com.pugzarecute.woneway.utils.Utils;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -31,14 +31,12 @@ public class WoneWay {
     public static final Logger LOGGER = LogManager.getLogger();
     public static final String MOD_ID = "woneway";
 
-    public WoneWay()
-    {
+    public WoneWay() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         WoneWayBlocks.init();
     }
 
-    private void setup(final FMLCommonSetupEvent event)
-    {
+    private void setup(final FMLCommonSetupEvent event) {
         Runtime.getRuntime().addShutdownHook(new Thread(new TimerRunnable()));
         LOGGER.debug("Starting timer");
         Utils.timerInit();
