@@ -44,7 +44,7 @@ public class BlockColor {
 
     @SubscribeEvent
     public static void setupItemColors(ColorHandlerEvent.Item event) {
-        ItemColors colors = event.getItemColors();
+        final ItemColors colors = event.getItemColors();
         for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) {
             colors.register((stack, tint) -> FoliageColor.getDefaultColor(), WoneWayBlocks.LEAFMAP.get(leaves).get());
             WoneWay.LOGGER.debug("WoneWay: Registering ItemTint for " + leaves);
