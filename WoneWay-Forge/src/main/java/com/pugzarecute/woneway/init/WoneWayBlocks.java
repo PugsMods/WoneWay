@@ -411,14 +411,14 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_deepslate_tiles");
         registerItemAndBlock("seethrough_cracked_deepslate_tiles");
         registerItemAndBlock("seethrough_chiseled_deepslate");
-        registerItemAndBlock("deepslate_diamond_ore");
-        registerItemAndBlock("deepslate_iron_ore");
-        registerItemAndBlock("deepslate_gold_ore");
-        registerItemAndBlock("deepslate_copper_ore");
-        registerItemAndBlock("deepslate_redstone_ore");
-        registerItemAndBlock("deepslate_emerald_ore");
-        registerItemAndBlock("deepslate_coal_ore");
-        registerItemAndBlock("deepslate_lapis_ore");
+        registerItemAndBlock("seethrough_deepslate_diamond_ore");
+        registerItemAndBlock("seethrough_deepslate_iron_ore");
+        registerItemAndBlock("seethrough_deepslate_gold_ore");
+        registerItemAndBlock("seethrough_deepslate_copper_ore");
+        registerItemAndBlock("seethrough_deepslate_redstone_ore");
+        registerItemAndBlock("seethrough_deepslate_emerald_ore");
+        registerItemAndBlock("seethrough_deepslate_coal_ore");
+        registerItemAndBlock("seethrough_deepslate_lapis_ore");
 
         //</editor-fold>
         //</editor-fold>
