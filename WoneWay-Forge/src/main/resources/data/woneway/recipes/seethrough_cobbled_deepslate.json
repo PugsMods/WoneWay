@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:cobbled_deepslate"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_cobbled_deepslate",
+        "count": 2
+    }
+} 
