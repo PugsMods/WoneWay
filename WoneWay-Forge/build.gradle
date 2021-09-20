@@ -76,10 +76,9 @@ repositories {
     maven {
         url = "https://modmaven.k-4u.nl"
     }
-    maven { url 'https://jitpack.io' }
 }
 dependencies {
-    minecraft 'net.minecraftforge:forge:1.16.5-36.2.0'
+    minecraft 'net.minecraftforge:forge:1.16.5-36.2.5'
     compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api")
     runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}")
 }
