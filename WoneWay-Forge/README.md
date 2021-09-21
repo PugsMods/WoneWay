@@ -14,6 +14,9 @@ Any bugs? Feel free to open an issue in [the issue tracker](https://github.com/P
 
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 
+# Datagen
+All datagen for this mod is done by python. The scripts are found in `src/scripts`. All these scripts have insctuctions on how to run them on the top.
+
 # Code For Old Versions
 
 Please Look At [VERSIONS.md](VERSIONS.md)
