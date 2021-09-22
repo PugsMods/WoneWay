@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/dripstone_block",
+    "up": "block/dripstone_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/dripstone_block",
+    "south": "block/dripstone_block",
+    "west": "block/dripstone_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   
