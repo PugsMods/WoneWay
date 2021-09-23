@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/flowering_azalea_leaves",
+    "up": "block/flowering_azalea_leaves",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/flowering_azalea_leaves",
+    "south": "block/flowering_azalea_leaves",
+    "west": "block/flowering_azalea_leaves",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   
