@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+        "item": "minecraft:glass"
+        },
+        {
+            "item": "minecraft:raw_gold_block"
+        }
+    ],
+    "result": {
+        "item": "woneway:seethrough_raw_gold_block",
+        "count": 2
+    }
+} 
