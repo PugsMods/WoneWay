@@ -18,8 +18,6 @@
 package com.pugzarecute.woneway;
 
 import com.pugzarecute.woneway.init.WoneWayBlocks;
-import com.pugzarecute.woneway.utils.TimerRunnable;
-import com.pugzarecute.woneway.utils.Utils;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
