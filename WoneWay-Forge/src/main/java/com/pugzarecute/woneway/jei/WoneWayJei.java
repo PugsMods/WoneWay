@@ -15,8 +15,6 @@
  * along with WoneWay.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-/*
-//Wait for Jei to update
 package com.pugzarecute.woneway.jei;
 
 import mezz.jei.api.IModPlugin;
@@ -64,4 +62,3 @@ public class WoneWayJei implements IModPlugin {
     @Override
     public void onRuntimeAvailable(@Nonnull IJeiRuntime jeiRuntime) {}
 }
-*/
