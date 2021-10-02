@@ -68,9 +68,6 @@ minecraft {
 
 sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
-    maven {
-        url = "https://modmaven.k-4u.nl"
-    }
 }
 dependencies {
     minecraft 'net.minecraftforge:forge:'+project.property('mc_version')+'-'+project.property('forge_version')
