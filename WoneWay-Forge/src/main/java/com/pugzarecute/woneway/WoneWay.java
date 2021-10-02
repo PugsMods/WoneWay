@@ -30,8 +30,6 @@ public class WoneWay {
     public static final String MOD_ID = "woneway";
 
     public WoneWay() {
-        FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         WoneWayBlocks.init();
     }
-
 }
