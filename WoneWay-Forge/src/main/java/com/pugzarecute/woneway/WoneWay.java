@@ -34,7 +34,4 @@ public class WoneWay {
         WoneWayBlocks.init();
     }
 
-    private void setup(final FMLCommonSetupEvent event) {
-
-    }
 }
