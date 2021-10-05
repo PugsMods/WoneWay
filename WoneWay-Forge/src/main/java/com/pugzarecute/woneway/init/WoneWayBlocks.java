@@ -380,7 +380,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_smooth_basalt");
         registerItemAndBlock("seethrough_dripstone_block");
         registerItemAndBlock("seethrough_powder_snow");
-        registerItemAndBlock("seethrough_smooth_basalt");
         registerItemAndBlock("seethrough_tinted_glass");
         registerItemAndBlock("seethrough_tuff");
 
