@@ -175,7 +175,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_gray_shulker_box");
         registerItemAndBlock("seethrough_gray_stained_glass");
         registerItemAndBlock("seethrough_gray_terracotta");
-
         registerItemAndBlock("seethrough_green_concrete");
         registerItemAndBlock("seethrough_green_concrete_powder");
         registerItemAndBlock("seethrough_green_glazed_terracotta");
