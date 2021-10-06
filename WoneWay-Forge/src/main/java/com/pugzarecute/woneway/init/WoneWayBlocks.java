@@ -87,7 +87,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_black_shulker_box");
         registerItemAndBlock("seethrough_black_stained_glass");
         registerItemAndBlock("seethrough_black_terracotta");
-
         registerItemAndBlock("seethrough_blackstone");
         registerItemAndBlock("seethrough_blast_furnace");
         registerItemAndBlock("seethrough_blue_concrete");
