@@ -58,6 +58,13 @@ public class WoneWayBlocks {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
+        registerItemAndBlock("seethrough_black_wool");
+        registerItemAndBlock("seethrough_blue_wool");
+        registerItemAndBlock("seethrough_brown_wool");
+        registerItemAndBlock("seethrough_cyan_wool");
+        registerItemAndBlock("seethrough_gray_wool");
+        registerItemAndBlock("seethrough_green_wool");
+
         //<editor-fold desc="1.16.5 and below">
         registerItemAndBlock("seethrough_acacia_leaves");
         registerItemAndBlock("seethrough_acacia_log");
@@ -80,7 +87,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_black_shulker_box");
         registerItemAndBlock("seethrough_black_stained_glass");
         registerItemAndBlock("seethrough_black_terracotta");
-        registerItemAndBlock("seethrough_black_wool");
+
         registerItemAndBlock("seethrough_blackstone");
         registerItemAndBlock("seethrough_blast_furnace");
         registerItemAndBlock("seethrough_blue_concrete");
@@ -90,7 +97,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_blue_shulker_box");
         registerItemAndBlock("seethrough_blue_stained_glass");
         registerItemAndBlock("seethrough_blue_terracotta");
-        registerItemAndBlock("seethrough_blue_wool");
+
         registerItemAndBlock("seethrough_bone_block");
         registerItemAndBlock("seethrough_bookshelf");
         registerItemAndBlock("seethrough_brain_coral_block");
@@ -102,7 +109,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_brown_shulker_box");
         registerItemAndBlock("seethrough_brown_stained_glass");
         registerItemAndBlock("seethrough_brown_terracotta");
-        registerItemAndBlock("seethrough_brown_wool");
+
         registerItemAndBlock("seethrough_bubble_coral_block");
         registerItemAndBlock("seethrough_cartography_table");
         registerItemAndBlock("seethrough_carved_pumpkin");
@@ -135,7 +142,7 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_cyan_shulker_box");
         registerItemAndBlock("seethrough_cyan_stained_glass");
         registerItemAndBlock("seethrough_cyan_terracotta");
-        registerItemAndBlock("seethrough_cyan_wool");
+
         registerItemAndBlock("seethrough_dark_oak_leaves");
         registerItemAndBlock("seethrough_dark_oak_log");
         registerItemAndBlock("seethrough_dark_oak_planks");
@@ -172,14 +179,14 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_gray_shulker_box");
         registerItemAndBlock("seethrough_gray_stained_glass");
         registerItemAndBlock("seethrough_gray_terracotta");
-        registerItemAndBlock("seethrough_gray_wool");
+
         registerItemAndBlock("seethrough_green_concrete");
         registerItemAndBlock("seethrough_green_concrete_powder");
         registerItemAndBlock("seethrough_green_glazed_terracotta");
         registerItemAndBlock("seethrough_green_shulker_box");
         registerItemAndBlock("seethrough_green_stained_glass");
         registerItemAndBlock("seethrough_green_terracotta");
-        registerItemAndBlock("seethrough_green_wool");
+
         registerItemAndBlock("seethrough_hay_bale");
         registerItemAndBlock("seethrough_honey_block");
         registerItemAndBlock("seethrough_honeycomb_block");
