@@ -68,7 +68,8 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_light_gray_wool");
         registerItemAndBlock("seethrough_lime_wool");
         registerItemAndBlock("seethrough_magenta_wool");
-        registerItemAndBlock("seethrough_orange_wool");registerItemAndBlock("seethrough_pink_wool");registerItemAndBlock("seethrough_purple_wool");registerItemAndBlock("seethrough_red_wool");
+        registerItemAndBlock("seethrough_orange_wool");
+        registerItemAndBlock("seethrough_pink_wool");registerItemAndBlock("seethrough_purple_wool");registerItemAndBlock("seethrough_red_wool");
         registerItemAndBlock("seethrough_white_wool");
         registerItemAndBlock("seethrough_yellow_wool");
 
