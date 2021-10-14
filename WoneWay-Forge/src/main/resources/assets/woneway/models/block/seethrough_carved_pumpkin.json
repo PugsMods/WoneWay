@@ -4,9 +4,9 @@
     "down": "block/carved_pumpkin",
     "up": "block/carved_pumpkin",
     "north": "woneway:blocks/clear_side",
-    "east": "block/carved_pumpkin",
-    "south": "block/carved_pumpkin",
-    "west": "block/carved_pumpkin",
+    "east": "block/pumpkin_side",
+    "south": "block/pumpkin_side",
+    "west": "block/pumpkin_side",
     "particle": "woneway:blocks/clear_side"
   }
 }
