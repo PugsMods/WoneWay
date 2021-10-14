@@ -380,7 +380,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_raw_iron_block");
         registerItemAndBlock("seethrough_calcite");
         registerItemAndBlock("seethrough_budding_amethyst"); //Not obtainable in survival
-        registerItemAndBlock("seethrough_dripstone");
         registerItemAndBlock("seethrough_moss_block");
         registerItemAndBlock("seethrough_rooted_dirt");
         registerItemAndBlock("seethrough_smooth_basalt");
