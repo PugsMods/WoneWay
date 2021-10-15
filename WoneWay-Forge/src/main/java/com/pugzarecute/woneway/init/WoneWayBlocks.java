@@ -58,6 +58,9 @@ public class WoneWayBlocks {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
         BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
+
+        //<editor-fold desc="1.16.5 and below">
+
         //<editor-fold desc="Wool">
         registerItemAndBlock("seethrough_black_wool");
         registerItemAndBlock("seethrough_blue_wool");
@@ -77,7 +80,6 @@ public class WoneWayBlocks {
         registerItemAndBlock("seethrough_yellow_wool");
         //</editor-fold>
 
-        //<editor-fold desc="1.16.5 and below">
         registerItemAndBlock("seethrough_acacia_leaves");
         registerItemAndBlock("seethrough_acacia_log");
         registerItemAndBlock("seethrough_acacia_planks");
