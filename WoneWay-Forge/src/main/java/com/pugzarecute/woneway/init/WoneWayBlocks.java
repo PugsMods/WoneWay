@@ -45,7 +45,7 @@ public class WoneWayBlocks {
     private static void registerItemAndBlock(String id) {
         final RegistryObject<Block> BLOCK = BLOCKS.register(id, SeethroughBlock::new);
 
-        if (Pattern.compile("LEAVES").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
+        if (Pattern.compile("leaves").matcher(id).find() || Pattern.compile("GRASS_BLOCK").matcher(id).find()) {
             LEAFMAP.put(id, BLOCK);
         } else {
             BLOCKMAP.put(id, BLOCK);
