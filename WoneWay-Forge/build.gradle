@@ -70,10 +70,10 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 repositories {
 }
 dependencies {
-    minecraft 'net.minecraftforge:forge:'+project.property('mc_version')+'-'+project.property('forge_version')
+    minecraft 'net.minecraftforge:forge:' + project.property('mc_version') + '-' + project.property('forge_version')
 }
 
-jar.finalizedBy('reobfJar') 
+jar.finalizedBy('reobfJar')
 
 publishing {
     publications {
@@ -89,8 +89,10 @@ publishing {
 }
 
 //JSON Minimization code
-import groovy.json.JsonSlurper
+
 import groovy.json.JsonOutput
+import groovy.json.JsonSlurper
+
 processResources {
     doLast {
         def jsonMinifyStart = System.currentTimeMillis()
