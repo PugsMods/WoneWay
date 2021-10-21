@@ -1,15 +1,15 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-        "item": "minecraft:glass"
-        },
-        {
-            "item": "minecraft:powder_snow"
-        }
-    ],
-    "result": {
-        "item": "woneway:seethrough_powder_snow",
-        "count": 2
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:powder_snow"
     }
+  ],
+  "result": {
+    "item": "woneway:seethrough_powder_snow",
+    "count": 2
+  }
 } 
