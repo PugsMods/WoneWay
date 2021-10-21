@@ -1,15 +1,15 @@
 {
-    "type": "minecraft:crafting_shapeless",
-    "ingredients": [
-        {
-        "item": "minecraft:glass"
-        },
-        {
-            "item": "minecraft:raw_iron_block"
-        }
-    ],
-    "result": {
-        "item": "woneway:seethrough_raw_iron_block",
-        "count": 2
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:raw_iron_block"
     }
+  ],
+  "result": {
+    "item": "woneway:seethrough_raw_iron_block",
+    "count": 2
+  }
 } 
