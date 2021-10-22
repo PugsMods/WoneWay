@@ -14,6 +14,17 @@ Any bugs? Feel free to open an issue in [the issue tracker](https://github.com/P
 
 Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
 
+# Datagen
+
+All datagen for this mod is done by python. The scripts are found in `src/scripts`. All these scripts have insctuctions
+on how to run them on the top in comments.
+
+# Code For Old Versions
+
+Please Look At [VERSIONS.md](VERSIONS.md)
+
+<img src="https://pugzarecute.com/img/NoPort.png" width="75%" alt="Dont ask for this mod to be ported">
+
 [This Project Is Sponsored by JetBrains](https://jetbrains.com/)
 
-[![Vercel](img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
+[![Vercel](../img/vercel.svg)](https://vercel.com/?utm_source=pugsmods&utm_campaign=oss)
