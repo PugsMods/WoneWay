@@ -35,12 +35,9 @@ import java.util.regex.Pattern;
 public class WoneWayBlocks {
     public static final Map<String, RegistryObject<Block>> BLOCKMAP = new HashMap<>();
     public static final Map<String, RegistryObject<Block>> LEAFMAP = new HashMap<>();
-
-    private final static Logger logger = LogManager.getLogger();
-
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, WoneWay.MOD_ID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, WoneWay.MOD_ID);
-
+    private final static Logger logger = LogManager.getLogger();
 
     private static void registerItemAndBlock(String id) {
         final RegistryObject<Block> BLOCK = BLOCKS.register(id, SeethroughBlock::new);
