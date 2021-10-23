@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/brown_mushroom_block",
+    "up": "block/brown_mushroom_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/brown_mushroom_block",
+    "south": "block/brown_mushroom_block",
+    "west": "block/brown_mushroom_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
