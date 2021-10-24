@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:dark_oak_wood"
+    }
+  ],
+  "result": {
+    "item": "woneway:seethrough_dark_oak_wood",
+    "count": 2
+  }
+}
