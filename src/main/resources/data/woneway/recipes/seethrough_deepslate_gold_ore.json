@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:deepslate_gold_ore"
+    }
+  ],
+  "result": {
+    "item": "woneway:seethrough_deepslate_gold_ore",
+    "count": 2
+  }
+} 
