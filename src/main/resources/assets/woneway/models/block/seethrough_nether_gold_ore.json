@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/nether_gold_ore",
+    "up": "block/nether_gold_ore",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/nether_gold_ore",
+    "south": "block/nether_gold_ore",
+    "west": "block/nether_gold_ore",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
