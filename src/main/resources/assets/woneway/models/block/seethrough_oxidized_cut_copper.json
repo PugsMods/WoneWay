@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/oxidized_cut_copper",
+    "up": "block/oxidized_cut_copper",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/oxidized_cut_copper",
+    "south": "block/oxidized_cut_copper",
+    "west": "block/oxidized_cut_copper",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   
