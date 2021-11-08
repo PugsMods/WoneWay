@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/copper_block",
+    "up": "block/copper_block",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/copper_block",
+    "south": "block/copper_block",
+    "west": "block/copper_block",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   
