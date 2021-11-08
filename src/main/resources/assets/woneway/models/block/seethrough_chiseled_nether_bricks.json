@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/chiseled_nether_bricks",
+    "up": "block/chiseled_nether_bricks",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/chiseled_nether_bricks",
+    "south": "block/chiseled_nether_bricks",
+    "west": "block/chiseled_nether_bricks",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
