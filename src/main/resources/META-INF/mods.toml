@@ -1,6 +1,6 @@
 modLoader = "javafml"
 loaderVersion = "[37,)"
-license = "GNU Lesser General Public Licese v3"
+license = "GNU Lesser General Public License v3"
 issueTrackerURL = "https://github.com/PugsMods/WoneWay/issues"
 [[mods]]
 modId = "woneway"
@@ -9,8 +9,8 @@ displayName = "WoneWay"
 updateJSONURL = "https://raw.githubusercontent.com/PugsMods/WoneWay/master/src/main/java/com/putopug/woneway/update.json"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/woneway"
 logoFile = "WoneWay.png"
-credits = "LeeTheSoloGamer,superworldsun"
-authors = "PugzAreCute_"
+credits = "LeeTheSoloGamer & superworldsun: Testing."
+authors = "PugzAreCute(_)"
 description = '''A Minecraft mod that adds one way blocks!'''
 [[dependencies.woneway]]
 modId = "forge"
