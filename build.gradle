@@ -10,7 +10,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.2.2'
+version = '1.2.6-CI'
 group = 'com.pugzarecute'
 archivesBaseName = 'woneway'
 
