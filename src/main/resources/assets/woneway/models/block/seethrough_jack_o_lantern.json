@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/jack_o_lantern",
+    "up": "block/jack_o_lantern",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/jack_o_lantern",
+    "south": "block/jack_o_lantern",
+    "west": "block/jack_o_lantern",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
