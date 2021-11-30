@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/prismarine",
+    "up": "block/prismarine",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/prismarine",
+    "south": "block/prismarine",
+    "west": "block/prismarine",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
