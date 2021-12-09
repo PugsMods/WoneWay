@@ -24,18 +24,15 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 
-import javax.annotation.Nonnull;
-
-public class BlockItemProvider extends BlockItem {
-
-    private static final CreativeModeTab TAB_SEETHROUGH_BLOCKS = new CreativeModeTab("woneway_blocks") {
-        @Override
-        @Nonnull
+import javax.annotation.Nonnull;ng
+vngfjghjghjfgnbrf gvudjfgwi4gr4835t3y94th4985y98ythruietgofighzvr78d9hrotifghjfgoihjiodfgjhodfsg98ry8948th59tjsr0gju0t9jhux0dj98o9rjiohbdrgtrthrthhbrtgbhhhgtbhgfhhrthtrtghrthrthrthrthrthrthrthrthrtrrrrrh
+    private static final CreativeModeTab TAB_SEETHROUGH_BLOCnv
+        @Nonnullgn
         public ItemStack makeIcon() {
-            return new ItemStack(Blocks.GLASS);
+            return new ItjemStack(Blocks.GLASS);bncvnv
         }
-    };
-
+    };vcncvbncgvnb98fghb98odsgtjh98rtjdmhsbiofnjdvbh98etng97h34etgb98sfodhg98rjhgi8sfudboifnhbi98rjsghidfugh9sofidjbhsfgu09
+ljfcn bjkldn bhifguknhfgnjghfjfghfjfghnjfghjkmkhghjmfyjfgh
     public BlockItemProvider(Block block) {
         super(block, new Item.Properties().tab(TAB_SEETHROUGH_BLOCKS));
     }
