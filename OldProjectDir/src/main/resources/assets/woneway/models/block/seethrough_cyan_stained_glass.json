@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/cyan_stained_glass",
+    "up": "block/cyan_stained_glass",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/cyan_stained_glass",
+    "south": "block/cyan_stained_glass",
+    "west": "block/cyan_stained_glass",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    

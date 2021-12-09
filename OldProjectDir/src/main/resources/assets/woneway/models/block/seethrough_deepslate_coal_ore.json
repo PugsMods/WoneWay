@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/deepslate_coal_ore",
+    "up": "block/deepslate_coal_ore",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/deepslate_coal_ore",
+    "south": "block/deepslate_coal_ore",
+    "west": "block/deepslate_coal_ore",
+    "particle": "woneway:blocks/clear_side"
+  }
+}   

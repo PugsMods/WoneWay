@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "block/warped_stem",
+    "up": "block/warped_stem",
+    "north": "woneway:blocks/clear_side",
+    "east": "block/warped_stem",
+    "south": "block/warped_stem",
+    "west": "block/warped_stem",
+    "particle": "woneway:blocks/clear_side"
+  }
+}
+    
