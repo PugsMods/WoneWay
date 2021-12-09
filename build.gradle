@@ -14,7 +14,7 @@ version = '1.2.6-CI'
 group = 'com.pugzarecute'
 archivesBaseName = 'woneway'
 
-java.toolchain.languageVersion = JavaLanguageVersion.of(16)
+java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 println('Java ' + System.getProperty('java.version') + ' Java VM Version: ' + System.getProperty('java.vm.version') + '(Vendor: ' + System.getProperty('java.vendor') + ') System Architecture: ' + System.getProperty('os.arch'))
 
 minecraft {
