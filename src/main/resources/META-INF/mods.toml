@@ -10,7 +10,7 @@ updateJSONURL = "https://raw.githubusercontent.com/PugsMods/WoneWay/master/src/m
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/woneway"
 logoFile = "WoneWay.png"
 credits = "LeeTheSoloGamer & superworldsun: Testing."
-authors = "PugzAreCute(_)"
+authors = "PugzAreCute"
 description = '''A Minecraft mod that adds one way blocks!'''
 [[dependencies.woneway]]
 modId = "forge"
