@@ -15,7 +15,7 @@ description = '''A Minecraft mod that adds one way blocks!'''
 [[dependencies.woneway]]
 modId = "forge"
 mandatory = true
-versionRange = "[38,)"
+versionRange = "[39,)"
 ordering = "NONE"
 side = "BOTH"
 [[dependencies.woneway]]
