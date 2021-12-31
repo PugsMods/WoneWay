@@ -377,7 +377,7 @@ public class WoneWayBlocks {
 
         //</editor-fold>
 
-        //<editor-fold desc="1.17.1">
+        //<editor-fold desc="1.17">
         registerItemAndBlock("seethrough_azalea_leaves");
         registerItemAndBlock("seethrough_flowering_azalea_leaves");
         registerItemAndBlock("seethrough_amethyst_block");
