@@ -17,7 +17,7 @@
 
 # The WoneWay Model Generation Script!
 #
-# This script is used to automatically generate model files for woneway
+# This script is used to automatically generate model files for WoneWay
 # blocks from the id list located in [This Folder]/generated/input_global.txt
 #
 # If you want to use this script, please remember the following things
@@ -27,7 +27,7 @@
 #
 # 2. This script will output everything to generated/models/*.
 #
-# 3. You will get an FileNotFound error if generated/models/* dosent exist, so im adding a placeholder file.
+# 3. You will get an FileNotFound error if generated/models/* doesn't exist, so im adding a placeholder file.
 import re
 
 inputFilePath = "generated/input_global.txt"

@@ -17,7 +17,7 @@
 
 # The WoneWay Language Generation Script!
 #
-# This script is used to automatically generate language files for woneway
+# This script is used to automatically generate language files for WoneWay
 # blocks from the id list located in [This Folder]/generated/input_global.txt
 #
 # If you want to use this script, please remember the following things

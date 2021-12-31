@@ -17,7 +17,7 @@
 
 # The WoneWay Blockstate Generation Script!
 #
-# This script is used to automatically generate blockstate files for woneway
+# This script is used to automatically generate blockstate files for WoneWay
 # blocks from the id list located in [This Folder]/generated/input_global.txt
 #
 # If you want to use this script, please remember the following things
@@ -27,7 +27,7 @@
 #
 # 2. This JSON will output everything to generated/blockstates/.
 #
-# 3. You will get an FileNotFound error if generated/blockstates/ dosent exist, so im adding a placeholder file.
+# 3. You will get an FileNotFound error if generated/blockstates/ doesn't exist, so i'm adding a placeholder file.
 
 inputFilePath = "generated/input_global.txt"
 inputFile = open(inputFilePath)
