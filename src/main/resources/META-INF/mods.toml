@@ -4,7 +4,7 @@ license = "GNU Lesser General Public License v3"
 issueTrackerURL = "https://github.com/PugsMods/WoneWay/issues"
 [[mods]]
 modId = "woneway"
-version = "1.3.6"
+version = "1.3.0"
 displayName = "WoneWay"
 updateJSONURL = "https://raw.githubusercontent.com/PugsMods/WoneWay/master/src/main/java/com/putopug/woneway/update.json"
 displayURL = "https://www.curseforge.com/minecraft/mc-mods/woneway"
