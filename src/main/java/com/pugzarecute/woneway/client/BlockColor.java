@@ -36,8 +36,8 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupBlockColors(ColorHandlerEvent.Block event) {
         final BlockColors colors = event.getBlockColors();
-        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) {
-            colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(), WoneWayBlocks.LEAFMAP.get(leaves).get());
+        for (String leaves : WoneWayBlocks.LEAF_MAP.keySet()) {
+            colors.register((state, world, pos, tint) -> world != null && pos != null ? BiomeColors.getAverageFoliageColor(world, pos) : FoliageColor.getDefaultColor(), WoneWayBlocks.LEAF_MAP.get(leaves).get());
             WoneWay.LOGGER.debug("WoneWay: Registering BlockTint for " + leaves);
         }
     }
@@ -45,8 +45,8 @@ public class BlockColor {
     @SubscribeEvent
     public static void setupItemColors(ColorHandlerEvent.Item event) {
         final ItemColors colors = event.getItemColors();
-        for (String leaves : WoneWayBlocks.LEAFMAP.keySet()) {
-            colors.register((stack, tint) -> FoliageColor.getDefaultColor(), WoneWayBlocks.LEAFMAP.get(leaves).get());
+        for (String leaves : WoneWayBlocks.LEAF_MAP.keySet()) {
+            colors.register((stack, tint) -> FoliageColor.getDefaultColor(), WoneWayBlocks.LEAF_MAP.get(leaves).get());
             WoneWay.LOGGER.debug("WoneWay: Registering ItemTint for " + leaves);
         }
     }

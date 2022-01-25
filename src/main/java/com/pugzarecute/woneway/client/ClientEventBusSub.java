@@ -32,8 +32,8 @@ public class ClientEventBusSub {
 
     @SubscribeEvent
     public static void clientSetup(FMLClientSetupEvent event) {
-        for (String blockId : WoneWayBlocks.BLOCKMAP.keySet()) {
-            ItemBlockRenderTypes.setRenderLayer(WoneWayBlocks.BLOCKMAP.get(blockId).get(), RenderType.translucent());
+        for (String blockId : WoneWayBlocks.BLOCK_MAP.keySet()) {
+            ItemBlockRenderTypes.setRenderLayer(WoneWayBlocks.BLOCK_MAP.get(blockId).get(), RenderType.translucent());
             WoneWay.LOGGER.debug("WoneWay: Registering RenderType for " + blockId);
         }
     }
