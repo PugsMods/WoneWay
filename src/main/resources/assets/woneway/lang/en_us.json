@@ -337,5 +337,13 @@
   "block.woneway.seethrough_deepslate_tiles": "Seethrough Deepslate Tiles",
   "block.woneway.seethrough_cracked_deepslate_tiles": "Seethrough Cracked Deepslate Tiles",
   "block.woneway.seethrough_chiseled_deepslate": "Seethrough Chiseled Deepslate",
+  "block.woneway.seethrough_deepslate_diamond_ore": "Seethrough Deepslate Diamond Ore",
+  "block.woneway.seethrough_deepslate_iron_ore": "Seethrough Deepslate Iron Ore",
+  "block.woneway.seethrough_deepslate_gold_ore": "Seethrough Deepslate Gold Ore",
+  "block.woneway.seethrough_deepslate_copper_ore": "Seethrough Deepslate Copper Ore",
+  "block.woneway.seethrough_deepslate_redstone_ore": "Seethrough Deepslate Redstone Ore",
+  "block.woneway.seethrough_deepslate_emerald_ore": "Seethrough Deepslate Emerald Ore",
+  "block.woneway.seethrough_deepslate_coal_ore": "Seethrough Deepslate Coal Ore",
+  "block.woneway.seethrough_deepslate_lapis_ore": "Seethrough Deepslate Lapis Ore",
   "itemGroup.woneway_blocks": "WoneWay Blocks"
 }
