@@ -12,7 +12,7 @@ A Minecraft mod which adds One way blocks
 
 Any bugs? Feel free to open an issue in [the issue tracker](https://github.com/PugsMods/WoneWay/issues)
 
-Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway)
+Available for download at [curseforge](https://www.curseforge.com/minecraft/mc-mods/woneway) Or per commit builds available at [https://www.pugzarecute.com/ci](https://www.pugzarecute.com/ci). Older builds can be found by contacting me
 
 # Datagen
 
