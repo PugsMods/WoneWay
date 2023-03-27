@@ -6,7 +6,7 @@
 [![Keybase PGP](https://img.shields.io/keybase/pgp/pugzarecute?style=for-the-badge)](https://keybase.io/pugzarecute)
 [![Discord](https://img.shields.io/discord/773211530413867028?label=Discord%3A&style=for-the-badge)](https://discord.gg/geNRqMu5XW)
 
-# WoneWay
+# WoneWay 
 
 A Minecraft mod which adds One way blocks
 
